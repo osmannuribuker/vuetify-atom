@@ -1286,2204 +1286,2754 @@
 	  """
   'elevation-1 - Vuetify':
     'prefix': 'elevation1'
-    'body': 'elevation-1$0'
-
+    'body': """
+      elevation-1$0
+    """
   'elevation-2 - Vuetify':
     'prefix': 'elevation2'
-    'body': 'elevation-2$0'
-
+    'body': """
+      elevation-2$0
+    """
   'elevation-3 - Vuetify':
     'prefix': 'elevation3'
-    'body': 'elevation-3$0'
-
+    'body': """
+      elevation-3$0
+    """
   'elevation-4 - Vuetify':
     'prefix': 'elevation4'
-    'body': 'elevation-4$0'
-
+    'body': """
+      elevation-4$0
+    """
   'elevation-5 - Vuetify':
     'prefix': 'elevation5'
-    'body': 'elevation-5$0'
-
+    'body': """
+      elevation-5$0
+    """
   'elevation-6 - Vuetify':
     'prefix': 'elevation6',
-    'body': 'elevation-6$0'
-
+    'body': """
+      elevation-6$0
+    """
   'elevation-7 - Vuetify':
     'prefix': 'elevation7'
-    'body': 'elevation-7$0'
-
+    'body': """
+      elevation-7$0
+    """
   'elevation-8 - Vuetify':
     'prefix': 'elevation8'
-    'body': 'elevation-8$0'
-
+    'body': """
+      elevation-8$0
+    """
   'elevation-9 - Vuetify':
     'prefix': 'elevation9'
-    'body': 'elevation-9$0'
-
+    'body': """
+      elevation-9$0
+    """
   'elevation-10 - Vuetify':
     'prefix': 'elevation10'
-    'body': 'elevation-10$0'
-
+    'body': """
+      elevation-10$0
+    """
   'elevation-11 - Vuetify':
     'prefix': 'elevation11'
-    'body': 'elevation-11$0'
-
+    'body': """
+      elevation-11$0
+    """
   'elevation-12 - Vuetify':
     'prefix': 'elevation12'
-    'body': 'elevation-12$0'
-
+    'body': """
+      elevation-12$0
+    """
   'elevation-13 - Vuetify':
     'prefix': 'elevation13'
-    'body': 'elevation-13$0'
-
+    'body': """
+      elevation-13$0
+    """
   'elevation-14 - Vuetify':
     'prefix': 'elevation14'
-    'body': 'elevation-14$0'
-
+    'body': """
+      elevation-14$0
+    """
   'elevation-15 - Vuetify':
     'prefix': 'elevation15'
-    'body': 'elevation-15$0'
-
+    'body': """
+      elevation-15$0
+    """
   'elevation-16 - Vuetify':
     'prefix': 'elevation16'
-    'body': 'elevation-16$0'
-
+    'body': """
+      elevation-16$0
+    """
   'elevation-17 - Vuetify':
     'prefix': 'elevation17'
-    'body': 'elevation-17$0'
-
+    'body': """
+      elevation-17$0
+    """
   'elevation-18 - Vuetify':
     'prefix': 'elevation18'
-    'body': 'elevation-18$0'
-
+    'body': """
+      elevation-18$0
+    """
   'elevation-19 - Vuetify':
     'prefix': 'elevation19'
-    'body': 'elevation-19$0'
-
+    'body': """
+      elevation-19$0
+    """
   'elevation-20 - Vuetify':
     'prefix': 'elevation20'
-    'body': 'elevation-20$0'
-
+    'body': """
+      elevation-20$0
+    """
   'elevation-21 - Vuetify':
     'prefix': 'elevation21'
-    'body': 'elevation-21$0'
-
+    'body': """
+      elevation-21$0
+    """
   'elevation-22 - Vuetify':
     'prefix': 'elevation22'
-    'body': 'elevation-22$0'
-
+    'body': """
+      elevation-22$0
+    """
   'elevation-23 - Vuetify':
     'prefix': 'elevation23'
-    'body': 'elevation-23$0'
-
+    'body': """
+      elevation-23$0
+    """
   'elevation-24 - Vuetify':
     'prefix': 'elevation24'
-    'body': 'elevation-24$0'
-
+    'body': """
+      elevation-24$0
+    """
   'primary color - Vuetify':
 	  'prefix': 'primary'
-	  'body': 'primary$0'
-
+	  'body': """
+      primary$0
+    """
   'accent color - Vuetify':
   	'prefix': 'accent'
-  	'body': 'accent$0'
-
+  	'body': """
+      accent$0
+    """
   'secondary color - Vuetify':
   	'prefix': 'secondary'
-  	'body': 'secondary$0'
-
+  	'body': """
+      secondary$0
+    """
   'success color - Vuetify':
   	'prefix': 'success'
-  	'body': 'success$0'
-
+  	'body': """
+      success$0
+    """
   'info color - Vuetify':
   	'prefix': 'info'
-  	'body': 'info$0'
-
+  	'body': """
+      info$0
+    """
   'error color - Vuetify':
   	'prefix': 'error'
-  	'body': 'error$0'
-
+  	'body': """
+      error$0
+    """
   'red color - Vuetify':
   	'prefix': 'red'
-  	'body': 'red$0'
-
+  	'body': """
+      red$0
+    """
   'pink color - Vuetify':
   	'prefix': 'pink'
-  	'body': 'pink$0'
-
+  	'body': """
+      pink$0
+    """
   'purple color - Vuetify':
   	'prefix': 'purple'
-  	'body': 'purple$0'
-
+  	'body': """
+      purple$0
+    """
   'deep-purple color - Vuetify':
   	'prefix': 'deepPurple'
-  	'body': 'deep-purple$0'
-
+  	'body': """
+      deep-purple$0
+    """
   'indigo color - Vuetify':
   	'prefix': 'indigo'
-  	'body': 'indigo$0'
-
+  	'body': """
+      indigo$0
+    """
   'blue color - Vuetify':
   	'prefix': 'blue'
-  	'body': 'blue$0'
-
+  	'body': """
+      blue$0
+    """
   'light-blue color - Vuetify':
   	'prefix': 'lightBlue'
-  	'body': 'light-blue$0'
-
+  	'body': """
+      light-blue$0
+    """
   'cyan color - Vuetify':
   	'prefix': 'cyan'
-  	'body': 'cyan$0'
-
+  	'body': """
+      cyan$0
+    """
   'teal color - Vuetify':
   	'prefix': 'teal'
-  	'body': 'teal$0'
-
+  	'body': """
+      teal$0
+    """
   'green color - Vuetify':
   	'prefix': 'green'
-  	'body': 'green$0'
-
+  	'body': """
+      green$0
+    """
   'light-green color - Vuetify':
   	'prefix': 'lightGreen'
-  	'body': 'light-green$0'
-
+  	'body': """
+      light-green$0
+    """
   'lime color - Vuetify':
   	'prefix': 'lime'
-  	'body': 'lime$0'
-
+  	'body': """
+      lime$0
+    """
   'yellow color - Vuetify':
   	'prefix': 'yellow'
-  	'body': 'yellow$0'
-
+  	'body': """
+      yellow$0
+    """
   'amber color - Vuetify':
   	'prefix': 'amber'
-  	'body': 'amber$0'
-
+  	'body': """
+      amber$0
+    """
   'orange color - Vuetify':
   	'prefix': 'orange'
-  	'body': 'orange$0'
-
+  	'body': """
+      orange$0
+    """
   'deep-orange color - Vuetify':
   	'prefix': 'deepOrange'
-  	'body': 'deep-orange$0'
-
+  	'body': """
+      deep-orange$0
+    """
   'brown color - Vuetify':
   	'prefix': 'brown'
-  	'body': 'brown$0'
-
+  	'body': """
+      brown$0
+    """
   'blue-grey color - Vuetify':
   	'prefix': 'blueGrey'
-  	'body': 'blue-grey$0'
-
+  	'body': """
+      blue-grey$0
+    """
   'grey color - Vuetify':
   	'prefix': 'grey'
-  	'body': 'grey$0'
-
+  	'body': """
+      grey$0
+    """
   'black color - Vuetify':
   	'prefix': 'black'
-  	'body': 'black$0'
-
+  	'body': """
+      black$0
+    """
   'white color - Vuetify':
   	'prefix': 'white'
-  	'body': 'white$0'
-
+  	'body': """
+      white$0
+    """
   'transparent color - Vuetify':
   	'prefix': 'transparent'
-  	'body': 'transparent$0'
-
+  	'body': """
+      transparent$0
+    """
   'color lighten by 1 - Vuetify':
 	  'prefix': 'lighten1'
-	  'body': 'lighten-1$0'
-
+	  'body': """
+      lighten-1$0
+    """
   'color lighten by 2 - Vuetify':
   	'prefix': 'lighten2'
-  	'body': 'lighten-2$0'
-
+  	'body': """
+      lighten-2$0
+    """
   'color lighten by 3 - Vuetify':
   	'prefix': 'lighten3'
-  	'body': 'lighten-3$0'
-
+  	'body': """
+      lighten-3$0
+    """
   'color lighten by 4 - Vuetify':
   	'prefix': 'lighten4'
-  	'body': 'lighten-4$0'
-
+  	'body': """
+      lighten-4$0
+    """
   'color lighten by 5 - Vuetify':
   	'prefix': 'lighten5'
-  	'body': 'lighten-5$0'
-
+  	'body': """
+      lighten-5$0
+    """
   'color darken by 1 - Vuetify':
   	'prefix': 'darken1'
-  	'body': 'darken-1$0'
-
+  	'body': """
+      darken-1$0
+    """
   'color darken by 2 - Vuetify':
   	'prefix': 'darken2'
-  	'body': 'darken-2$0'
-
+  	'body': """
+      darken-2$0
+    """
   'color darken by 3 - Vuetify':
   	'prefix': 'darken3'
-  	'body': 'darken-3$0'
-
+  	'body': """
+      darken-3$0
+    """
   'color darken by 4 - Vuetify':
   	'prefix': 'darken4'
-  	'body': 'darken-4$0'
-
+  	'body': """
+      darken-4$0
+    """
   'display-1 - Vuetify':
 	  'prefix': 'display1'
-	  'body': 'display-1$0'
-
+	  'body': """
+      display-1$0
+    """
   'display-2 - Vuetify':
   	'prefix': 'display2'
-  	'body': 'display-2$0'
-
+  	'body': """
+      display-2$0
+    """
   'display-3 - Vuetify':
   	'prefix': 'display3'
-  	'body': 'display-3$0'
-
+  	'body': """
+      display-3$0
+    """
   'display-4 - Vuetify':
   	'prefix': 'display4'
-  	'body': 'display-4$0'
-
+  	'body': """
+      display-4$0
+    """
   'headline - Vuetify':
   	'prefix': 'headline'
-  	'body': 'headline$0'
-
+  	'body': """
+      headline$0
+    """
   'title - Vuetify':
   	'prefix': 'title'
-  	'body': 'title$0'
-
+  	'body': """
+      title$0
+    """
   'subheading - Vuetify':
   	'prefix': 'subheading'
-  	'body': 'subheading$0'
-
+  	'body': """
+      subheading$0
+    """
   'body-2 - Vuetify':
   	'prefix': 'body2'
-  	'body': 'body-2$0'
-
+  	'body': """
+      body-2$0
+    """
   'body-1 - Vuetify':
   	'prefix': 'body1'
-  	'body': 'body-1$0'
-
+  	'body': """
+      body-1$0
+    """
   'caption - Vuetify':
   	'prefix': 'caption'
-  	'body': 'caption$0'
-
+  	'body': """
+      caption$0
+    """
   'margin-top by 1 - Vuetify':
 	  'prefix': 'mt-1'
-	  'body': 'mt-1$0'
-
+	  'body': """
+      mt-1$0
+    """
   'margin-bottom by 1 - Vuetify':
   	'prefix': 'mb-1'
-  	'body': 'mb-1$0'
-
+  	'body': """
+      mb-1$0
+    """
   'margin-left by 1 - Vuetify':
   	'prefix': 'ml-1'
-  	'body': 'ml-1$0'
-
+  	'body': """
+      ml-1$0
+    """
   'margin-right by 1 - Vuetify':
   	'prefix': 'mr-1'
-  	'body': 'mr-1$0'
-
+  	'body': """
+      mr-1$0
+    """
   'margin horizontal by 1 - Vuetify':
   	'prefix': 'mx-1'
-  	'body': 'mx-1$0'
-
+  	'body': """
+      mx-1$0
+    """
   'margin vertical by 1 - Vuetify':
   	'prefix': 'my-1'
-  	'body': 'my-1$0'
-
+  	'body': """
+      my-1$0
+    """
   'margin in all direction by 1 - Vuetify':
   	'prefix': 'ma-1'
-  	'body': 'ma-1$0'
-
+  	'body': """
+      ma-1$0
+    """
   'padding-top by 1 - Vuetify':
   	'prefix': 'pt-1'
-  	'body': 'pt-1$0'
-
+  	'body': """
+      pt-1$0
+    """
   'padding-bottom by 1 - Vuetify':
   	'prefix': 'pb-1'
-  	'body': 'pb-1$0'
-
+  	'body': """
+      pb-1$0
+    """
   'padding-left by 1 - Vuetify':
   	'prefix': 'pl-1'
-  	'body': 'pl-1$0'
-
+  	'body': """
+      pl-1$0
+    """
   'padding-right by 1 - Vuetify':
   	'prefix': 'pr-1'
-  	'body': 'pr-1$0'
-
+  	'body': """
+      pr-1$0
+    """
   'padding horizontal by 1 - Vuetify':
   	'prefix': 'px-1'
-  	'body': 'px-1$0'
-
+  	'body': """
+      px-1$0
+    """
   'padding vertical by 1 - Vuetify':
   	'prefix': 'py-1'
-  	'body': 'py-1$0'
-
+  	'body': """
+      py-1$0
+    """
   'padding in all direction by 1 - Vuetify':
   	'prefix': 'pa-1'
-  	'body': 'pa-1$0'
-
+  	'body': """
+      pa-1$0
+    """
   'margin-top by 2 - Vuetify':
   	'prefix': 'mt-2'
-  	'body': 'mt-2$0'
-
+  	'body': """
+      mt-2$0
+    """
   'margin-bottom by 2 - Vuetify':
   	'prefix': 'mb-2'
-  	'body': 'mb-2$0'
-
+  	'body': """
+      mb-2$0
+    """
   'margin-left by 2 - Vuetify':
   	'prefix': 'ml-2'
-  	'body': 'ml-2$0'
-
+  	'body': """
+      ml-2$0
+    """
   'margin-right by 2 - Vuetify':
   	'prefix': 'mr-2'
-  	'body': 'mr-2$0'
-
+  	'body': """
+      mr-2$0
+    """
   'margin horizontal by 2 - Vuetify':
   	'prefix': 'mx-2'
-  	'body': 'mx-2$0'
-
+  	'body': """
+      mx-2$0
+    """
   'margin vertical by 2 - Vuetify':
   	'prefix': 'my-2'
-  	'body': 'my-2$0'
-
+  	'body': """
+      my-2$0
+    """
   'margin in all direction by 2 - Vuetify':
   	'prefix': 'ma-2'
-  	'body': 'ma-2$0'
-
+  	'body': """
+      ma-2$0
+    """
   'padding-top by 2 - Vuetify':
   	'prefix': 'pt-2'
-  	'body': 'pt-2$0'
-
+  	'body': """
+      pt-2$0
+    """
   'padding-bottom by 2 - Vuetify':
   	'prefix': 'pb-2'
-  	'body': 'pb-2$0'
-
+  	'body': """
+      pb-2$0
+    """
   'padding-left by 2 - Vuetify':
   	'prefix': 'pl-2'
-  	'body': 'pl-2$0'
-
+  	'body': """
+      pl-2$0
+    """
   'padding-right by 2 - Vuetify':
   	'prefix': 'pr-2'
-  	'body': 'pr-2$0'
-
+  	'body': """
+      pr-2$0
+    """
   'padding horizontal by 2 - Vuetify':
   	'prefix': 'px-2'
-  	'body': 'px-2$0'
-
+  	'body': """
+      px-2$0
+    """
   'padding vertical by 2 - Vuetify':
   	'prefix': 'py-2'
-  	'body': 'py-2$0'
-
+  	'body': """
+      py-2$0
+    """
   'padding in all direction by 2 - Vuetify':
   	'prefix': 'pa-2'
-  	'body': 'pa-2$0'
-
+  	'body': """
+      pa-2$0
+    """
   'margin-top by 3 - Vuetify':
   	'prefix': 'mt-3'
-  	'body': 'mt-3$0'
-
+  	'body': """
+      mt-3$0
+    """
   'margin-bottom by 3 - Vuetify':
   	'prefix': 'mb-3'
-  	'body': 'mb-3$0'
-
+  	'body': """
+      mb-3$0
+    """
   'margin-left by 3 - Vuetify':
   	'prefix': 'ml-3'
-  	'body': 'ml-3$0'
-
+  	'body': """
+      ml-3$0
+    """
   'margin-right by 3 - Vuetify':
   	'prefix': 'mr-3'
-  	'body': 'mr-3$0'
-
+  	'body': """
+      mr-3$0
+    """
   'margin horizontal by 3 - Vuetify':
   	'prefix': 'mx-3'
-  	'body': 'mx-3$0'
-
+  	'body': """
+      mx-3$0
+    """
   'margin vertical by 3 - Vuetify':
   	'prefix': 'my-3'
-  	'body': 'my-3$0'
-
+  	'body': """
+      my-3$0
+    """
   'margin in all direction by 3 - Vuetify':
   	'prefix': 'ma-3'
-  	'body': 'ma-3$0'
-
+  	'body': """
+      ma-3$0
+    """
   'padding-top by 3 - Vuetify':
   	'prefix': 'pt-3'
-  	'body': 'pt-3$0'
-
+  	'body': """
+      pt-3$0
+    """
   'padding-bottom by 3 - Vuetify':
   	'prefix': 'pb-3'
-  	'body': 'pb-3$0'
-
+  	'body': """
+      pb-3$0
+    """
   'padding-left by 3 - Vuetify':
   	'prefix': 'pl-3'
-  	'body': 'pl-3$0'
-
+  	'body': """
+      pl-3$0
+    """
   'padding-right by 3 - Vuetify':
   	'prefix': 'pr-3'
-  	'body': 'pr-3$0'
-
+  	'body': """
+      pr-3$0
+    """
   'padding horizontal by 3 - Vuetify':
   	'prefix': 'px-3'
-  	'body': 'px-3$0'
-
+  	'body': """
+      px-3$0
+    """
   'padding vertical by 3 - Vuetify':
   	'prefix': 'py-3'
-  	'body': 'py-3$0'
-
+  	'body': """
+      py-3$0
+    """
   'padding in all direction by 3 - Vuetify':
   	'prefix': 'pa-3'
-  	'body': 'pa-3$0'
-
+  	'body': """
+      pa-3$0
+    """
   'margin-top by 4 - Vuetify':
   	'prefix': 'mt-4'
-  	'body': 'mt-4$0'
-
+  	'body': """
+      mt-4$0
+    """
   'margin-bottom by 4 - Vuetify':
   	'prefix': 'mb-4'
-  	'body': 'mb-4$0'
-
+  	'body': """
+      mb-4$0
+    """
   'margin-left by 4 - Vuetify':
   	'prefix': 'ml-4'
-  	'body': 'ml-4$0'
-
+  	'body': """
+      ml-4$0
+    """
   'margin-right by 4 - Vuetify':
   	'prefix': 'mr-4'
-  	'body': 'mr-4$0'
-
+  	'body': """
+      mr-4$0
+    """
   'margin horizontal by 4 - Vuetify':
   	'prefix': 'mx-4'
-  	'body': 'mx-4$0'
-
+  	'body': """
+      mx-4$0
+    """
   'margin vertical by 4 - Vuetify':
   	'prefix': 'my-4'
-  	'body': 'my-4$0'
-
+  	'body': """
+      my-4$0
+    """
   'margin in all direction by 4 - Vuetify':
   	'prefix': 'ma-4'
-  	'body': 'ma-4$0'
-
+  	'body': """
+      ma-4$0
+    """
   'padding-top by 4 - Vuetify':
   	'prefix': 'pt-4'
-  	'body': 'pt-4$0'
-
+  	'body': """
+      pt-4$0
+    """
   'padding-bottom by 4 - Vuetify':
   	'prefix': 'pb-4'
-  	'body': 'pb-4$0'
-
+  	'body': """
+      pb-4$0
+    """
   'padding-left by 4 - Vuetify':
   	'prefix': 'pl-4'
-  	'body': 'pl-4$0'
-
+  	'body': """
+      pl-4$0
+    """
   'padding-right by 4 - Vuetify':
   	'prefix': 'pr-4'
-  	'body': 'pr-4$0'
-
+  	'body': """
+      pr-4$0
+    """
   'padding horizontal by 4 - Vuetify':
   	'prefix': 'px-4'
-  	'body': 'px-4$0'
-
+  	'body': """
+      px-4$0
+    """
   'padding vertical by 4 - Vuetify':
   	'prefix': 'py-4'
-  	'body': 'py-4$0'
-
+  	'body': """
+      py-4$0
+    """
   'padding in all direction by 4 - Vuetify':
   	'prefix': 'pa-4'
-  	'body': 'pa-4$0'
-
+  	'body': """
+      pa-4$0
+    """
   'margin-top by 5 - Vuetify':
   	'prefix': 'mt-5'
-  	'body': 'mt-5$0'
-
+  	'body': """
+      mt-5$0
+    """
   'margin-bottom by 5 - Vuetify':
   	'prefix': 'mb-5'
-  	'body': 'mb-5$0'
-
+  	'body': """
+      mb-5$0
+    """
   'margin-left by 5 - Vuetify':
   	'prefix': 'ml-5'
-  	'body': 'ml-5$0'
-
+  	'body': """
+      ml-5$0
+    """
   'margin-right by 5 - Vuetify':
   	'prefix': 'mr-5'
-  	'body': 'mr-5$0'
-
+  	'body': """
+      mr-5$0
+    """
   'margin horizontal by 5 - Vuetify':
   	'prefix': 'mx-5'
-  	'body': 'mx-5$0'
-
+  	'body': """
+      mx-5$0
+    """
   'margin vertical by 5 - Vuetify':
   	'prefix': 'my-5'
-  	'body': 'my-5$0'
-
+  	'body': """
+      my-5$0
+    """
   'margin in all direction by 5 - Vuetify':
   	'prefix': 'ma-5'
-  	'body': 'ma-5$0'
-
+  	'body': """
+      ma-5$0
+    """
   'padding-top by 5 - Vuetify':
   	'prefix': 'pt-5'
-  	'body': 'pt-5$0'
-
+  	'body': """
+      pt-5$0
+    """
   'padding-bottom by 5 - Vuetify':
   	'prefix': 'pb-5'
-  	'body': 'pb-5$0'
-
+  	'body': """
+      pb-5$0
+    """
   'padding-left by 5 - Vuetify':
   	'prefix': 'pl-5'
-  	'body': 'pl-5$0'
-
+  	'body': """
+      pl-5$0
+    """
   'padding-right by 5 - Vuetify':
   	'prefix': 'pr-5'
-  	'body': 'pr-5$0'
-
+  	'body': """
+      pr-5$0
+    """
   'padding horizontal by 5 - Vuetify':
   	'prefix': 'px-5'
-  	'body': 'px-5$0'
-
+  	'body': """
+      px-5$0
+    """
   'padding vertical by 5 - Vuetify':
   	'prefix': 'py-5'
-  	'body': 'py-5$0'
-
+  	'body': """
+      py-5$0
+    """
   'padding in all direction by 5 - Vuetify':
   	'prefix': 'pa-5'
-  	'body': 'pa-5$0'
-
+  	'body': """
+      pa-5$0
+    """
   'align-baseline - Vuetify':
 	  'prefix': 'alignBaseline'
-	  'body': 'align-baseline$0'
-
+	  'body': """
+      align-baseline$0
+    """
   'align-center - Vuetify':
   	'prefix': 'alignCenter'
-  	'body': 'align-center$0'
-
+  	'body': """
+      align-center$0
+    """
   'align-content-center - Vuetify':
   	'prefix': 'alignContentCenter'
-  	'body': 'align-content-center$0'
-
+  	'body': """
+      align-content-center$0
+    """
   'align-content-end - Vuetify':
   	'prefix': 'alignContentEnd'
-  	'body': 'align-content-end$0'
-
+  	'body': """
+      align-content-end$0
+    """
   'align-content-space-around - Vuetify':
   	'prefix': 'alignContentSpaceAround'
-  	'body': 'align-content-space-around$0'
-
+  	'body': """
+      align-content-space-around$0
+    """
   'align-content-space-between - Vuetify':
   	'prefix': 'alignContentSpaceBetween'
-  	'body': 'align-content-space-$0'
-
+  	'body': """
+      align-content-space-$0
+    """
   'align-content-start - Vuetify':
   	'prefix': 'alignContentStart'
-  	'body': 'align-content-start$0'
-
+  	'body': """
+      align-content-start$0
+    """
   'align-end - Vuetify':
   	'prefix': 'alignEnd'
-  	'body': 'align-end$0'
-
+  	'body': """
+      align-end$0
+    """
   'align-start - Vuetify':
   	'prefix': 'alignStart'
-  	'body': 'align-start$0'
-
+  	'body': """
+      align-start$0
+    """
   'd-flex - Vuetify':
   	'prefix': 'dFlex'
-  	'body': 'd-flex$0'
-
+  	'body': """
+      d-flex$0
+    """
   'd-inline-flex - Vuetify':
   	'prefix': 'dInlineFlex'
-  	'body': 'd-inline-flex$0'
-
+  	'body': """
+      d-inline-flex$0
+    """
   'd-inline-block - Vuetify':
   	'prefix': 'dInlineBlock'
-  	'body': 'd-inline-block$0'
-
+  	'body': """
+      d-inline-block$0
+    """
   'd-block - Vuetify':
   	'prefix': 'dBlock'
-  	'body': 'd-block$0'
-
+  	'body': """
+      d-block$0
+    """
   'd-inline - Vuetify':
   	'prefix': 'dInline'
-  	'body': 'd-inline$0'
-
+  	'body': """
+      d-inline$0
+    """
   'fill-height - Vuetify':
   	'prefix': 'fillHeight'
-  	'body': 'fill-height$0'
-
+  	'body': """
+      fill-height$0
+    """
   'fluid - Vuetify':
   	'prefix': 'fluid'
-  	'body': 'fluid$0'
-
+  	'body': """
+      fluid$0
+    """
   'grid-list-xs - Vuetify':
   	'prefix': 'gridListXs'
-  	'body': 'grid-list-xs$0'
-
+  	'body': """
+      grid-list-xs$0
+    """
   'grid-list-sm - Vuetify':
   	'prefix': 'gridListSm'
-  	'body': 'grid-list-sm$0'
-
+  	'body': """
+      grid-list-sm$0
+    """
   'grid-list-md - Vuetify':
   	'prefix': 'gridListMd'
-  	'body': 'grid-list-md$0'
-
+  	'body': """
+      grid-list-md$0
+    """
   'grid-list-lg - Vuetify':
   	'prefix': 'gridListLg'
-  	'body': 'grid-list-lg$0'
-
+  	'body': """
+      grid-list-lg$0
+    """
   'grid-list-xl - Vuetify':
   	'prefix': 'gridListXl'
-  	'body': 'grid-list-xl$0'
-
+  	'body': """
+      grid-list-xl$0
+    """
   'justify-center - Vuetify':
   	'prefix': 'justifyCenter'
-  	'body': 'justify-center$0'
-
+  	'body': """
+      justify-center$0
+    """
   'justify-end - Vuetify':
   	'prefix': 'justifyEnd'
-  	'body': 'justify-end$0'
-
+  	'body': """
+      justify-end$0
+    """
   'justify-space-around - Vuetify':
   	'prefix': 'justifySpaceAround'
-  	'body': 'justify-space-around$0'
-
+  	'body': """
+      justify-space-around$0
+    """
   'justify-space-between - Vuetify':
   	'prefix': 'justifySpaceBetween'
-  	'body': 'justify-space-between$0'
-
+  	'body': """
+      justify-space-between$0
+    """
   'justify-start - Vuetify':
   	'prefix': 'justifyStart'
-  	'body': 'justify-start$0'
-
+  	'body': """
+      justify-start$0
+    """
   'hidden xs only - Vuetify':
   	'prefix': 'hiddenXsOnly'
-  	'body': 'hidden-xs-only$0'
-
+  	'body': """
+      hidden-xs-only$0
+    """
   'hidden xs and up - Vuetify':
   	'prefix': 'hiddenXsAndDown'
-  	'body': 'hidden-xs-and-down$0'
-
+  	'body': """
+      hidden-xs-and-down$0
+    """
   'hidden xs and up - Vuetify':
   	'prefix': 'hiddenXsAndUp'
-  	'body': 'hidden-xs-and-up$0'
-
+  	'body': """
+      hidden-xs-and-up$0
+    """
   'hidden sm only - Vuetify':
   	'prefix': 'hiddenSmOnly'
-  	'body': 'hidden-sm-only$0'
-
+  	'body': """
+      hidden-sm-only$0
+    """
   'hidden sm and down - Vuetify':
   	'prefix': 'hiddenSmAndDown'
-  	'body': 'hidden-sm-and-down$0'
-
+  	'body': """
+      hidden-sm-and-down$0
+    """
   'hidden sm and up - Vuetify':
   	'prefix': 'hiddenSmAndUp'
-  	'body': 'hidden-sm-and-up$0'
-
+  	'body': """
+      hidden-sm-and-up$0
+    """
   'hidden md only - Vuetify':
   	'prefix': 'hiddenMdOnly'
-  	'body': 'hidden-md-only$0'
-
+  	'body': """
+      hidden-md-only$0
+    """
   'hidden md and down - Vuetify':
   	'prefix': 'hiddenMdAndDown'
-  	'body': 'hidden-md-and-down$0'
-
+  	'body': """
+      hidden-md-and-down$0
+    """
   'hidden md and up - Vuetify':
   	'prefix': 'hiddenMdAndUp'
-  	'body': 'hidden-md-and-up$0'
-
+  	'body': """
+      hidden-md-and-up$0
+    """
   'hidden lg only - Vuetify':
   	'prefix': 'hiddenLgOnly'
-  	'body': 'hidden-lg-only$0'
-
+  	'body': """
+      hidden-lg-only$0
+    """
   'hidden lg and down - Vuetify':
   	'prefix': 'hiddenLgAndDown'
-  	'body': 'hidden-lg-and-down$0'
-
+  	'body': """
+      hidden-lg-and-down$0
+    """
   'hidden lg and up - Vuetify':
   	'prefix': 'hiddenLgAndUp'
-  	'body': 'hidden-lg-and-up$0'
-
+  	'body': """
+      hidden-lg-and-up$0
+    """
   'hidden xl only - Vuetify':
   	'prefix': 'hiddenXlOnly'
-  	'body': 'hidden-xl-only$0'
-
+  	'body': """
+      hidden-xl-only$0
+    """
   'hidden xl and down - Vuetify':
   	'prefix': 'hiddenXlAndDown'
-  	'body': 'hidden-xl-and-down$0'
-
+  	'body': """
+      hidden-xl-and-down$0
+    """
   'hidden xl and up - Vuetify':
   	'prefix': 'hiddenXlAndUp'
-  	'body': 'hidden-xl-and-up$0'
-
+  	'body': """
+      hidden-xl-and-up$0
+    """
   'reverse - Vuetify':
   	'prefix': 'reverse'
-  	'body': 'reverse$0'
-
+  	'body': """
+      reverse$0
+    """
   'reverse-trasition - Vuetify':
   	'prefix': 'reverse-trasition'
-  	'body': 'reverse-trasition="$1"$0'
-
+  	'body': """
+      reverse-trasition="$1"$0
+    """
   'id - Vuetify':
   	'prefix': 'id'
-  	'body': 'id="$1"$0'
-
+  	'body': """
+      id="$1"$0
+    """
   'wrap - Vuetify':
   	'prefix': 'wrap'
-  	'body': 'wrap$0'
-
+  	'body': """
+      wrap$0
+    """
   'column - Vuetify':
   	'prefix': 'column'
-  	'body': 'column$0'
-
+  	'body': """
+      column$0
+    """
   'row - Vuetify':
   	'prefix': 'row'
-  	'body': 'row$0'
-
+  	'body': """
+      row$0
+    """
   'row-height - Vuetify':
   	'prefix': 'rowHeight'
-  	'body': 'row-height="${1:24}"$0'
-
+  	'body': """
+      row-height="${1:24}"$0
+    """
   'order by 1 in extra small size - Vuetify':
 	  'prefix': 'order-xs-1'
-	  'body': 'order-xs1$0'
-
+	  'body': """
+      order-xs1$0
+    """
   'order by 2 in extra small size - Vuetify':
   	'prefix': 'order-xs-2'
-  	'body': 'order-xs2$0'
-
+  	'body': """
+      order-xs2$0
+    """
   'order by 3 in extra small size - Vuetify':
   	'prefix': 'order-xs-3'
-  	'body': 'order-xs3$0'
-
+  	'body': """
+      order-xs3$0
+    """
   'order by 4 in extra small size - Vuetify':
   	'prefix': 'order-xs-4'
-  	'body': 'order-xs4$0'
-
+  	'body': """
+      order-xs4$0
+    """
   'order by 5 in extra small size - Vuetify':
   	'prefix': 'order-xs-5'
-  	'body': 'order-xs5$0'
-
+  	'body': """
+      order-xs5$0
+    """
   'order by 6 in extra small size - Vuetify':
   	'prefix': 'order-xs-6'
-  	'body': 'order-xs6$0'
-
+  	'body': """
+      order-xs6$0
+    """
   'order by 7 in extra small size - Vuetify':
   	'prefix': 'order-xs-7'
-  	'body': 'order-xs7$0'
-
+  	'body': """
+      order-xs7$0
+    """
   'order by 8 in extra small size - Vuetify':
   	'prefix': 'order-xs-8'
-  	'body': 'order-xs8$0'
-
+  	'body': """
+      order-xs8$0
+    """
   'order by 9 in extra small size - Vuetify':
   	'prefix': 'order-xs-9'
-  	'body': 'order-xs9$0'
-
+  	'body': """
+      order-xs9$0
+    """
   'order by 10 in extra small size0 - Vuetify':
   	'prefix': 'order-xs-10'
-  	'body': 'order-xs10$0'
-
+  	'body': """
+      order-xs10$0
+    """
   'order by 11 in extra small size1 - Vuetify':
   	'prefix': 'order-xs-11'
-  	'body': 'order-xs11$0'
-
+  	'body': """
+      order-xs11$0
+    """
   'order by 12 in extra small size2 - Vuetify':
   	'prefix': 'order-xs-12'
-  	'body': 'order-xs12$0'
-
+  	'body': """
+      order-xs12$0
+    """
   'order by 1 in small size - Vuetify':
   	'prefix': 'order-sm-1'
-  	'body': 'order-sm1$0'
-
+  	'body': """
+      order-sm1$0
+    """
   'order by 2 in small size - Vuetify':
   	'prefix': 'order-sm-2'
-  	'body': 'order-sm2$0'
-
+  	'body': """
+      order-sm2$0
+    """
   'order by 3 in small size - Vuetify':
   	'prefix': 'order-sm-3'
-  	'body': 'order-sm3$0'
-
+  	'body': """
+      order-sm3$0
+    """
   'order by 4 in small size - Vuetify':
   	'prefix': 'order-sm-4'
-  	'body': 'order-sm4$0'
-
+  	'body': """
+      order-sm4$0
+    """
   'order by 5 in small size - Vuetify':
   	'prefix': 'order-sm-5'
-  	'body': 'order-sm5$0'
-
+  	'body': """
+      order-sm5$0
+    """
   'order by 6 in small size - Vuetify':
   	'prefix': 'order-sm-6'
-  	'body': 'order-sm6$0'
-
+  	'body': """
+      order-sm6$0
+    """
   'order by 7 in small size - Vuetify':
   	'prefix': 'order-sm-7'
-  	'body': 'order-sm7$0'
-
+  	'body': """
+      order-sm7$0
+    """
   'order by 8 in small size - Vuetify':
   	'prefix': 'order-sm-8'
-  	'body': 'order-sm8$0'
-
+  	'body': """
+      order-sm8$0
+    """
   'order by 9 in small size - Vuetify':
   	'prefix': 'order-sm-9'
-  	'body': 'order-sm9$0'
-
+  	'body': """
+      order-sm9$0
+    """
   'order by 10 in small size0 - Vuetify':
   	'prefix': 'order-sm-10'
-  	'body': 'order-sm10$0'
-
+  	'body': """
+      order-sm10$0
+    """
   'order by 11 in small size1 - Vuetify':
   	'prefix': 'order-sm-11'
-  	'body': 'order-sm11$0'
-
+  	'body': """
+      order-sm11$0
+    """
   'order by 12 in small size2 - Vuetify':
   	'prefix': 'order-sm-12'
-  	'body': 'order-sm12$0'
-
+  	'body': """
+      order-sm12$0
+    """
   'order by 1 in medium size - Vuetify':
   	'prefix': 'order-md-1'
-  	'body': 'order-md1$0'
-
+  	'body': """
+      order-md1$0
+    """
   'order by 2 in medium size - Vuetify':
   	'prefix': 'order-md-2'
-  	'body': 'order-md2$0'
-
+  	'body': """
+      order-md2$0
+    """
   'order by 3 in medium size - Vuetify':
   	'prefix': 'order-md-3'
-  	'body': 'order-md3$0'
-
+  	'body': """
+      order-md3$0
+    """
   'order by 4 in medium size - Vuetify':
   	'prefix': 'order-md-4'
-  	'body': 'order-md4$0'
-
+  	'body': """
+      order-md4$0
+    """
   'order by 5 in medium size - Vuetify':
   	'prefix': 'order-md-5'
-  	'body': 'order-md5$0'
-
+  	'body': """
+      order-md5$0
+    """
   'order by 6 in medium size - Vuetify':
   	'prefix': 'order-md-6'
-  	'body': 'order-md6$0'
-
+  	'body': """
+      order-md6$0
+    """
   'order by 7 in medium size - Vuetify':
   	'prefix': 'order-md-7'
-  	'body': 'order-md7$0'
-
+  	'body': """
+      order-md7$0
+    """
   'order by 8 in medium size - Vuetify':
   	'prefix': 'order-md-8'
-  	'body': 'order-md8$0'
-
+  	'body': """
+      order-md8$0
+    """
   'order by 9 in medium size - Vuetify':
   	'prefix': 'order-md-9'
-  	'body': 'order-md9$0'
-
+  	'body': """
+      order-md9$0
+    """
   'order by 10 in medium size0 - Vuetify':
   	'prefix': 'order-md-10'
-  	'body': 'order-md10$0'
-
+  	'body': """
+      order-md10$0
+    """
   'order by 11 in medium size1 - Vuetify':
   	'prefix': 'order-md-11'
-  	'body': 'order-md11$0'
-
+  	'body': """
+      order-md11$0
+    """
   'order by 12 in medium size2 - Vuetify':
   	'prefix': 'order-md-12'
-  	'body': 'order-md12$0'
-
+  	'body': """
+      order-md12$0
+    """
   'order by 1 in large size - Vuetify':
   	'prefix': 'order-lg-1'
-  	'body': 'order-lg1$0'
-
+  	'body': """
+      order-lg1$0
+    """
   'order by 2 in large size - Vuetify':
   	'prefix': 'order-lg-2'
-  	'body': 'order-lg2$0'
-
+  	'body': """
+      order-lg2$0
+    """
   'order by 3 in large size - Vuetify':
   	'prefix': 'order-lg-3'
-  	'body': 'order-lg3$0'
-
+  	'body': """
+      order-lg3$0
+    """
   'order by 4 in large size - Vuetify':
   	'prefix': 'order-lg-4'
-  	'body': 'order-lg4$0'
-
+  	'body': """
+      order-lg4$0
+    """
   'order by 5 in large size - Vuetify':
   	'prefix': 'order-lg-5'
-  	'body': 'order-lg5$0'
-
+  	'body': """
+      order-lg5$0
+    """
   'order by 6 in large size - Vuetify':
   	'prefix': 'order-lg-6'
-  	'body': 'order-lg6$0'
-
+  	'body': """
+      order-lg6$0
+    """
   'order by 7 in large size - Vuetify':
   	'prefix': 'order-lg-7'
-  	'body': 'order-lg7$0'
-
+  	'body': """
+      order-lg7$0
+    """
   'order by 8 in large size - Vuetify':
   	'prefix': 'order-lg-8'
-  	'body': 'order-lg8$0'
-
+  	'body': """
+      order-lg8$0
+    """
   'order by 9 in large size - Vuetify':
   	'prefix': 'order-lg-9'
-  	'body': 'order-lg9$0'
-
+  	'body': """
+      order-lg9$0
+    """
   'order by 10 in large size0 - Vuetify':
   	'prefix': 'order-lg-10'
-  	'body': 'order-lg10$0'
-
+  	'body': """
+      order-lg10$0
+    """
   'order by 11 in large size1 - Vuetify':
   	'prefix': 'order-lg-11'
-  	'body': 'order-lg11$0'
-
+  	'body': """
+      order-lg11$0
+    """
   'order by 12 in large size2 - Vuetify':
   	'prefix': 'order-lg-12'
-  	'body': 'order-lg12$0'
-
+  	'body': """
+      order-lg12$0
+    """
   'order by 1 in extra large size - Vuetify':
   	'prefix': 'order-xl-1'
-  	'body': 'order-xl1$0'
-
+  	'body': """
+      order-xl1$0
+    """
   'order by 2 in extra large size - Vuetify':
   	'prefix': 'order-xl-2'
-  	'body': 'order-xl2$0'
-
+  	'body': """
+      order-xl2$0
+    """
   'order by 3 in extra large size - Vuetify':
   	'prefix': 'order-xl-3'
-  	'body': 'order-xl3$0'
-
+  	'body': """
+      order-xl3$0
+    """
   'order by 4 in extra large size - Vuetify':
   	'prefix': 'order-xl-4'
-  	'body': 'order-xl4$0'
-
+  	'body': """
+      order-xl4$0
+    """
   'order by 5 in extra large size - Vuetify':
   	'prefix': 'order-xl-5'
-  	'body': 'order-xl5$0'
-
+  	'body': """
+      order-xl5$0
+    """
   'order by 6 in extra large size - Vuetify':
   	'prefix': 'order-xl-6'
-  	'body': 'order-xl6$0'
-
+  	'body': """
+      order-xl6$0
+    """
   'order by 7 in extra large size - Vuetify':
   	'prefix': 'order-xl-7'
-  	'body': 'order-xl7$0'
-
+  	'body': """
+      order-xl7$0
+    """
   'order by 8 in extra large size - Vuetify':
   	'prefix': 'order-xl-8'
-  	'body': 'order-xl8$0'
-
+  	'body': """
+      order-xl8$0
+    """
   'order by 9 in extra large size - Vuetify':
   	'prefix': 'order-xl-9'
-  	'body': 'order-xl9$0'
-
+  	'body': """
+      order-xl9$0
+    """
   'order by 10 in extra large size0 - Vuetify':
   	'prefix': 'order-xl-10'
-  	'body': 'order-xl10$0'
-
+  	'body': """
+      order-xl10$0
+    """
   'order by 11 in extra large size1 - Vuetify':
   	'prefix': 'order-xl-11'
-  	'body': 'order-xl11$0'
-
+  	'body': """
+      order-xl11$0
+    """
   'order by 12 in extra large size2 - Vuetify':
   	'prefix': 'order-xl-12'
-  	'body': 'order-xl12$0'
-
+  	'body': """
+      order-xl12$0
+    """
   'offset by 1 in extra small size - Vuetify':
 	  'prefix': 'offset-xs-1'
-	  'body': 'offset-xs1$0'
-
+	  'body': """
+      offset-xs1$0
+    """
   'offset by 2 in extra small size - Vuetify':
   	'prefix': 'offset-xs-2'
-  	'body': 'offset-xs2$0'
-
+  	'body': """
+      offset-xs2$0
+    """
   'offset by 3 in extra small size - Vuetify':
   	'prefix': 'offset-xs-3'
-  	'body': 'offset-xs3$0'
-
+  	'body': """
+      offset-xs3$0
+    """
   'offset by 4 in extra small size - Vuetify':
   	'prefix': 'offset-xs-4'
-  	'body': 'offset-xs4$0'
-
+  	'body': """
+      offset-xs4$0
+    """
   'offset by 5 in extra small size - Vuetify':
   	'prefix': 'offset-xs-5'
-  	'body': 'offset-xs5$0'
-
+  	'body': """
+      offset-xs5$0
+    """
   'offset by 6 in extra small size - Vuetify':
   	'prefix': 'offset-xs-6'
-  	'body': 'offset-xs6$0'
-
+  	'body': """
+      offset-xs6$0
+    """
   'offset by 7 in extra small size - Vuetify':
   	'prefix': 'offset-xs-7'
-  	'body': 'offset-xs7$0'
-
+  	'body': """
+      offset-xs7$0
+    """
   'offset by 8 in extra small size - Vuetify':
   	'prefix': 'offset-xs-8'
-  	'body': 'offset-xs8$0'
-
+  	'body': """
+      offset-xs8$0
+    """
   'offset by 9 in extra small size - Vuetify':
   	'prefix': 'offset-xs-9'
-  	'body': 'offset-xs9$0'
-
+  	'body': """
+      offset-xs9$0
+    """
   'offset by 10 in extra small size - Vuetify':
   	'prefix': 'offset-xs-10'
-  	'body': 'offset-xs10$0'
-
+  	'body': """
+      offset-xs10$0
+    """
   'offset by 11 in extra small size - Vuetify':
   	'prefix': 'offset-xs-11'
-  	'body': 'offset-xs11$0'
-
+  	'body': """
+      offset-xs11$0
+    """
   'offset by 12 in extra small size - Vuetify':
   	'prefix': 'offset-xs-12'
-  	'body': 'offset-xs12$0'
-
+  	'body': """
+      offset-xs12$0
+    """
   'offset by 1 in small size - Vuetify':
   	'prefix': 'offset-sm-1'
-  	'body': 'offset-sm1$0'
-
+  	'body': """
+      offset-sm1$0
+    """
   'offset by 2 in small size - Vuetify':
   	'prefix': 'offset-sm-2'
-  	'body': 'offset-sm2$0'
-
+  	'body': """
+      offset-sm2$0
+    """
   'offset by 3 in small size - Vuetify':
   	'prefix': 'offset-sm-3'
-  	'body': 'offset-sm3$0'
-
+  	'body': """
+      offset-sm3$0
+    """
   'offset by 4 in small size - Vuetify':
   	'prefix': 'offset-sm-4'
-  	'body': 'offset-sm4$0'
-
+  	'body': """
+      offset-sm4$0
+    """
   'offset by 5 in small size - Vuetify':
   	'prefix': 'offset-sm-5'
-  	'body': 'offset-sm5$0'
-
+  	'body': """
+      offset-sm5$0
+    """
   'offset by 6 in small size - Vuetify':
   	'prefix': 'offset-sm-6'
-  	'body': 'offset-sm6$0'
-
+  	'body': """
+      offset-sm6$0
+    """
   'offset by 7 in small size - Vuetify':
   	'prefix': 'offset-sm-7'
-  	'body': 'offset-sm7$0'
-
+  	'body': """
+      offset-sm7$0
+    """
   'offset by 8 in small size - Vuetify':
   	'prefix': 'offset-sm-8'
-  	'body': 'offset-sm8$0'
-
+  	'body': """
+      offset-sm8$0
+    """
   'offset by 9 in small size - Vuetify':
   	'prefix': 'offset-sm-9'
-  	'body': 'offset-sm9$0'
-
+  	'body': """
+      offset-sm9$0
+    """
   'offset by 10 in small size - Vuetify':
   	'prefix': 'offset-sm-10'
-  	'body': 'offset-sm10$0'
-
+  	'body': """
+      offset-sm10$0
+    """
   'offset by 11 in small size - Vuetify':
   	'prefix': 'offset-sm-11'
-  	'body': 'offset-sm11$0'
-
+  	'body': """
+      offset-sm11$0
+    """
   'offset by 12 in small size - Vuetify':
   	'prefix': 'offset-sm-12'
-  	'body': 'offset-sm12$0'
-
+  	'body': """
+      offset-sm12$0
+    """
   'offset by 1 in medium size - Vuetify':
   	'prefix': 'offset-md-1'
-  	'body': 'offset-md1$0'
-
+  	'body': """
+      offset-md1$0
+    """
   'offset by 2 in medium size - Vuetify':
   	'prefix': 'offset-md-2'
-  	'body': 'offset-md2$0'
-
+  	'body': """
+      offset-md2$0
+    """
   'offset by 3 in medium size - Vuetify':
   	'prefix': 'offset-md-3'
-  	'body': 'offset-md3$0'
-
+  	'body': """
+      offset-md3$0
+    """
   'offset by 4 in medium size - Vuetify':
   	'prefix': 'offset-md-4'
-  	'body': 'offset-md4$0'
-
+  	'body': """
+      offset-md4$0
+    """
   'offset by 5 in medium size - Vuetify':
   	'prefix': 'offset-md-5'
-  	'body': 'offset-md5$0'
-
+  	'body': """
+      offset-md5$0
+    """
   'offset by 6 in medium size - Vuetify':
   	'prefix': 'offset-md-6'
-  	'body': 'offset-md6$0'
-
+  	'body': """
+      offset-md6$0
+    """
   'offset by 7 in medium size - Vuetify':
   	'prefix': 'offset-md-7'
-  	'body': 'offset-md7$0'
-
+  	'body': """
+      offset-md7$0
+    """
   'offset by 8 in medium size - Vuetify':
   	'prefix': 'offset-md-8'
-  	'body': 'offset-md8$0'
-
+  	'body': """
+      offset-md8$0
+    """
   'offset by 9 in medium size - Vuetify':
   	'prefix': 'offset-md-9'
-  	'body': 'offset-md9$0'
-
+  	'body': """
+      offset-md9$0
+    """
   'offset by 10 in medium size - Vuetify':
   	'prefix': 'offset-md-10'
-  	'body': 'offset-md10$0'
-
+  	'body': """
+      offset-md10$0
+    """
   'offset by 11 in medium size - Vuetify':
   	'prefix': 'offset-md-11'
-  	'body': 'offset-md11$0'
-
+  	'body': """
+      offset-md11$0
+    """
   'offset by 12 in medium size - Vuetify':
   	'prefix': 'offset-md-12'
-  	'body': 'offset-md12$0'
-
+  	'body': """
+      offset-md12$0
+    """
   'offset by 1 in large size - Vuetify':
   	'prefix': 'offset-lg-1'
-  	'body': 'offset-lg1$0'
-
+  	'body': """
+      offset-lg1$0
+    """
   'offset by 2 in large size - Vuetify':
   	'prefix': 'offset-lg-2'
-  	'body': 'offset-lg2$0'
-
+  	'body': """
+      offset-lg2$0
+    """
   'offset by 3 in large size - Vuetify':
   	'prefix': 'offset-lg-3'
-  	'body': 'offset-lg3$0'
-
+  	'body': """
+      offset-lg3$0
+    """
   'offset by 4 in large size - Vuetify':
   	'prefix': 'offset-lg-4'
-  	'body': 'offset-lg4$0'
-
+  	'body': """
+      offset-lg4$0
+    """
   'offset by 5 in large size - Vuetify':
   	'prefix': 'offset-lg-5'
-  	'body': 'offset-lg5$0'
-
+  	'body': """
+      offset-lg5$0
+    """
   'offset by 6 in large size - Vuetify':
   	'prefix': 'offset-lg-6'
-  	'body': 'offset-lg6$0'
-
+  	'body': """
+      offset-lg6$0
+    """
   'offset by 7 in large size - Vuetify':
   	'prefix': 'offset-lg-7'
-  	'body': 'offset-lg7$0'
-
+  	'body': """
+      offset-lg7$0
+    """
   'offset by 8 in large size - Vuetify':
   	'prefix': 'offset-lg-8'
-  	'body': 'offset-lg8$0'
-
+  	'body': """
+      offset-lg8$0
+    """
   'offset by 9 in large size - Vuetify':
   	'prefix': 'offset-lg-9'
-  	'body': 'offset-lg9$0'
-
+  	'body': """
+      offset-lg9$0
+    """
   'offset by 10 in large size - Vuetify':
   	'prefix': 'offse-lL-g10'
-  	'body': 'offset-lg10$0'
-
+  	'body': """
+      offset-lg10$0
+    """
   'offset by 11 in large size - Vuetify':
   	'prefix': 'offse-lL-g11'
-  	'body': 'offset-lg11$0'
-
+  	'body': """
+      offset-lg11$0
+    """
   'offset by 12 in large size - Vuetify':
   	'prefix': 'offse-lL-g12'
-  	'body': 'offset-lg12$0'
-
+  	'body': """
+      offset-lg12$0
+    """
   'offset by 1 in extra large size - Vuetify':
   	'prefix': 'offset-xl-1'
-  	'body': 'offset-xl1$0'
-
+  	'body': """
+      offset-xl1$0
+    """
   'offset by 2 in extra large size - Vuetify':
   	'prefix': 'offset-xl-2'
-  	'body': 'offset-xl2$0'
-
+  	'body': """
+      offset-xl2$0
+    """
   'offset by 3 in extra large size - Vuetify':
   	'prefix': 'offset-xl-3'
-  	'body': 'offset-xl3$0'
-
+  	'body': """
+      offset-xl3$0
+    """
   'offset by 4 in extra large size - Vuetify':
   	'prefix': 'offset-xl-4'
-  	'body': 'offset-xl4$0'
-
+  	'body': """
+      offset-xl4$0
+    """
   'offset by 5 in extra large size - Vuetify':
   	'prefix': 'offset-xl-5'
-  	'body': 'offset-xl5$0'
-
+  	'body': """
+      offset-xl5$0
+    """
   'offset by 6 in extra large size - Vuetify':
   	'prefix': 'offset-xl-6'
-  	'body': 'offset-xl6$0'
-
+  	'body': """
+      offset-xl6$0
+    """
   'offset by 7 in extra large size - Vuetify':
   	'prefix': 'offset-xl-7'
-  	'body': 'offset-xl7$0'
-
+  	'body': """
+      offset-xl7$0
+    """
   'offset by 8 in extra large size - Vuetify':
   	'prefix': 'offset-xl-8'
-  	'body': 'offset-xl8$0'
-
+  	'body': """
+      offset-xl8$0
+    """
   'offset by 9 in extra large size - Vuetify':
   	'prefix': 'offset-xl-9'
-  	'body': 'offset-xl9$0'
-
+  	'body': """
+      offset-xl9$0
+    """
   'offset by 10 in extra large size - Vuetify':
   	'prefix': 'offse-xX-l10'
-  	'body': 'offset-xl10$0'
-
+  	'body': """
+      offset-xl10$0
+    """
   'offset by 11 in extra large size - Vuetify':
   	'prefix': 'offse-xX-l11'
-  	'body': 'offset-xl11$0'
-
+  	'body': """
+      offset-xl11$0
+    """
   'offset by 12 in extra large size - Vuetify':
   	'prefix': 'offse-xX-l12'
-  	'body': 'offset-xl12$0'
-
+  	'body': """
+      offset-xl12$0
+    """
   'container width 1 in extra small size - Vuetify':
 	  'prefix': 'xs1'
-	  'body': 'xs1$0'
-
+	  'body': """
+      xs1$0
+    """
   'container width 2 in extra small size - Vuetify':
   	'prefix': 'xs2'
-  	'body': 'xs2$0'
-
+  	'body': """
+      xs2$0
+    """
   'container width 3 in extra small size - Vuetify':
   	'prefix': 'xs3'
-  	'body': 'xs3$0'
-
+  	'body': """
+      xs3$0
+    """
   'container width 4 in extra small size - Vuetify':
   	'prefix': 'xs4'
-  	'body': 'xs4$0'
-
+  	'body': """
+      xs4$0
+    """
   'container width 5 in extra small size - Vuetify':
   	'prefix': 'xs5'
-  	'body': 'xs5$0'
-
+  	'body': """
+      xs5$0
+    """
   'container width 6 in extra small size - Vuetify':
   	'prefix': 'xs6'
-  	'body': 'xs6$0'
-
+  	'body': """
+      xs6$0
+    """
   'container width 7 in extra small size - Vuetify':
   	'prefix': 'xs7'
-  	'body': 'xs7$0'
-
+  	'body': """
+      xs7$0
+    """
   'container width 8 in extra small size - Vuetify':
   	'prefix': 'xs8'
-  	'body': 'xs8$0'
-
+  	'body': """
+      xs8$0
+    """
   'container width 9 in extra small size - Vuetify':
   	'prefix': 'xs9'
-  	'body': 'xs9$0'
-
+  	'body': """
+      xs9$0
+    """
   'container width 10 in extra small size0 - Vuetify':
   	'prefix': 'xs10'
-  	'body': 'xs10$0'
-
+  	'body': """
+      xs10$0
+    """
   'container width 11 in extra small size1 - Vuetify':
   	'prefix': 'xs11'
-  	'body': 'xs11$0'
-
+  	'body': """
+      xs11$0
+    """
   'container width 12 in extra small size2 - Vuetify':
   	'prefix': 'xs12'
-  	'body': 'xs12$0'
-
+  	'body': """
+      xs12$0
+    """
   'container width 1 in small size - Vuetify':
   	'prefix': 'sm1'
-  	'body': 'sm1$0'
-
+  	'body': """
+      sm1$0
+    """
   'container width 2 in small size - Vuetify':
   	'prefix': 'sm2'
-  	'body': 'sm2$0'
-
+  	'body': """
+      sm2$0
+    """
   'container width 3 in small size - Vuetify':
   	'prefix': 'sm3'
-  	'body': 'sm3$0'
-
+  	'body': """
+      sm3$0
+    """
   'container width 4 in small size - Vuetify':
   	'prefix': 'sm4'
-  	'body': 'sm4$0'
-
+  	'body': """
+      sm4$0
+    """
   'container width 5 in small size - Vuetify':
   	'prefix': 'sm5'
-  	'body': 'sm5$0'
-
+  	'body': """
+      sm5$0
+    """
   'container width 6 in small size - Vuetify':
   	'prefix': 'sm6'
-  	'body': 'sm6$0'
-
+  	'body': """
+      sm6$0
+    """
   'container width 7 in small size - Vuetify':
   	'prefix': 'sm7'
-  	'body': 'sm7$0'
-
+  	'body': """
+      sm7$0
+    """
   'container width 8 in small size - Vuetify':
   	'prefix': 'sm8'
-  	'body': 'sm8$0'
-
+  	'body': """
+      sm8$0
+    """
   'container width 9 in small size - Vuetify':
   	'prefix': 'sm9'
-  	'body': 'sm9$0'
-
+  	'body': """
+      sm9$0
+    """
   'container width 10 in small size - Vuetify':
   	'prefix': 'sm10'
-  	'body': 'sm10$0'
-
+  	'body': """
+      sm10$0
+    """
   'container width 11 in small size - Vuetify':
   	'prefix': 'sm11'
-  	'body': 'sm11$0'
-
+  	'body': """
+      sm11$0
+    """
   'container width 12 in small size - Vuetify':
   	'prefix': 'sm12'
-  	'body': 'sm12$0'
-
+  	'body': """
+      sm12$0
+    """
   'container width 1 in medium size - Vuetify':
   	'prefix': 'md1'
-  	'body': 'md1$0'
-
+  	'body': """
+      md1$0
+    """
   'container width 2 in medium size - Vuetify':
   	'prefix': 'md2'
-  	'body': 'md2$0'
-
+  	'body': """
+      md2$0
+    """
   'container width 3 in medium size - Vuetify':
   	'prefix': 'md3'
-  	'body': 'md3$0'
-
+  	'body': """
+      md3$0
+    """
   'container width 4 in medium size - Vuetify':
   	'prefix': 'md4'
-  	'body': 'md4$0'
-
+  	'body': """
+      md4$0
+    """
   'container width 5 in medium size - Vuetify':
   	'prefix': 'md5'
-  	'body': 'md5$0'
-
+  	'body': """
+      md5$0
+    """
   'container width 6 in medium size - Vuetify':
   	'prefix': 'md6'
-  	'body': 'md6$0'
-
+  	'body': """
+      md6$0
+    """
   'container width 7 in medium size - Vuetify':
   	'prefix': 'md7'
-  	'body': 'md7$0'
-
+  	'body': """
+      md7$0
+    """
   'container width 8 in medium size - Vuetify':
   	'prefix': 'md8'
-  	'body': 'md8$0'
-
+  	'body': """
+      md8$0
+    """
   'container width 9 in medium size - Vuetify':
   	'prefix': 'md9'
-  	'body': 'md9$0'
-
+  	'body': """
+      md9$0
+    """
   'container width 10 in medium size - Vuetify':
   	'prefix': 'md10'
-  	'body': 'md10$0'
-
+  	'body': """
+      md10$0
+    """
   'container width 11 in medium size - Vuetify':
   	'prefix': 'md11'
-  	'body': 'md11$0'
-
+  	'body': """
+      md11$0
+    """
   'container width 12 in medium size - Vuetify':
   	'prefix': 'md12'
-  	'body': 'md12$0'
-
+  	'body': """
+      md12$0
+    """
   'container width 1 in large size - Vuetify':
   	'prefix': 'lg1'
-  	'body': 'lg1$0'
-
+  	'body': """
+      lg1$0
+    """
   'container width 2 in large size - Vuetify':
   	'prefix': 'lg2'
-  	'body': 'lg2$0'
-
+  	'body': """
+      lg2$0
+    """
   'container width 3 in large size - Vuetify':
   	'prefix': 'lg3'
-  	'body': 'lg3$0'
-
+  	'body': """
+      lg3$0
+    """
   'container width 4 in large size - Vuetify':
   	'prefix': 'lg4'
-  	'body': 'lg4$0'
-
+  	'body': """
+      lg4$0
+    """
   'container width 5 in large size - Vuetify':
   	'prefix': 'lg5'
-  	'body': 'lg5$0'
-
+  	'body': """
+      lg5$0
+    """
   'container width 6 in large size - Vuetify':
   	'prefix': 'lg6'
-  	'body': 'lg6$0'
-
+  	'body': """
+      lg6$0
+    """
   'container width 7 in large size - Vuetify':
   	'prefix': 'lg7'
-  	'body': 'lg7$0'
-
+  	'body': """
+      lg7$0
+    """
   'container width 8 in large size - Vuetify':
   	'prefix': 'lg8'
-  	'body': 'lg8$0'
-
+  	'body': """
+      lg8$0
+    """
   'container width 9 in large size - Vuetify':
   	'prefix': 'lg9'
-  	'body': 'lg9$0'
-
+  	'body': """
+      lg9$0
+    """
   'container width 10 in large size - Vuetify':
   	'prefix': 'lg10'
-  	'body': 'lg10$0'
-
+  	'body': """
+      lg10$0
+    """
   'container width 11 in large size - Vuetify':
   	'prefix': 'lg11'
-  	'body': 'lg11$0'
-
+  	'body': """
+      lg11$0
+    """
   'container width 12 in large size - Vuetify':
   	'prefix': 'lg12'
-  	'body': 'lg12$0'
-
+  	'body': """
+      lg12$0
+    """
   'container width 1 in extra large size - Vuetify':
   	'prefix': 'xl1'
-  	'body': 'xl1$0'
-
+  	'body': """
+      xl1$0
+    """
   'container width 2 in extra large size - Vuetify':
   	'prefix': 'xl2'
-  	'body': 'xl2$0'
-
+  	'body': """
+      xl2$0
+    """
   'container width 3 in extra large size - Vuetify':
   	'prefix': 'xl3'
-  	'body': 'xl3$0'
-
+  	'body': """
+      xl3$0
+    """
   'container width 4 in extra large size - Vuetify':
   	'prefix': 'xl4'
-  	'body': 'xl4$0'
-
+  	'body': """
+      xl4$0
+    """
   'container width 5 in extra large size - Vuetify':
   	'prefix': 'xl5'
-  	'body': 'xl5$0'
-
+  	'body': """
+      xl5$0
+    """
   'container width 6 in extra large size - Vuetify':
   	'prefix': 'xl6'
-  	'body': 'xl6$0'
-
+  	'body': """
+      xl6$0
+    """
   'container width 7 in extra large size - Vuetify':
   	'prefix': 'xl7'
-  	'body': 'xl7$0'
-
+  	'body': """
+      xl7$0
+    """
   'container width 8 in extra large size - Vuetify':
   	'prefix': 'xl8'
-  	'body': 'xl8$0'
-
+  	'body': """
+      xl8$0
+    """
   'container width 9 in extra large size - Vuetify':
   	'prefix': 'xl9'
-  	'body': 'xl9$0'
-
+  	'body': """
+      xl9$0
+    """
   'container width 10 in extra large size - Vuetify':
   	'prefix': 'xl10'
-  	'body': 'xl10$0'
-
+  	'body': """
+      xl10$0
+    """
   'container width 11 in extra large size - Vuetify':
   	'prefix': 'xl11'
-  	'body': 'xl11$0'
-
+  	'body': """
+      xl11$0
+    """
   'container width 12 in extra large size - Vuetify':
   	'prefix': 'xl12'
-  	'body': 'xl12$0'
-
+  	'body': """
+      xl12$0
+    """
   'text align to right for xs screen size - Vuetify':
 	  'prefix': 'textXsRight'
-	  'body': 'text-xs-right$0'
-
+	  'body': """
+      text-xs-right$0
+    """
   'text align to right for sm screen size - Vuetify':
   	'prefix': 'textSmRight'
-  	'body': 'text-sm-right$0'
-
+  	'body': """
+      text-sm-right$0
+    """
   'text align to right for md screen size - Vuetify':
   	'prefix': 'textMdRight'
-  	'body': 'text-md-right$0'
-
+  	'body': """
+      text-md-right$0
+    """
   'text align to right for lg screen size - Vuetify':
   	'prefix': 'textLgRight'
-  	'body': 'text-lg-right$0'
-
+  	'body': """
+      text-lg-right$0
+    """
   'text align to right for xl screen size - Vuetify':
   	'prefix': 'textXlRight'
-  	'body': 'text-xl-right$0'
-
+  	'body': """
+      text-xl-right$0
+    """
   'text align to left for xs screen size - Vuetify':
   	'prefix': 'textXsLeft'
-  	'body': 'text-xs-left$0'
-
+  	'body': """
+      text-xs-left$0
+    """
   'text align to left for sm screen size - Vuetify':
   	'prefix': 'textSmLeft'
-  	'body': 'text-sm-left$0'
-
+  	'body': """
+      text-sm-left$0
+    """
   'text align to left for md screen size - Vuetify':
   	'prefix': 'textMdLeft'
-  	'body': 'text-md-left$0'
-
+  	'body': """
+      text-md-left$0
+    """
   'text align to left for lg screen size - Vuetify':
   	'prefix': 'textLgLeft'
-  	'body': 'text-lg-left$0'
-
+  	'body': """
+      text-lg-left$0
+    """
   'text align to left for xl screen size - Vuetify':
   	'prefix': 'textXlLeft'
-  	'body': 'text-xl-left$0'
-
+  	'body': """
+      text-xl-left$0
+    """
   'text align to center for xs screen size - Vuetify':
   	'prefix': 'textXsCenter'
-  	'body': 'text-xs-center$0'
-
+  	'body': """
+      text-xs-center$0
+    """
   'text align to center for sm screen size - Vuetify':
   	'prefix': 'textSmCenter'
-  	'body': 'text-sm-center$0'
-
+  	'body': """
+      text-sm-center$0
+    """
   'text align to center for md screen size - Vuetify':
   	'prefix': 'textMdCenter'
-  	'body': 'text-md-center$0'
-
+  	'body': """
+      text-md-center$0
+    """
   'text align to center for lg screen size - Vuetify':
   	'prefix': 'textLgCenter'
-  	'body': 'text-lg-center$0'
-
+  	'body': """
+      text-lg-center$0
+    """
   'text align to center for xl screen size - Vuetify':
   	'prefix': 'textXlCenter'
-  	'body': 'text-xl-center$0'
-
+  	'body': """
+      text-xl-center$0
+    """
   'slide-x-transiton - Vuetify':
 	  'prefix': 'slideXTransiton'
-	  'body': 'slide-x-transiton$0'
-
+	  'body': """
+      slide-x-transiton$0
+    """
   'position-x - Vuetify':
   	'prefix': 'positionX'
-  	'body': 'position-x$0'
-
+  	'body': """
+      position-x$0
+    """
   'position-y - Vuetify':
   	'prefix': 'positionY'
-  	'body': 'position-y$0'
-
+  	'body': """
+      position-y$0
+    """
   'offset-overflow - Vuetify':
   	'prefix': 'offsetOverflow'
-  	'body': 'offset-overflow$0'
-
+  	'body': """
+      offset-overflow$0
+    """
   'allow-overflow - Vuetify':
   	'prefix': 'allowOverflow'
-  	'body': 'allow-overflow$0'
-
+  	'body': """
+      allow-overflow$0
+    """
   'window - Vuetify':
   	'prefix': 'window'
-  	'body': 'window$0'
-
+  	'body': """
+      window$0
+    """
   'status - Vuetify':
   	'prefix': 'status'
-  	'body': 'status$0'
-
+  	'body': """
+      status$0
+    """
   'lights-out - Vuetify':
   	'prefix': 'lightsOut'
-  	'body': 'lights-out$0'
-
+  	'body': """
+      lights-out$0
+    """
   'extension - Vuetify':
   	'prefix': 'extension'
-  	'body': 'extension$0'
-
+  	'body': """
+      extension$0
+    """
   'fixed-tabs - Vuetify':
   	'prefix': 'fixed-tabs'
-  	'body': 'fixed-tabs$0'
-
+  	'body': """
+      fixed-tabs$0
+    """
   'tabs - Vuetify':
   	'prefix': 'tabs'
-  	'body': 'tabs$0'
-
+  	'body': """
+      tabs$0
+    """
   'scroll-off-screen - Vuetify':
   	'prefix': 'scroll-off-screen'
-  	'body': 'scroll-off-screen$0'
-
+  	'body': """
+      scroll-off-screen$0
+    """
   'prominent - Vuetify':
   	'prefix': 'prominent'
-  	'body': 'prominent$0'
-
+  	'body': """
+      prominent$0
+    """
   'manual-scroll - Vuetify':
   	'prefix': 'manualScroll'
-  	'body': 'manual-scroll$0'
-
+  	'body': """
+      manual-scroll$0
+    """
   'inverted-scroll - Vuetify':
   	'prefix': 'invertedScroll'
-  	'body': 'inverted-scroll$0'
-
+  	'body': """
+      inverted-scroll$0
+    """
   'floating - Vuetify':
   	'prefix': 'floating'
-  	'body': 'floating$0'
-
+  	'body': """
+      floating$0
+    """
   'extended - Vuetify':
   	'prefix': 'extended'
-  	'body': 'extended$0'
-
+  	'body': """
+      extended$0
+    """
   'dense - Vuetify':
   	'prefix': 'dense'
-  	'body': 'dense$0'
-
+  	'body': """
+      dense$0
+    """
   'clipped-right - Vuetify':
   	'prefix': 'clippedRight'
-  	'body': 'clipped-right$0'
-
+  	'body': """
+      clipped-right$0
+    """
   'clipped-left - Vuetify':
   	'prefix': 'clippedLeft'
-  	'body': 'clipped-left$0'
-
+  	'body': """
+      clipped-left$0
+    """
   'tab-transition - Vuetify':
   	'prefix': 'tabTransition'
-  	'body': 'tab-transition$0'
-
+  	'body': """
+      tab-transition$0
+    """
   'touchless - Vuetify':
   	'prefix': 'touchless'
-  	'body': 'touchless$0'
-
+  	'body': """
+      touchless$0
+    """
   'show-arrows - Vuetify':
   	'prefix': 'showArrows'
-  	'body': 'show-arrows$0'
-
+  	'body': """
+      show-arrows$0
+    """
   'icons-and-text - Vuetify':
   	'prefix': 'iconsAndText'
-  	'body': 'icons-and-text$0'
-
+  	'body': """
+      icons-and-text$0
+    """
   'slide-x-reverse-transition - Vuetify':
   	'prefix': 'slideXReverseTransition'
-  	'body': 'slide-x-reverse-transition$0'
-
+  	'body': """
+      slide-x-reverse-transition$0
+    """
   'slide-y-reverse-transition - Vuetify':
   	'prefix': 'slideYReverseTransition'
-  	'body': 'slide-y-reverse-transition$0'
-
+  	'body': """
+      slide-y-reverse-transition$0
+    """
   'tab-reverse-transition - Vuetify':
   	'prefix': 'tabReverseTransition'
-  	'body': 'tab-reverse-transition$0'
-
+  	'body': """
+      tab-reverse-transition$0
+    """
   'fade-transition - Vuetify':
   	'prefix': 'fadeTransition'
-  	'body': 'fade-transition$0'
-
+  	'body': """
+      fade-transition$0
+    """
   'slide-y-transition - Vuetify':
   	'prefix': 'slideYTransition'
-  	'body': 'slide-y-transition$0'
-
+  	'body': """
+      slide-y-transition$0
+    """
   'dialog-transition - Vuetify':
   	'prefix': 'dialog-transition'
-  	'body': 'dialog-transition$0'
-
+  	'body': """
+      dialog-transition$0
+    """
   'menu-transition - Vuetify':
   	'prefix': 'menuTransition'
-  	'body': 'menu-transition$0'
-
+  	'body': """
+      menu-transition$0
+    """
   'fab-transition - Vuetify':
   	'prefix': 'fabTransition'
-  	'body': 'fab-transition$0'
-
+  	'body': """
+      fab-transition$0
+    """
   'hide-overlay - Vuetify':
   	'prefix': 'hideOverlay'
-  	'body': 'hide-overlay$0'
-
+  	'body': """
+      hide-overlay$0
+    """
   'hide-controls - Vuetify':
   	'prefix': 'hideControls'
-  	'body': 'hide-controls$0'
-
+  	'body': """
+      hide-controls$0
+    """
   'hide-delimiters - Vuetify':
   	'prefix': 'hideDdelimiters'
-  	'body': 'hide-delimiters$0'
-
+  	'body': """
+      hide-delimiters$0
+    """
   'hide-selected - Vuetify':
   	'prefix': 'hideSelected'
-  	'body': 'hide-selected$0'
-
+  	'body': """
+      hide-selected$0
+    """
   'hide-headers - Vuetify':
   	'prefix': 'hideHeaders'
-  	'body': 'hide-headers$0'
-
+  	'body': """
+      hide-headers$0
+    """
   'hide-actions - Vuetify':
   	'prefix': 'hideActions'
-  	'body': 'hide-actions$0'
-
+  	'body': """
+      hide-actions$0
+    """
   'hide-details - Vuetify':
   	'prefix': 'hideDetails'
-  	'body': 'hide-details$0'
-
+  	'body': """
+      hide-details$0
+    """
   'hide-slider - Vuetify':
   	'prefix': 'hideSlider'
-  	'body': 'hide-slider$0'
-
+  	'body': """
+      hide-slider$0
+    """
   'return-masked-value - Vuetify':
   	'prefix': 'returnMaskedValue'
-  	'body': 'return-masked-value$0'
-
+  	'body': """
+      return-masked-value$0
+    """
   'no-resize - Vuetify':
   	'prefix': 'noResize'
-  	'body': 'no-resize$0'
-
+  	'body': """
+      no-resize$0
+    """
   'disable-resize-watcher - Vuetify':
   	'prefix': 'disableResizeWatcher'
-  	'body': 'disable-resize-watcher$0'
-
+  	'body': """
+      disable-resize-watcher$0
+    """
   'outline - Vuetify':
   	'prefix': 'outline'
-  	'body': 'outline$0'
-
+  	'body': """
+      outline$0
+    """
   'tile - Vuetify':
   	'prefix': 'tile'
-  	'body': 'tile$0'
-
+  	'body': """
+      tile$0
+    """
   'badge - Vuetify':
   	'prefix': 'badge'
-  	'body': 'badge$0'
-
+  	'body': """
+      badge$0
+    """
   'bottom - Vuetify':
   	'prefix': 'bottom'
-  	'body': 'bottom$0'
-
+  	'body': """
+      bottom$0
+    """
   'left - Vuetify':
   	'prefix': 'left'
-  	'body': 'left$0'
-
+  	'body': """
+      left$0
+    """
   'overlap - Vuetify':
   	'prefix': 'overlap'
-  	'body': 'overlap$0'
-
+  	'body': """
+      overlap$0
+    """
   'absolute - Vuetify':
   	'prefix': 'absolute'
-  	'body': 'absolute$0'
-
+  	'body': """
+      absolute$0
+    """
   'app - Vuetify':
   	'prefix': 'app'
-  	'body': 'app$0'
-
+  	'body': """
+      app$0
+    """
   'fixed - Vuetify':
   	'prefix': 'fixed'
-  	'body': 'fixed$0'
-
+  	'body': """
+      fixed$0
+    """
   'shift - Vuetify':
   	'prefix': 'shift'
-  	'body': 'shift$0'
-
+  	'body': """
+      shift$0
+    """
   'activator - Vuetify':
   	'prefix': 'activator'
-  	'body': 'activator$0'
-
+  	'body': """
+      activator$0
+    """
   'disabled - Vuetify':
   	'prefix': 'disabled'
-  	'body': 'disabled$0'
-
+  	'body': """
+      disabled$0
+    """
   'item-disabled - Vuetify':
   	'prefix': 'itemDisabled'
-  	'body': 'item-disabled$0'
-
+  	'body': """
+      item-disabled$0
+    """
   'full-width - Vuetify':
   	'prefix': 'fullWidth'
-  	'body': 'full-width$0'
-
+  	'body': """
+      full-width$0
+    """
   'inset - Vuetify':
   	'prefix': 'inset'
-  	'body': 'inset$0'
-
+  	'body': """
+      inset$0
+    """
   'lazy - Vuetify':
   	'prefix': 'lazy'
-  	'body': 'lazy$0'
-
+  	'body': """
+      lazy$0
+    """
   'lazyValidation - Vuetify':
   	'prefix': 'lazy-validation'
-  	'body': 'lazy-validation$0'
-
+  	'body': """
+      lazy-validation$0
+    """
   'persistent - Vuetify':
   	'prefix': 'persistent'
-  	'body': 'persistent$0'
-
+  	'body': """
+      persistent$0
+    """
   'persistent-hint - Vuetify':
   	'prefix': 'persistentHint'
-  	'body': 'persistent-hint$0'
-
+  	'body': """
+      persistent-hint$0
+    """
   'large - Vuetify':
   	'prefix': 'large'
-  	'body': 'large$0'
-
+  	'body': """
+      large$0
+    """
   'x-large - Vuetify':
   	'prefix': 'xLarge'
-  	'body': 'x-large$0'
-
+  	'body': """
+      x-large$0
+    """
   'exact - Vuetify':
   	'prefix': 'exact'
-  	'body': 'exact$0'
-
+  	'body': """
+      exact$0
+    """
   'append - Vuetify':
   	'prefix': 'append'
-  	'body': 'append$0'
-
+  	'body': """
+      append$0
+    """
   'nuxt - Vuetify':
   	'prefix': 'nuxt'
-  	'body': 'nuxt$0'
-
+  	'body': """
+      nuxt$0
+    """
   'replace - Vuetify':
   	'prefix': 'replace'
-  	'body': 'replace$0'
-
+  	'body': """
+      replace$0
+    """
   'ripple - Vuetify':
   	'prefix': 'ripple'
-  	'body': 'ripple$0'
-
+  	'body': """
+      ripple$0
+    """
   'v-ripple - Vuetify':
   	'prefix': 'vRipple'
-  	'body': 'v-ripple$0'
-
+  	'body': """
+      v-ripple$0
+    """
   'block - Vuetify':
   	'prefix': 'block'
-  	'body': 'block$0'
-
+  	'body': """
+      block$0
+    """
   'dark - Vuetify':
   	'prefix': 'dark'
-  	'body': 'dark$0'
-
+  	'body': """
+      dark$0
+    """
   'depressed - Vuetify':
   	'prefix': 'depressed'
-  	'body': 'depressed$0'
-
+  	'body': """
+      depressed$0
+    """
   'fab - Vuetify':
 	  'prefix': 'fab'
-	  'body': 'fab$0'
-
+	  'body': """
+      fab$0
+    """
   'flat - Vuetify':
   	'prefix': 'flat'
-  	'body': 'flat$0'
-
+  	'body': """
+      flat$0
+    """
   'light - Vuetify':
   	'prefix': 'light'
-  	'body': 'light$0'
-
+  	'body': """
+      light$0
+    """
   'loading - Vuetify':
   	'prefix': 'loading'
-  	'body': 'loading$0'
-
+  	'body': """
+      loading$0
+    """
   'right - Vuetify':
   	'prefix': 'right'
-  	'body': 'right$0'
-
+  	'body': """
+      right$0
+    """
   'round - Vuetify':
   	'prefix': 'round'
-  	'body': 'round$0'
-
+  	'body': """
+      round$0
+    """
   'small - Vuetify':
   	'prefix': 'small'
-  	'body': 'small$0'
-
+  	'body': """
+      small$0
+    """
   'top - Vuetify':
   	'prefix': 'top'
-  	'body': 'top$0'
-
+  	'body': """
+      top$0
+    """
   'open-on-hover - Vuetify':
   	'prefix': 'openOnHover'
-  	'body': 'open-on-hover$0'
-
+  	'body': """
+      open-on-hover$0
+    """
   'hover - Vuetify':
   	'prefix': 'hover'
-  	'body': 'hover$0'
-
+  	'body': """
+      hover$0
+    """
   'raised - Vuetify':
   	'prefix': 'raised'
-  	'body': 'raised$0'
-
+  	'body': """
+      raised$0
+    """
   'contain - Vuetify':
   	'prefix': 'contain'
-  	'body': 'contain$0'
-
+  	'body': """
+      contain$0
+    """
   'primary-title - Vuetify':
   	'prefix': 'primaryTitle'
-  	'body': 'primary-title$0'
-
+  	'body': """
+      primary-title$0
+    """
   'cycle - Vuetify':
   	'prefix': 'cycle'
-  	'body': 'cycle$0'
-
+  	'body': """
+      cycle$0
+    """
   'thumb-label - Vuetify':
   	'prefix': 'thumbLabel'
-  	'body': 'thumb-label$0'
-
+  	'body': """
+      thumb-label$0
+    """
   'selected - Vuetify':
   	'prefix': 'selected'
-  	'body': 'selected$0'
-
+  	'body': """
+      selected$0
+    """
   'footer - Vuetify':
   	'prefix': 'footer'
-  	'body': 'footer$0'
-
+  	'body': """
+      footer$0
+    """
   'no-data - Vuetify':
   	'prefix': 'noData'
-  	'body': 'no-data$0'
-
+  	'body': """
+      no-data$0
+    """
   'no-results - Vuetify':
   	'prefix': 'noResults'
-  	'body': 'no-results$0'
-
+  	'body': """
+      no-results$0
+    """
   'items - Vuetify':
   	'prefix': 'items'
-  	'body': 'items$0'
-
+  	'body': """
+      items$0
+    """
   'cache-items - Vuetify':
   	'prefix': 'cacheItems'
-  	'body': 'cache-items$0'
-
+  	'body': """
+      cache-items$0
+    """
   'page-text - Vuetify':
   	'prefix': 'pageText'
-  	'body': 'page-text$0'
-
+  	'body': """
+      page-text$0
+    """
   'disable-initial-sort - Vuetify':
   	'prefix': 'disableInitialSort'
-  	'body': 'disable-initial-sort$0'
-
+  	'body': """
+      disable-initial-sort$0
+    """
   'expand - Vuetify':
   	'prefix': 'expand'
-  	'body': 'expand$0'
-
+  	'body': """
+      expand$0
+    """
   'must-sort - Vuetify':
   	'prefix': 'must-sort'
-  	'body': 'must-sort$0'
-
+  	'body': """
+      must-sort$0
+    """
   'headers - Vuetify - Vuetify':
   	'prefix': 'headers'
-  	'body': 'headers$0'
-
+  	'body': """
+      headers$0
+    """
   'attach - Vuetify - Vuetify':
   	'prefix': 'attach'
-  	'body': 'attach$0'
-
+  	'body': """
+      attach$0
+    """
   'fullscreen - Vuetify - Vuetify':
   	'prefix': 'fullscreen'
-  	'body': 'fullscreen$0'
-
+  	'body': """
+      fullscreen$0
+    """
   'scrollable - Vuetify':
   	'prefix': 'scrollable'
-  	'body': 'scrollable$0'
-
+  	'body': """
+      scrollable$0
+    """
   'focusable - Vuetify':
   	'prefix': 'focusable'
-  	'body': 'focusable$0'
-
+  	'body': """
+      focusable$0
+    """
   'popout - Vuetify':
   	'prefix': 'popout'
-  	'body': 'popout$0'
-
+  	'body': """
+      popout$0
+    """
   'actions - Vuetify':
   	'prefix': 'actions'
-  	'body': 'actions$0'
-
+  	'body': """
+      actions$0
+    """
   'header-cell - Vuetify':
   	'prefix': 'headerCell'
-  	'body': 'header-cell$0'
-
+  	'body': """
+      header-cell$0
+    """
   'progress - Vuetify':
   	'prefix': 'progress'
-  	'body': 'progress$0'
-
+  	'body': """
+      progress$0
+    """
   'selection - Vuetify':
   	'prefix': 'selection'
-  	'body': 'selection$0'
-
+  	'body': """
+      selection$0
+    """
   'autocomplete - Vuetify':
   	'prefix': 'autocomplete'
-  	'body': 'autocomplete$0'
-
+  	'body': """
+      autocomplete$0
+    """
   'chips - Vuetify':
   	'prefix': 'chips'
-  	'body': 'chips$0'
-
+  	'body': """
+      chips$0
+    """
   'combobox - Vuetify':
   	'prefix': 'combobox'
-  	'body': 'combobox$0'
-
+  	'body': """
+      combobox$0
+    """
   'deletable-chips - Vuetify':
   	'prefix': 'deletableChips'
-  	'body': 'deletable-chips$0'
-
+  	'body': """
+      deletable-chips$0
+    """
   'dont-fill-mask-blanks - Vuetify':
   	'prefix': 'dontFillMaskBlanks'
-  	'body': 'dont-fill-mask-blanks$0'
-
+  	'body': """
+      dont-fill-mask-blanks$0
+    """
   'editable - Vuetify':
   	'prefix': 'editable'
-  	'body': 'editable$0'
-
+  	'body': """
+      editable$0
+    """
   'multi-line - Vuetify':
   	'prefix': 'multiLine'
-  	'body': 'multi-line$0'
-
+  	'body': """
+      multi-line$0
+    """
   'multiple - Vuetify':
   	'prefix': 'multiple'
-  	'body': 'multiple$0'
-
+  	'body': """
+      multiple$0
+    """
   'open-on-clear - Vuetify':
   	'prefix': 'openOnClear'
-  	'body': 'open-on-clear$0'
-
+  	'body': """
+      open-on-clear$0
+    """
   'overflow - Vuetify':
   	'prefix': 'overflow'
-  	'body': 'overflow$0'
-
+  	'body': """
+      overflow$0
+    """
   'readonly - Vuetify':
   	'prefix': 'readonly'
-  	'body': 'readonly$0'
-
+  	'body': """
+      readonly$0
+    """
   'required - Vuetify':
   	'prefix': 'required'
-  	'body': 'required$0'
-
+  	'body': """
+      required$0
+    """
   'return-object - Vuetify':
   	'prefix': 'returnObject'
-  	'body': 'return-object$0'
-
+  	'body': """
+      return-object$0
+    """
   'segmented - Vuetify':
   	'prefix': 'segmented'
-  	'body': 'segmented$0'
-
+  	'body': """
+      segmented$0
+    """
   'single-line - Vuetify':
   	'prefix': 'singleLine'
-  	'body': 'single-line$0'
-
+  	'body': """
+      single-line$0
+    """
   'solo - Vuetify':
   	'prefix': 'solo'
-  	'body': 'solo$0'
-
+  	'body': """
+      solo$0
+    """
   'solo-inverted - Vuetify':
   	'prefix': 'soloInverted'
-  	'body': 'solo-inverted$0'
-
+  	'body': """
+      solo-inverted$0
+    """
   'validate-on-blur - Vuetify':
   	'prefix': 'validateOnBlur'
-  	'body': 'validate-on-blur$0'
-
+  	'body': """
+      validate-on-blur$0
+    """
   'mandatory - Vuetify':
   	'prefix': 'mandatory'
-  	'body': 'mandatory$0'
-
+  	'body': """
+      mandatory$0
+    """
   'auto-grow - Vuetify':
   	'prefix': 'autoGrow'
-  	'body': 'auto-grow$0'
-
+  	'body': """
+      auto-grow$0
+    """
   'autofocus - Vuetify':
   	'prefix': 'autofocus'
-  	'body': 'autofocus$0'
-
+  	'body': """
+      autofocus$0
+    """
   'box - Vuetify':
   	'prefix': 'box'
-  	'body': 'box$0'
-
+  	'body': """
+      box$0
+    """
   'clearable - Vuetify':
   	'prefix': 'clearable'
-  	'body': 'clearable$0'
-
+  	'body': """
+      clearable$0
+    """
   'textarea - Vuetify':
   	'prefix': 'textarea'
-  	'body': 'textarea$0'
-
+  	'body': """
+      textarea$0
+    """
   'medium - Vuetify':
   	'prefix': 'medium'
-  	'body': 'medium$0'
-
+  	'body': """
+      medium$0
+    """
   'subheader - Vuetify':
   	'prefix': 'subheader'
-  	'body': 'subheader$0'
-
+  	'body': """
+      subheader$0
+    """
   'three-line - Vuetify':
   	'prefix': 'threeLine'
-  	'body': 'three-line$0'
-
+  	'body': """
+      three-line$0
+    """
   'two-line - Vuetify':
   	'prefix': 'twoLine'
-  	'body': 'two-line$0'
-
+  	'body': """
+      two-line$0
+    """
   'inactive - Vuetify':
   	'prefix': 'inactive'
-  	'body': 'inactive$0'
-
+  	'body': """
+      inactive$0
+    """
   'auto - Vuetify':
   	'prefix': 'auto'
-  	'body': 'auto$0'
-
+  	'body': """
+      auto$0
+    """
   'close-on-click - Vuetify':
   	'prefix': 'closeOnClick'
-  	'body': 'close-on-click$0'
-
+  	'body': """
+      close-on-click$0
+    """
   'close-on-content-click - Vuetify':
   	'prefix': 'closeOnContentClick'
-  	'body': 'close-on-content-click$0'
-
+  	'body': """
+      close-on-content-click$0
+    """
   'offset-x - Vuetify':
   	'prefix': 'offsetX'
-  	'body': 'offset-x$0'
-
+  	'body': """
+      offset-x$0
+    """
   'offset-y - Vuetify':
   	'prefix': 'offsetY'
-  	'body': 'offset-y$0'
-
+  	'body': """
+      offset-y$0
+    """
   'open-on-click - Vuetify':
   	'prefix': 'openOnClick'
-  	'body': 'open-on-click$0'
-
+  	'body': """
+      open-on-click$0
+    """
   'clipped - Vuetify':
   	'prefix': 'clipped'
-  	'body': 'clipped$0'
-
+  	'body': """
+      clipped$0
+    """
   'disable-route-watcher - Vuetify':
   	'prefix': 'disableRouteWatcher'
-  	'body': 'disable-route-watcher$0'
-
+  	'body': """
+      disable-route-watcher$0
+    """
   'mini-variant - Vuetify':
   	'prefix': 'miniVariant'
-  	'body': 'mini-variant$0'
-
+  	'body': """
+      mini-variant$0
+    """
   'permanent - Vuetify':
   	'prefix': 'permanent'
-  	'body': 'permanent$0'
-
+  	'body': """
+      permanent$0
+    """
   'stateless - Vuetify':
   	'prefix': 'stateless'
-  	'body': 'stateless$0'
-
+  	'body': """
+      stateless$0
+    """
   'temporary - Vuetify':
   	'prefix': 'temporary'
-  	'body': 'temporary$0'
-
+  	'body': """
+      temporary$0
+    """
   'circle - Vuetify':
   	'prefix': 'circle'
-  	'body': 'circle$0'
-
+  	'body': """
+      circle$0
+    """
   'landscape - Vuetify':
   	'prefix': 'landscape'
-  	'body': 'landscape$0'
-
+  	'body': """
+      landscape$0
+    """
   'no-title - Vuetify':
   	'prefix': 'noTitle'
-  	'body': 'no-title$0'
-
+  	'body': """
+      no-title$0
+    """
   'reactive - Vuetify':
   	'prefix': 'reactive'
-  	'body': 'reactive$0'
-
+  	'body': """
+      reactive$0
+    """
   'button - Vuetify':
   	'prefix': 'button'
-  	'body': 'button$0'
-
+  	'body': """
+      button$0
+    """
   'indeterminate - Vuetify':
   	'prefix': 'indeterminate'
-  	'body': 'indeterminate$0'
-
+  	'body': """
+      indeterminate$0
+    """
   'active - Vuetify':
   	'prefix': 'active'
-  	'body': 'active$0'
-
+  	'body': """
+      active$0
+    """
   'query - Vuetify':
   	'prefix': 'query'
-  	'body': 'query$0'
-
+  	'body': """
+      query$0
+    """
   'ticks - Vuetify':
   	'prefix': 'ticks'
-  	'body': 'ticks$0'
-
+  	'body': """
+      ticks$0
+    """
   'auto-height - Vuetify':
   	'prefix': 'autoHeight'
-  	'body': 'auto-height$0'
-
+  	'body': """
+      auto-height$0
+    """
   'vertical - Vuetify':
   	'prefix': 'vertical'
-  	'body': 'vertical$0'
-
+  	'body': """
+      vertical$0
+    """
   'alt-labels - Vuetify':
   	'prefix': 'altLabels'
-  	'body': 'alt-labels$0'
-
+  	'body': """
+      alt-labels$0
+    """
   'non-linear - Vuetify':
   	'prefix': 'nonLinear'
-  	'body': 'non-linear$0'
-
+  	'body': """
+      non-linear$0
+    """
   'complete - Vuetify':
   	'prefix': 'complete'
-  	'body': 'complete$0'
-
+  	'body': """
+      complete$0
+    """
   'align-with-title - Vuetify':
   	'prefix': 'alignWithTitle'
-  	'body': 'align-with-title$0'
-
+  	'body': """
+      align-with-title$0
+    """
   'centered - Vuetify':
   	'prefix': 'centered'
-  	'body': 'centered$0'
-
+  	'body': """
+      centered$0
+    """
   'grow - Vuetify':
   	'prefix': 'grow'
-  	'body': 'grow$0'
-
+  	'body': """
+      grow$0
+    """
   'v-touch directive with events - Vuetify' :
   	'prefix': 'vTouchEvents'
   	'body': """
@@ -3507,528 +4057,659 @@
 
   'debounce - Vuetify':
   	'prefix': 'debounce'
-  	'body': 'debounce="${1:0}"$0'
-
+  	'body': """
+      debounce="${1:0}"$0
+    """
   'close-delay - Vuetify':
   	'prefix': 'closeDelay'
-  	'body': 'close-delay="${1:200}"$0'
-
+  	'body': """
+      close-delay="${1:200}"$0
+    """
   'scroll-threshold - Vuetify':
   	'prefix': 'scrollThreshold'
-  	'body': 'scroll-threshold="${1:300}"$0'
-
+  	'body': """
+      scroll-threshold="${1:300}"$0
+    """
   'mobile-break-point - Vuetify':
   	'prefix': 'mobileBreakPoint'
-  	'body': 'mobile-break-point="${1:1264}"$0'
-
+  	'body': """
+      mobile-break-point="${1:1264}"$0
+    """
   'buffer-value - Vuetify':
   	'prefix': 'bufferValue'
-  	'body': 'buffer-value="${1:100}"$0'
-
+  	'body': """
+      buffer-value="${1:100}"$0
+    """
   'tabindex - Vuetify':
   	'prefix': 'tabindex'
-  	'body': 'tabindex="${1:0}"$0'
-
+  	'body': """
+      tabindex="${1:0}"$0
+    """
   'mini-variant-width - Vuetify':
   	'prefix': 'miniVariantWidth'
-  	'body': 'mini-variant-width="${1:80}"$0'
-
+  	'body': """
+      mini-variant-width="${1:80}"$0
+    """
   'rotate - Vuetify':
   	'prefix': 'rotate'
-  	'body': 'rotate="${1:0}"$0'
-
+  	'body': """
+      rotate="${1:0}"$0
+    """
   'step - Vuetify':
   	'prefix': 'step'
-  	'body': 'step="${1:1}"$0'
-
+  	'body': """
+      step="${1:1}"$0
+    """
   'timeout - Vuetify':
   	'prefix': 'timeout'
-  	'body': 'timeout="${1:6000}"$0'
-
+  	'body': """
+      timeout="${1:6000}"$0
+    """
   'first-day-of-week - Vuetify':
   	'prefix': 'firstDayOfWeek'
-  	'body': 'first-day-of-week="${1:0}"$0'
-
+  	'body': """
+      first-day-of-week="${1:0}"$0
+    """
   'v-scroll:#target - Vuetify':
   	'prefix': 'vScrollTarget'
-  	'body': 'v-scroll:#target="${1:callback}"'
-
+  	'body': """
+      v-scroll:#target="${1:callback}"
+    """
   'v-scroll - Vuetify':
   	'prefix': 'vScroll'
-  	'body': 'v-scroll="${1:callback}"$0'
-
+  	'body': """
+      v-scroll="${1:callback}"$0
+    """
   'prepend-icon-cb - Vuetify':
   	'prefix': 'prependIconCb'
-  	'body': 'prepend-icon-cb="${1:Function}"$0'
-
+  	'body': """
+      prepend-icon-cb="${1:Function}"$0
+    """
   'value-comparator - Vuetify':
   	'prefix': 'valueComparator'
-  	'body': 'value-comparator="${1:Function}"$0'
-
+  	'body': """
+      value-comparator="${1:Function}"$0
+    """
   'header-date-format - Vuetify':
   	'prefix': 'headerDateFormat'
-  	'body': 'header-date-format="${1:Function}"$0'
-
+  	'body': """
+      header-date-format="${1:Function}"$0
+    """
   'allowed-dates - Vuetify':
   	'prefix': 'allowedDates'
-  	'body': 'allowed-dates="${1:Function}"$0'
-
+  	'body': """
+      allowed-dates="${1:Function}"$0
+    """
   'dayFormat - Vuetify':
   	'prefix': 'dayFormat'
-  	'body': 'day-format="${1:Function}"$0'
-
+  	'body': """
+      day-format="${1:Function}"$0
+    """
   'month-format - Vuetify':
   	'prefix': 'monthFormat'
-  	'body': 'month-format="${1:Function}"$0'
-
+  	'body': """
+      month-format="${1:Function}"$0
+    """
   'title-date-format - Vuetify':
   	'prefix': 'titleDateFormat'
-  	'body': 'title-date-format="${1:Function}"$0'
-
+  	'body': """
+      title-date-format="${1:Function}"$0
+    """
   'year-format - Vuetify':
   	'prefix': 'yearFormat'
-  	'body': 'year-format="${1:Function}"$0'
-
+  	'body': """
+      year-format="${1:Function}"$0
+    """
   'allowed-hours - Vuetify':
   	'prefix': 'allowedHours'
-  	'body': 'allowed-hours="${1:Function}"$0'
-
+  	'body': """
+      allowed-hours="${1:Function}"$0
+    """
   'allowed-minutes - Vuetify':
   	'prefix': 'allowedMinutes'
-  	'body': 'allowed-minutes="${1:Function}"$0'
-
+  	'body': """
+      allowed-minutes="${1:Function}"$0
+    """
   'v-resize - Vuetify':
   	'prefix': 'vResize'
-  	'body': 'v-resize="${1:callback}"$0'
-
+  	'body': """
+      v-resize="${1:callback}"$0
+    """
   'v-resize.quiet - Vuetify':
   	'prefix': 'vResizeQuiet'
-  	'body': 'v-resize.quiet="${1:callback}"$0'
-
+  	'body': """
+      v-resize.quiet="${1:callback}"$0
+    """
   ':ripple - Vuetify':
   	'prefix': ':ripple'
-  	'body': 'ripple="${1:false}"$0'
-
+  	'body': """
+      ripple="${1:false}"$0
+    """
   'attach - Vuetify':
   	'prefix': 'attach='
-  	'body': 'attach="${1:false}"$0'
-
+  	'body': """
+      attach="${1:false}"$0
+    """
   'show-current - Vuetify':
   	'prefix': 'showCurrent'
-  	'body': 'show-current="true"$0'
-
+  	'body': """
+      show-current="true"$0
+    """
   'max-height auto - Vuetify':
   	'prefix': 'maxHeight'
-  	'body': 'max-height="auto"$0'
-
+  	'body': """
+      max-height="auto"$0
+    """
   'custom-filter - Vuetify':
   	'prefix': 'customFilter'
-  	'body': 'custom-filter="$1"$0'
-
+  	'body': """
+      custom-filter="$1"$0
+    """
   'custom-sort - Vuetify':
   	'prefix': 'customSort'
-  	'body': 'custom-sort="$1"$0'
-
+  	'body': """
+      custom-sort="$1"$0
+    """
   'input - Vuetify':
   	'prefix': 'input'
-  	'body': 'input="$1"$0'
-
+  	'body': """
+      input="$1"$0
+    """
   'change - Vuetify':
   	'prefix': 'change'
-  	'body': 'change="$1"$0'
-
+  	'body': """
+      change="$1"$0
+    """
   'pagination.sync - Vuetify':
   	'prefix': 'paginationSync'
-  	'body': 'pagination.sync="$1"$0'
-
+  	'body': """
+      pagination.sync="$1"$0
+    """
   'append-icon-cb - Vuetify':
   	'prefix': 'appendIconCb'
-  	'body': 'append-icon-cb="$1"$0'
-
+  	'body': """
+      append-icon-cb="$1"$0
+    """
   'active.sync - Vuetify':
   	'prefix': 'activeSync'
-  	'body': 'active.sync="$1"$0'
-
+  	'body': """
+      active.sync="$1"$0
+    """
   'update:pagination - Vuetify':
   	'prefix': 'updatePagination'
-  	'body': 'update:pagination="$1"$0'
-
+  	'body': """
+      update:pagination="$1"$0
+    """
   'update:search-input - Vuetify':
   	'prefix': 'updateSearchInput'
-  	'body': 'update:search-input="$1"$0'
-
+  	'body': """
+      update:search-input="$1"$0
+    """
   'update:mini-variant - Vuetify':
   	'prefix': 'updateMiniVariant'
-  	'body': 'update:mini-variant="$1"$0'
-
+  	'body': """
+      update:mini-variant="$1"$0
+    """
   'update:active - Vuetify':
   	'prefix': 'updateActive'
-  	'body': 'update:active="$1"$0'
-
+  	'body': """
+      update:active="$1"$0
+    """
   'right with value - Vuetify':
   	'prefix': 'right'
-  	'body': 'right="$1"$0'
-
+  	'body': """
+      right="$1"$0
+    """
   'next - Vuetify':
   	'prefix': 'next'
-  	'body': 'next="$1"$0'
-
+  	'body': """
+      next="$1"$0
+    """
   'update:error - Vuetify':
   	'prefix': 'updateError'
-  	'body': 'update:error="$1"$0'
-
+  	'body': """
+      update:error="$1"$0
+    """
   'min-width - Vuetify':
 	  'prefix': 'minWidth'
-	  'body': 'min-width="$1"$0'
-
+	  'body': """
+      min-width="$1"$0
+    """
   'slot - Vuetify':
   	'prefix': 'slot'
-  	'body': 'slot="$1"$0'
-
+  	'body': """
+      slot="$1"$0
+    """
   'extension-height - Vuetify':
   	'prefix': 'extensionHeight'
-  	'body': 'extension-height="$1"$0'
-
+  	'body': """
+      extension-height="$1"$0
+    """
   'content-tag - Vuetify':
   	'prefix': 'contentTag'
-  	'body': 'content-tag="$1"$0'
-
+  	'body': """
+      content-tag="$1"$0
+    """
   'tag - Vuetify':
   	'prefix': 'tag'
-  	'body': 'tag="$1"$0'
-
+  	'body': """
+      tag="$1"$0
+    """
   'icon - Vuetify':
   	'prefix': 'icon'
-  	'body': 'icon="$1"$0'
-
+  	'body': """
+      icon="$1"$0
+    """
   'delimiter-icon - Vuetify':
   	'prefix': 'delimiterIcon'
-  	'body': 'delimiter-icon="$1"$0'
-
+  	'body': """
+      delimiter-icon="$1"$0
+    """
   'prepend-icon - Vuetify':
   	'prefix': 'prependIcon'
-  	'body': 'prepend-icon="$1"$0'
-
+  	'body': """
+      prepend-icon="$1"$0
+    """
   'year-icon - Vuetify':
   	'prefix': 'yearIcon'
-  	'body': 'year-icon="$1"$0'
-
+  	'body': """
+      year-icon="$1"$0
+    """
   'active-class - Vuetify':
   	'prefix': 'activeClass'
-  	'body': 'active-class="$1"$0'
-
+  	'body': """
+      active-class="$1"$0
+    """
   'exact-active-class - Vuetify':
   	'prefix': 'exactActiveClass'
-  	'body': 'exact-active-class="$1"$0'
-
+  	'body': """
+      exact-active-class="$1"$0
+    """
   'content-class - Vuetify':
   	'prefix': 'contentClass'
-  	'body': 'content-class="$1"$0'
-
+  	'body': """
+      content-class="$1"$0
+    """
   'value - Vuetify':
   	'prefix': 'value'
-  	'body': 'value="$1"$0'
-
+  	'body': """
+      value="$1"$0
+    """
   'return-value - Vuetify':
   	'prefix': 'returnValue'
-  	'body': 'return-value="$1"$0'
-
+  	'body': """
+      return-value="$1"$0
+    """
   'item-value - Vuetify':
   	'prefix': 'itemValue'
-  	'body': 'item-value="$1"$0'
-
+  	'body': """
+      item-value="$1"$0
+    """
   'false-value - Vuetify':
   	'prefix': 'falseValue'
-  	'body': 'false-value="$1"$0'
-
+  	'body': """
+      false-value="$1"$0
+    """
   'true-value - Vuetify':
   	'prefix': 'trueValue'
-  	'body': 'true-value="$1"$0'
-
+  	'body': """
+      true-value="$1"$0
+    """
   'input-value - Vuetify':
   	'prefix': 'inputValue'
-  	'body': 'input-value="$1"$0'
-
+  	'body': """
+      input-value="$1"$0
+    """
   'size - Vuetify':
   	'prefix': 'size'
-  	'body': 'size="$1"$0'
-
+  	'body': """
+      size="$1"$0
+    """
   'mode - Vuetify':
   	'prefix': 'mode'
-  	'body': 'mode="$1"$0'
-
+  	'body': """
+      mode="$1"$0
+    """
   'origin - Vuetify':
   	'prefix': 'origin'
-  	'body': 'origin="$1"$0'
-
+  	'body': """
+      origin="$1"$0
+    """
   'type - Vuetify':
   	'prefix': 'type'
-  	'body': 'type="$1"$0'
-
+  	'body': """
+      type="$1"$0
+    """
   'max-width - Vuetify':
   	'prefix': 'maxWidth'
-  	'body': 'max-width="$1"$0'
-
+  	'body': """
+      max-width="$1"$0
+    """
   'divider - Vuetify':
   	'prefix': 'divider'
-  	'body': 'divider="$1"$0'
-
+  	'body': """
+      divider="$1"$0
+    """
   'target - Vuetify':
   	'prefix': 'target'
-  	'body': 'target="$1"$0'
-
+  	'body': """
+      target="$1"$0
+    """
   'scroll-target - Vuetify':
   	'prefix': 'scrollTarget'
-  	'body': 'scroll-target="$1"$0'
-
+  	'body': """
+      scroll-target="$1"$0
+    """
   'to - Vuetify':
   	'prefix': 'to'
-  	'body': 'to="$1"$0'
-
+  	'body': """
+      to="$1"$0
+    """
   'direction - Vuetify':
   	'prefix': 'direction'
-  	'body': 'direction="$1"$0'
-
+  	'body': """
+      direction="$1"$0
+    """
   'interval - Vuetify':
   	'prefix': 'interval'
-  	'body': 'interval="$1"$0'
-
+  	'body': """
+      interval="$1"$0
+    """
   'label - Vuetify':
   	'prefix': 'label'
-  	'body': 'label="$1"$0'
-
+  	'body': """
+      label="$1"$0
+    """
   'no-data-text - Vuetify':
   	'prefix': 'noDataText'
-  	'body': 'no-data-text="$1"$0'
-
+  	'body': """
+      no-data-text="$1"$0
+    """
   'no-results-text - Vuetify':
   	'prefix': 'noResultsText'
-  	'body': 'no-results-text="$1"$0'
-
+  	'body': """
+      no-results-text="$1"$0
+    """
   'items - Vuetify':
   	'prefix': 'items'
-  	'body': 'items="$1"$0'
-
+  	'body': """
+      items="$1"$0
+    """
   'rows-per-page-items - Vuetify':
   	'prefix': 'rowsPerPageItems'
-  	'body': 'rows-per-page-items="$1"$0'
-
+  	'body': """
+      rows-per-page-items="$1"$0
+    """
   'total-items - Vuetify':
   	'prefix': 'totalItems'
-  	'body': 'total-items="$1"$0'
-
+  	'body': """
+      total-items="$1"$0
+    """
   'rows-per-page-text - Vuetify':
   	'prefix': 'rowsPerPageText'
-  	'body': 'rows-per-page-text="$1"$0'
-
+  	'body': """
+      rows-per-page-text="$1"$0
+    """
   'content-props - Vuetify':
   	'prefix': 'contentProps'
-  	'body': 'content-props="$1"$0'
-
+  	'body': """
+      content-props="$1"$0
+    """
   'filter - Vuetify':
   	'prefix': 'filter'
-  	'body': 'filter="$1"$0'
-
+  	'body': """
+      filter="$1"$0
+    """
   'item-key - Vuetify':
   	'prefix': 'itemKey'
-  	'body': 'item-key="$1"$0'
-
+  	'body': """
+      item-key="$1"$0
+    """
   'search - Vuetify':
   	'prefix': 'search'
-  	'body': 'search="$1"$0'
-
+  	'body': """
+      search="$1"$0
+    """
   'select-all - Vuetify':
   	'prefix': 'selectAll'
-  	'body': 'select-all="$1"$0'
-
+  	'body': """
+      select-all="$1"$0
+    """
   'headers - Vuetify':
   	'prefix': 'headers'
-  	'body': 'headers="$1"$0'
-
+  	'body': """
+      headers="$1"$0
+    """
   'cancel-text - Vuetify':
   	'prefix': 'cancelText'
-  	'body': 'cancel-text="$1"$0'
-
+  	'body': """
+      cancel-text="$1"$0
+    """
   'save-text - Vuetify':
   	'prefix': 'saveText'
-  	'body': 'save-text="$1"$0'
-
+  	'body': """
+      save-text="$1"$0
+    """
   'search-input - Vuetify':
   	'prefix': 'searchInput'
-  	'body': 'search-input="$1"$0'
-
+  	'body': """
+      search-input="$1"$0
+    """
   'browser-autocomplete - Vuetify':
   	'prefix': 'browserAutocomplete'
-  	'body': 'browser-autocomplete="$1"$0'
-
+  	'body': """
+      browser-autocomplete="$1"$0
+    """
   'error-messages - Vuetify':
   	'prefix': 'errorMessages'
-  	'body': 'error-messages="$1"$0'
-
+  	'body': """
+      error-messages="$1"$0
+    """
   'hint - Vuetify':
   	'prefix': 'hint'
-  	'body': 'hint="$1"$0'
-
+  	'body': """
+      hint="$1"$0
+    """
   'item-avatar - Vuetify':
   	'prefix': 'itemAvatar'
-  	'body': 'item-avatar="$1"$0'
-
+  	'body': """
+      item-avatar="$1"$0
+    """
   'item-text - Vuetify':
   	'prefix': 'itemText'
-  	'body': 'item-text="$1"$0'
-
+  	'body': """
+      item-text="$1"$0
+    """
   'mask - Vuetify':
   	'prefix': 'mask'
-  	'body': 'mask="$1"$0'
-
+  	'body': """
+      mask="$1"$0
+    """
   'max-height - Vuetify':
   	'prefix': 'maxHeight'
-  	'body': 'max-height="$1"$0'
-
+  	'body': """
+      max-height="$1"$0
+    """
   'placeholder - Vuetify':
   	'prefix': 'placeholder'
-  	'body': 'placeholder="$1"$0'
-
+  	'body': """
+      placeholder="$1"$0
+    """
   'rules - Vuetify':
   	'prefix': 'rules'
-  	'body': 'rules="$1"$0'
-
+  	'body': """
+      rules="$1"$0
+    """
   'toggle-keys - Vuetify':
   	'prefix': 'toggleKeys'
-  	'body': 'toggle-keys="$1"$0'
-
+  	'body': """
+      toggle-keys="$1"$0
+    """
   'blur - Vuetify':
   	'prefix': 'blur'
-  	'body': 'blur="$1"$0'
-
+  	'body': """
+      blur="$1"$0
+    """
   'name - Vuetify':
   	'prefix': 'name'
-  	'body': 'name="$1"$0'
-
+  	'body': """
+      name="$1"$0
+    """
   'counter - Vuetify':
   	'prefix': 'counter'
-  	'body': 'counter="$1"$0'
-
+  	'body': """
+      counter="$1"$0
+    """
   'prefix - Vuetify':
   	'prefix': 'prefix'
-  	'body': 'prefix="$1"$0'
-
+  	'body': """
+      prefix="$1"$0
+    """
   'rows - Vuetify':
   	'prefix': 'rows'
-  	'body': 'rows="$1"$0'
-
+  	'body': """
+      rows="$1"$0
+    """
   'suffix - Vuetify':
   	'prefix': 'suffix'
-  	'body': 'suffix="$1"$0'
-
+  	'body': """
+      suffix="$1"$0
+    """
   'gradient - Vuetify':
   	'prefix': 'gradient'
-  	'body': 'gradient="$1"$0'
-
+  	'body': """
+      gradient="$1"$0
+    """
   'z-index - Vuetify':
   	'prefix': 'zIndex'
-  	'body': 'z-index="$1"$0'
-
+  	'body': """
+      z-index="$1"$0
+    """
   'total-visible - Vuetify':
   	'prefix': 'totalVisible'
-  	'body': 'total-visible="$1"$0'
-
+  	'body': """
+      total-visible="$1"$0
+    """
   'events - Vuetify':
   	'prefix': 'events'
-  	'body': 'events="$1"$0'
-
+  	'body': """
+      events="$1"$0
+    """
   'max - Vuetify':
   	'prefix': 'max'
-  	'body': 'max="$1"$0'
-
+  	'body': """
+      max="$1"$0
+    """
   'min - Vuetify':
   	'prefix': 'min'
-  	'body': 'min="$1"$0'
-
+  	'body': """
+      min="$1"$0
+    """
   'picker-date - Vuetify':
   	'prefix': 'picker-date'
-  	'body': 'picker-date="$1"$0'
-
+  	'body': """
+      picker-date="$1"$0
+    """
   'width - Vuetify':
   	'prefix': 'width'
-  	'body': 'width="$1"$0'
-
+  	'body': """
+      width="$1"$0
+    """
   'background-opacity - Vuetify':
   	'prefix': 'backgroundOpacity'
-  	'body': 'background-opacity="$1"$0'
-
+  	'body': """
+      background-opacity="$1"$0
+    """
   'height - Vuetify':
   	'prefix': 'height'
-  	'body': 'height="$1"$0'
-
+  	'body': """
+      height="$1"$0
+    """
   'nudge-bottom - Vuetify':
   	'prefix': 'nudgeBottom'
-  	'body': 'nudge-bottom="${1:0}"$0'
-
+  	'body': """
+      nudge-bottom="${1:0}"$0
+    """
   'nudge-left - Vuetify':
   	'prefix': 'nudgeLeft'
-  	'body': 'nudge-left="${1:0}"$0'
-
+  	'body': """
+      nudge-left="${1:0}"$0
+    """
   'nudge-top - Vuetify':
   	'prefix': 'nudgeTop'
-  	'body': 'nudge-top="${1:0}"$0'
-
+  	'body': """
+      nudge-top="${1:0}"$0
+    """
   'nudge-width - Vuetify':
   	'prefix': 'nudgeWidth'
-  	'body': 'nudge-width="${1:0}"$0'
-
+  	'body': """
+      nudge-width="${1:0}"$0
+    """
   'nudge-right - Vuetify':
   	'prefix': 'nudgeRight'
-  	'body': 'nudge-right="${1:0}"$0'
-
+  	'body': """
+      nudge-right="${1:0}"$0
+    """
   'nextIcon - Vuetify':
   	'prefix': 'nextIcon'
-  	'body': 'next-icon="${1:chevron_right}"$0'
-
+  	'body': """
+      next-icon="${1:chevron_right}"$0
+    """
   'prev-icon - Vuetify':
   	'prefix': 'prevIcon'
-  	'body': 'prev-icon="${1:chevron_left}"$0'
-
+  	'body': """
+      prev-icon="${1:chevron_left}"$0
+    """
   'complete-icon - Vuetify':
   	'prefix': 'completeIcon'
-  	'body': 'complete-icon="${1:check}"$0'
-
+  	'body': """
+      complete-icon="${1:check}"$0
+    """
   'edit-icon - Vuetify':
   	'prefix': 'editIcon'
-  	'body': 'edit-icon="${1:edit}"$0'
-
+  	'body': """
+      edit-icon="${1:edit}"$0
+    """
   'error-icon - Vuetify':
   	'prefix': 'errorIcon'
-  	'body': 'error-icon="${1:warning}"$0'
-
+  	'body': """
+      error-icon="${1:warning}"$0
+    """
   'append-icon - Vuetify':
   	'prefix': 'appendIcon'
-  	'body': 'append-icon="${1:arrow_drop_down}"$0'
-
+  	'body': """
+      append-icon="${1:arrow_drop_down}"$0
+    """
   'expand-icon - Vuetify':
   	'prefix': 'expandIcon'
-  	'body': 'expand-icon="${1:keyboard_arrow_down}"$0'
-
+  	'body': """
+      expand-icon="${1:keyboard_arrow_down}"$0
+    """
   'max-width="auto" - Vuetify':
   	'prefix': 'maxWidthAuto'
-  	'body': 'max-width="auto"$0'
-
+  	'body': """
+      max-width="auto"$0
+    """
   'v-ripple center - Vuetify':
   	'prefix': 'vRippleCenter'
-  	'body': 'v-ripple="{ center: true }"$0'
-
+  	'body': """
+      v-ripple="{ center: true }"$0
+    """
   'v-ripple my-class - Vuetify':
   	'prefix': 'vRippleClass'
-  	'body': 'v-ripple="{ class: \'${1:my-class}\' }"$0'
-
+  	'body': """
+      v-ripple="{ class: \'${1:my-class}\' }"$0
+    """
   'open-delay - Vuetify':
   	'prefix': 'openDelay'
-  	'body': 'open-delay="${1:0}"$0'
-
+  	'body': """
+      open-delay="${1:0}"$0
+    """
   'v-resize directive  - Vuetify':
 	  'prefix': 'vResize'
-	  'body': 'v-resize="${1:onResizeFunction}"$0'
-
+	  'body': """
+      v-resize="${1:onResizeFunction}"$0
+    """
   'v-resize function - Vuetify':
   	'prefix': 'vResizeFunction'
   	'body': """
@@ -4039,20 +4720,24 @@
 
   'Ripple directive - Vuetify':
   	'prefix': 'vRipple'
-  	'body': 'ripple$0'
-
+  	'body': """
+      ripple$0
+    """
   'Ripple directive center - Vuetify':
   	'prefix': 'vRippleCenter'
-  	'body': ':ripple="{ center: true }"$0'
-
+  	'body': """
+      :ripple="{ center: true }"$0
+    """
   'Ripple directive custom class - Vuetify':
   	'prefix': 'vRippleClass'
-  	'body': ':ripple="{ class: \'${1:my-class}\' }"$0'
-
+  	'body': """
+      :ripple="{ class: \'${1:my-class}\' }"$0
+    """
   'Ripple directive disabled - Vuetify':
   	'prefix': 'vRippleDisabled'
-  	'body': ':ripple="false"$0'
-
+  	'body': """
+      :ripple="false"$0
+    """
   'Ripple directive for standard HTML element - Vuetify':
   	'prefix': 'vRippleHTML',
   	'body': """
@@ -4062,7 +4747,9 @@
   	"""
   'v-scroll directive - Vuetify':
   	'prefix': 'vScroll'
-  	'body': 'v-scroll="${1:onScrollFunction}"$0'
+  	'body': """
+      v-scroll="${1:onScrollFunction}"$0
+    """
 
   'v-scroll directive function - Vuetify':
   	'prefix': 'vScrollFunction'
@@ -4074,4 +4761,6 @@
 
   'v-scroll directive for target - Vuetify':
   	'prefix': 'vScrollTarget'
-  	'body': 'v-scroll:#target="${1:callback}$0"'
+  	'body': """
+      v-scroll:#target="${1:callback}$0"
+    """
