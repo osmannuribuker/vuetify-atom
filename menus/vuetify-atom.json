@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle vuetify-atom",
+        "command": "vuetify-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "vuetify-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "vuetify-atom:toggle"
+            },
+            {
+              "label": "Abhay",
+              "command": "vuetify-atom:abhay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

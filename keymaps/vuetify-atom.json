@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-v": "vuetify-atom:toggle",
+    "ctrl-q" : "vuetify-atom:abhay"
+  }
+}
