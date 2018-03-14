@@ -4047,7 +4047,7 @@
 
   'Ripple directive custom class - Vuetify':
   	'prefix': 'vRippleClass'
-  	'body': ':ripple="{ class: '${1:my-class}' }"$0'
+  	'body': ':ripple="{ class: \'${1:my-class}\' }"$0'
 
   'Ripple directive disabled - Vuetify':
   	'prefix': 'vRippleDisabled'

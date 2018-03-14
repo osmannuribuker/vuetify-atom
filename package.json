@@ -7,7 +7,7 @@
     "vuetify",
     "vuetifyjs",
     "vuetify autocomplete",
-    "vuetify-vscode"
+    "vuetify-atom"
   ],
   "activationCommands": {
     "atom-workspace": "vuetify-atom:toggle"
