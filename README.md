@@ -6,9 +6,9 @@
 <h2 align="center">vuetify-atom</h2>
 <p align="center">Vuetify atom extension</p>
 
-`vuetify-atom` is the official extension for Vuetifyjs when working in visual studio code. It provides snippets and autocomplete functionality for Vuetifyjs.
+`vuetify-atom` is the official extension for Vuetifyjs when working in Atom. It provides snippets and autocomplete functionality for Vuetifyjs.
 
-## Changelog for Visual Studio Code
+## Changelog for Atom
 Comin soon...
 
 ## Documentation
