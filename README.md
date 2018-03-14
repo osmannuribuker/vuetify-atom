@@ -16,7 +16,19 @@ Comin soon...
 Coming soon...
 
 ## Installation
-Coming soon...
+### Command Line
+1. In the terminal, install the package via apm:
+
+    ```sh
+    apm install vuetify-atom
+    ```
+
+### GUI
+1. Launch Atom
+2. Open Settings View using <kbd>Cmd+,</kbd> on macOS or <kbd>Ctrl+,</kbd> on other platforms
+3. Click the Install tab on the left side
+4. Enter `vuetify-atom` in the search box and press <kbd>Enter</kbd>
+5. Click the "Install" button that appears
 
 ##  Usage
 Coming soon...
