@@ -252,6 +252,448 @@
   		  }
   		</script>
   	"""
+  'Dark Pre-defined layout - Vuetify':
+	  'prefix': 'vPreDefinedLayoutDark'
+	  'body': """
+  		<template>
+  		  <v-app id="inspire" dark>
+  		    <v-navigation-drawer
+  		      clipped
+  		      fixed
+  		      v-model="drawer"
+  		      app
+  		    >
+  		      <v-list dense>
+  		        <v-list-tile @click="">
+  		          <v-list-tile-action>
+  		            <v-icon>dashboard</v-icon>
+  		          </v-list-tile-action>
+  		          <v-list-tile-content>
+  		            <v-list-tile-title>Dashboard</v-list-tile-title>
+  		          </v-list-tile-content>
+  		        </v-list-tile>
+  		        <v-list-tile @click="">
+  		          <v-list-tile-action>
+  		            <v-icon>settings</v-icon>
+  		          </v-list-tile-action>
+  		          <v-list-tile-content>
+  		            <v-list-tile-title>Settings</v-list-tile-title>
+  		          </v-list-tile-content>
+  		        </v-list-tile>
+  		      </v-list>
+  		    </v-navigation-drawer>
+  		    <v-toolbar app fixed clipped-left>
+  		      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+  		      <v-toolbar-title>Application</v-toolbar-title>
+  		    </v-toolbar>
+  		    <v-content>
+  		      <v-container fluid fill-height>
+  		        <v-layout justify-center align-center>
+  		          <v-flex shrink>
+  		            <v-tooltip right>
+  		              <v-btn
+  		                icon
+  		                large
+  		                :href="source"
+  		                target="_blank"
+  		                slot="activator"
+  		              >
+  		                <v-icon large>code</v-icon>
+  		              </v-btn>
+  		              <span>Source</span>
+  		            </v-tooltip>
+  		          </v-flex>
+  		        </v-layout>
+  		      </v-container>
+  		    </v-content>
+  		    <v-footer app fixed>
+  		      <span>&copy; 2017</span>
+  		    </v-footer>
+  		  </v-app>
+  		</template>
+
+  		<script>
+  		  export default {
+  		    data: () => ({
+  		      drawer: true
+  		    }),
+  		    props: {
+  		      source: String
+  		    }
+  		  }
+  		</script>
+	  """
+  'Google Contacts  Pre-defined layout- Vuetify':
+  	'prefix': 'vPreDefinedLayoutGoogleContacts'
+  	'body': """
+  		<template>
+  		  <v-app id="inspire">
+  		    <v-navigation-drawer
+  		      fixed
+  		      :clipped="$vuetify.breakpoint.mdAndUp"
+  		      app
+  		      v-model="drawer"
+  		    >
+  		      <v-list dense>
+  		        <template v-for="item in items">
+  		          <v-layout
+  		            row
+  		            v-if="item.heading"
+  		            align-center
+  		            :key="item.heading"
+  		          >
+  		            <v-flex xs6>
+  		              <v-subheader v-if="item.heading">
+  		                {{ item.heading }}
+  		              </v-subheader>
+  		            </v-flex>
+  		            <v-flex xs6 class="text-xs-center">
+  		              <a href="#!" class="body-2 black--text">EDIT</a>
+  		            </v-flex>
+  		          </v-layout>
+  		          <v-list-group
+  		            v-else-if="item.children"
+  		            v-model="item.model"
+  		            :key="item.text"
+  		            :prepend-icon="item.model ? item.icon : item['icon-alt']"
+  		            append-icon=""
+  		          >
+  		            <v-list-tile slot="activator">
+  		              <v-list-tile-content>
+  		                <v-list-tile-title>
+  		                  {{ item.text }}
+  		                </v-list-tile-title>
+  		              </v-list-tile-content>
+  		            </v-list-tile>
+  		            <v-list-tile
+  		              v-for="(child, i) in item.children"
+  		              :key="i"
+  		              @click=""
+  		            >
+  		              <v-list-tile-action v-if="child.icon">
+  		                <v-icon>{{ child.icon }}</v-icon>
+  		              </v-list-tile-action>
+  		              <v-list-tile-content>
+  		                <v-list-tile-title>
+  		                  {{ child.text }}
+  		                </v-list-tile-title>
+  		              </v-list-tile-content>
+  		            </v-list-tile>
+  		          </v-list-group>
+  		          <v-list-tile v-else @click="" :key="item.text">
+  		            <v-list-tile-action>
+  		              <v-icon>{{ item.icon }}</v-icon>
+  		            </v-list-tile-action>
+  		            <v-list-tile-content>
+  		              <v-list-tile-title>
+  		                {{ item.text }}
+  		              </v-list-tile-title>
+  		            </v-list-tile-content>
+  		          </v-list-tile>
+  		        </template>
+  		      </v-list>
+  		    </v-navigation-drawer>
+  		    <v-toolbar
+  		      color="blue darken-3"
+  		      dark
+  		      app
+  		      :clipped-left="$vuetify.breakpoint.mdAndUp"
+  		      fixed
+  		    >
+  		      <v-toolbar-title style="width: 300px" class="ml-0 pl-3">
+  		        <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+  		        <span class="hidden-sm-and-down">Google Contacts</span>
+  		      </v-toolbar-title>
+  		      <v-text-field
+  		        flat
+  		        solo-inverted
+  		        prepend-icon="search"
+  		        label="Search"
+  		        class="hidden-sm-and-down"
+  		      ></v-text-field>
+  		      <v-spacer></v-spacer>
+  		      <v-btn icon>
+  		        <v-icon>apps</v-icon>
+  		      </v-btn>
+  		      <v-btn icon>
+  		        <v-icon>notifications</v-icon>
+  		      </v-btn>
+  		      <v-btn icon large>
+  		        <v-avatar size="32px" tile>
+  		          <img
+  		            src="https://vuetifyjs.com/static/doc-images/logo.svg"
+  		            alt="Vuetify"
+  		          >
+  		        </v-avatar>
+  		      </v-btn>
+  		    </v-toolbar>
+  		    <v-content>
+  		      <v-container fluid fill-height>
+  		        <v-layout justify-center align-center>
+  		          <v-tooltip right>
+  		            <v-btn
+  		              icon
+  		              large
+  		              :href="source"
+  		              target="_blank"
+  		              slot="activator"
+  		            >
+  		              <v-icon large>code</v-icon>
+  		            </v-btn>
+  		            <span>Source</span>
+  		          </v-tooltip>
+  		        </v-layout>
+  		      </v-container>
+  		    </v-content>
+  		    <v-btn
+  		      fab
+  		      bottom
+  		      right
+  		      color="pink"
+  		      dark
+  		      fixed
+  		      @click.stop="dialog = !dialog"
+  		    >
+  		      <v-icon>add</v-icon>
+  		    </v-btn>
+  		    <v-dialog v-model="dialog" width="800px">
+  		      <v-card>
+  		        <v-card-title
+  		          class="grey lighten-4 py-4 title"
+  		        >
+  		          Create contact
+  		        </v-card-title>
+  		        <v-container grid-list-sm class="pa-4">
+  		          <v-layout row wrap>
+  		            <v-flex xs12 align-center justify-space-between>
+  		              <v-layout align-center>
+  		                <v-avatar size="40px" class="mr-3">
+  		                  <img
+  		                    src="//ssl.gstatic.com/s2/oz/images/sge/grey_silhouette.png"
+  		                    alt=""
+  		                  >
+  		                </v-avatar>
+  		                <v-text-field
+  		                  placeholder="Name"
+  		                ></v-text-field>
+  		              </v-layout>
+  		            </v-flex>
+  		            <v-flex xs6>
+  		              <v-text-field
+  		                prepend-icon="business"
+  		                placeholder="Company"
+  		              ></v-text-field>
+  		            </v-flex>
+  		            <v-flex xs6>
+  		              <v-text-field
+  		                placeholder="Job title"
+  		              ></v-text-field>
+  		            </v-flex>
+  		            <v-flex xs12>
+  		              <v-text-field
+  		                prepend-icon="mail"
+  		                placeholder="Email"
+  		              ></v-text-field>
+  		            </v-flex>
+  		            <v-flex xs12>
+  		              <v-text-field
+  		                type="tel"
+  		                prepend-icon="phone"
+  		                placeholder="(000) 000 - 0000"
+  		                mask="phone"
+  		              ></v-text-field>
+  		            </v-flex>
+  		            <v-flex xs12>
+  		              <v-text-field
+  		                prepend-icon="notes"
+  		                placeholder="Notes"
+  		              ></v-text-field>
+  		            </v-flex>
+  		          </v-layout>
+  		        </v-container>
+  		        <v-card-actions>
+  		          <v-btn flat color="primary">More</v-btn>
+  		          <v-spacer></v-spacer>
+  		          <v-btn flat color="primary" @click="dialog = false">Cancel</v-btn>
+  		          <v-btn flat @click="dialog = false">Save</v-btn>
+  		        </v-card-actions>
+  		      </v-card>
+  		    </v-dialog>
+  		  </v-app>
+  		</template>
+
+  		<script>
+  		  export default {
+  		    data: () => ({
+  		      dialog: false,
+  		      drawer: null,
+  		      items: [
+  		        { icon: 'contacts', text: 'Contacts' },
+  		        { icon: 'history', text: 'Frequently contacted' },
+  		        { icon: 'content_copy', text: 'Duplicates' },
+  		        {
+  		          icon: 'keyboard_arrow_up',
+  		          'icon-alt': 'keyboard_arrow_down',
+  		          text: 'Labels',
+  		          model: true,
+  		          children: [
+  		            { icon: 'add', text: 'Create label' }
+  		          ]
+  		        },
+  		        {
+  		          icon: 'keyboard_arrow_up',
+  		          'icon-alt': 'keyboard_arrow_down',
+  		          text: 'More',
+  		          model: false,
+  		          children: [
+  		            { text: 'Import' },
+  		            { text: 'Export' },
+  		            { text: 'Print' },
+  		            { text: 'Undo changes' },
+  		            { text: 'Other contacts' }
+  		          ]
+  		        },
+  		        { icon: 'settings', text: 'Settings' },
+  		        { icon: 'chat_bubble', text: 'Send feedback' },
+  		        { icon: 'help', text: 'Help' },
+  		        { icon: 'phonelink', text: 'App downloads' },
+  		        { icon: 'keyboard', text: 'Go to the old version' }
+  		      ]
+  		    }),
+  		    props: {
+  		      source: String
+  		    }
+  		  }
+  		</script>
+  	"""
+  'Google Keep Pre-defined layout - Vuetify':
+	  'prefix': 'vPreDefinedLayoutGoogleKeep'
+	  'body': """
+  		<template>
+  		  <v-app id="inspire">
+  		    <v-navigation-drawer
+  		      fixed
+  		      clipped
+  		      class="grey lighten-4"
+  		      app
+  		      v-model="drawer"
+  		    >
+  		      <v-list
+  		        dense
+  		        class="grey lighten-4"
+  		      >
+  		        <template v-for="(item, i) in items">
+  		          <v-layout
+  		            row
+  		            v-if="item.heading"
+  		            align-center
+  		            :key="i"
+  		          >
+  		            <v-flex xs6>
+  		              <v-subheader v-if="item.heading">
+  		                {{ item.heading }}
+  		              </v-subheader>
+  		            </v-flex>
+  		            <v-flex xs6 class="text-xs-right">
+  		              <v-btn small flat>edit</v-btn>
+  		            </v-flex>
+  		          </v-layout>
+  		          <v-divider
+  		            dark
+  		            v-else-if="item.divider"
+  		            class="my-3"
+  		            :key="i"
+  		          ></v-divider>
+  		          <v-list-tile
+  		            :key="i"
+  		            v-else
+  		            @click=""
+  		          >
+  		            <v-list-tile-action>
+  		              <v-icon>{{ item.icon }}</v-icon>
+  		            </v-list-tile-action>
+  		            <v-list-tile-content>
+  		              <v-list-tile-title class="grey--text">
+  		                {{ item.text }}
+  		              </v-list-tile-title>
+  		            </v-list-tile-content>
+  		          </v-list-tile>
+  		        </template>
+  		      </v-list>
+  		    </v-navigation-drawer>
+  		    <v-toolbar color="amber" app absolute clipped-left>
+  		      <v-toolbar-side-icon @click.native="drawer = !drawer"></v-toolbar-side-icon>
+  		      <span class="title ml-3 mr-5">Google&nbsp;<span class="text">Keep</span></span>
+  		      <v-text-field
+  		        solo-inverted
+  		        flat
+  		        label="Search"
+  		        prepend-icon="search"
+  		      ></v-text-field>
+  		      <v-spacer></v-spacer>
+  		    </v-toolbar>
+  		    <v-content>
+  		      <v-container fluid fill-height class="grey lighten-4">
+  		        <v-layout justify-center align-center>
+  		          <v-flex shrink>
+  		            <v-tooltip right>
+  		              <v-btn
+  		                icon
+  		                large
+  		                :href="source"
+  		                target="_blank"
+  		                slot="activator"
+  		              >
+  		                <v-icon large>code</v-icon>
+  		              </v-btn>
+  		              <span>Source</span>
+  		            </v-tooltip>
+  		          </v-flex>
+  		        </v-layout>
+  		      </v-container>
+  		    </v-content>
+  		  </v-app>
+  		</template>
+
+  		<script>
+  		  export default {
+  		    data: () => ({
+  		      drawer: null,
+  		      items: [
+  		        { icon: 'lightbulb_outline', text: 'Notes' },
+  		        { icon: 'touch_app', text: 'Reminders' },
+  		        { divider: true },
+  		        { heading: 'Labels' },
+  		        { icon: 'add', text: 'Create new label' },
+  		        { divider: true },
+  		        { icon: 'archive', text: 'Archive' },
+  		        { icon: 'delete', text: 'Trash' },
+  		        { divider: true },
+  		        { icon: 'settings', text: 'Settings' },
+  		        { icon: 'chat_bubble', text: 'Trash' },
+  		        { icon: 'help', text: 'Help' },
+  		        { icon: 'phonelink', text: 'App downloads' },
+  		        { icon: 'keyboard', text: 'Keyboard shortcuts' }
+  		      ]
+  		    }),
+  		    props: {
+  		      source: String
+  		    }
+  		  }
+  		</script>
+
+  		<style>
+  		  \\#keep main .container {
+  		    height: 660px;
+  		  }
+  		  .navigation-drawer__border {
+  		    display: none;
+  		  }
+  		  .text {
+  		    font-weight: 400;
+  		  }
+  		</style>
+	  """
   'Complex Pre-defined layout - Vuetify':
   	'prefix': 'vPreDefinedLayoutComplex'
   	'body': """
@@ -356,6 +798,492 @@
   		  }
   		</script>
   	"""
+  'Google Youtube Pre-defined layout - Vuetify':
+	  'prefix': 'vPreDefinedLayoutGoogleYoutube'
+	  'body': """
+  		<template>
+  		  <v-app
+  		    dark
+  		    id="inspire"
+  		  >
+  		    <v-navigation-drawer
+  		      fixed
+  		      clipped
+  		      v-model="drawer"
+  		      app
+  		    >
+  		      <v-list dense>
+  		        <v-list-tile v-for="item in items" :key="item.text" @click="">
+  		          <v-list-tile-action>
+  		            <v-icon>{{ item.icon }}</v-icon>
+  		          </v-list-tile-action>
+  		          <v-list-tile-content>
+  		            <v-list-tile-title>
+  		              {{ item.text }}
+  		            </v-list-tile-title>
+  		          </v-list-tile-content>
+  		        </v-list-tile>
+  		        <v-subheader class="mt-3 grey--text text--darken-1">SUBSCRIPTIONS</v-subheader>
+  		        <v-list>
+  		          <v-list-tile v-for="item in items2" :key="item.text" avatar @click="">
+  		            <v-list-tile-avatar>
+  		              <img :src="`https://randomuser.me/api/portraits/men/${item.picture}.jpg`" alt="">
+  		            </v-list-tile-avatar>
+  		            <v-list-tile-title v-text="item.text"></v-list-tile-title>
+  		          </v-list-tile>
+  		        </v-list>
+  		        <v-list-tile class="mt-3" @click="">
+  		          <v-list-tile-action>
+  		            <v-icon color="grey darken-1">add_circle_outline</v-icon>
+  		          </v-list-tile-action>
+  		          <v-list-tile-title class="grey--text text--darken-1">Browse Channels</v-list-tile-title>
+  		        </v-list-tile>
+  		        <v-list-tile @click="">
+  		          <v-list-tile-action>
+  		            <v-icon color="grey darken-1">settings</v-icon>
+  		          </v-list-tile-action>
+  		          <v-list-tile-title class="grey--text text--darken-1">Manage Subscriptions</v-list-tile-title>
+  		        </v-list-tile>
+  		      </v-list>
+  		    </v-navigation-drawer>
+  		    <v-toolbar
+  		      color="red"
+  		      dense
+  		      fixed
+  		      clipped-left
+  		      app
+  		    >
+  		      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+  		      <v-icon class="mx-3">fa-youtube</v-icon>
+  		      <v-toolbar-title class="mr-5 align-center">
+  		        <span class="title">Youtube</span>
+  		      </v-toolbar-title>
+  		      <v-spacer></v-spacer>
+  		      <v-layout row align-center style="max-width: 650px">
+  		        <v-text-field
+  		          placeholder="Search..."
+  		          single-line
+  		          append-icon="search"
+  		          :append-icon-cb="() => {}"
+  		          color="white"
+  		          hide-details
+  		        ></v-text-field>
+  		      </v-layout>
+  		    </v-toolbar>
+  		    <v-content>
+  		      <v-container fill-height>
+  		        <v-layout justify-center align-center>
+  		          <v-flex shrink>
+  		            <v-tooltip right>
+  		              <v-btn
+  		                icon
+  		                large
+  		                :href="source"
+  		                target="_blank"
+  		                slot="activator"
+  		              >
+  		                <v-icon large>code</v-icon>
+  		              </v-btn>
+  		              <span>Source</span>
+  		            </v-tooltip>
+  		          </v-flex>
+  		        </v-layout>
+  		      </v-container>
+  		    </v-content>
+  		  </v-app>
+  		</template>
+
+  		<script>
+  		  export default {
+  		    data: () => ({
+  		      drawer: true,
+  		      items: [
+  		        { icon: 'trending_up', text: 'Most Popular' },
+  		        { icon: 'subscriptions', text: 'Subscriptions' },
+  		        { icon: 'history', text: 'History' },
+  		        { icon: 'featured_play_list', text: 'Playlists' },
+  		        { icon: 'watch_later', text: 'Watch Later' }
+  		      ],
+  		      items2: [
+  		        { picture: 28, text: 'Joseph' },
+  		        { picture: 38, text: 'Apple' },
+  		        { picture: 48, text: 'Xbox Ahoy' },
+  		        { picture: 58, text: 'Nokia' },
+  		        { picture: 78, text: 'MKBHD' }
+  		      ]
+  		    }),
+  		    props: {
+  		      source: String
+  		    }
+  		  }
+  		</script>
+	  """
+  'Sandbox Pre-defined layout - Vuetify':
+    'prefix': 'vPreDefinedLayoutSandbox'
+    'body': """
+      <template>
+        <v-app id="sandbox" :dark="dark">
+          <v-navigation-drawer
+            v-model="primaryDrawer.model"
+            :permanent="primaryDrawer.type === 'permanent'"
+            :temporary="primaryDrawer.type === 'temporary'"
+            :clipped="primaryDrawer.clipped"
+            :floating="primaryDrawer.floating"
+            :mini-variant="primaryDrawer.mini"
+            absolute
+            overflow
+            app
+          ></v-navigation-drawer>
+          <v-toolbar app absolute :clipped-left="primaryDrawer.clipped">
+            <v-toolbar-side-icon
+              @click.stop="primaryDrawer.model = !primaryDrawer.model"
+              v-if="primaryDrawer.type !== 'permanent'"
+            ></v-toolbar-side-icon>
+            <v-toolbar-title>Vuetify</v-toolbar-title>
+          </v-toolbar>
+          <v-content>
+            <v-container fluid>
+              <v-layout align-center justify-center>
+                <v-flex xs10>
+                  <v-card>
+                    <v-card-text>
+                      <v-layout row wrap>
+                        <v-flex xs12 md6>
+                          <span>Scheme</span>
+                          <v-switch primary label="Dark" v-model="dark"></v-switch>
+                        </v-flex>
+                        <v-flex xs12 md6>
+                          <span>Drawer</span>
+                          <v-radio-group v-model="primaryDrawer.type" column>
+                            <v-radio
+                              v-for="drawer in drawers"
+                              :key="drawer"
+                              primary
+                              :label="drawer"
+                              :value="drawer.toLowerCase()"
+                            ></v-radio>
+                          </v-radio-group>
+                          <v-switch label="Clipped" v-model="primaryDrawer.clipped" primary></v-switch>
+                          <v-switch label="Floating" v-model="primaryDrawer.floating" primary></v-switch>
+                          <v-switch label="Mini" v-model="primaryDrawer.mini" primary></v-switch>
+                        </v-flex>
+                        <v-flex xs12 md6>
+                          <span>Footer</span>
+                          <v-switch label="Inset" v-model="footer.inset" primary></v-switch>
+                        </v-flex>
+                      </v-layout>
+                    </v-card-text>
+                    <v-card-actions>
+                      <v-spacer></v-spacer>
+                      <v-btn flat>Cancel</v-btn>
+                      <v-btn flat color="primary">Submit</v-btn>
+                    </v-card-actions>
+                  </v-card>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-content>
+          <v-footer :inset="footer.inset" app>
+            <span class="px-3">&copy; {{ new Date().getFullYear() }}</span>
+          </v-footer>
+        </v-app>
+      </template>
+
+      <script>
+        export default {
+          data: () => ({
+            dark: true,
+            drawers: ['Default (no property)', 'Permanent', 'Temporary'],
+            primaryDrawer: {
+              model: null,
+              type: 'default (no property)',
+              clipped: false,
+              floating: false,
+              mini: false
+            },
+            footer: {
+              inset: false
+            }
+          })
+        }
+      </script>
+		"""
+  'Blog Pre-defined themes blog - Vuetify':
+	  'prefix': 'vPreDefinedThemeBlog'
+	  'body': """
+  		<template>
+  		  <div id="app">
+  		    <v-app light>
+  		      <v-content>
+  		        <v-container>
+  		          <v-layout row wrap align-center>
+  		            <v-flex xs12 md4>
+  		              <div class="text-xs-center">
+  		                <v-avatar size="125px">
+  		                  <img class="img-circle elevation-7 mb-1" src="https://raw.githubusercontent.com/vuetifyjs/docs/dev/static/doc-images/lists/1.jpg">
+  		                </v-avatar>
+  		                <div class="headline">John
+  		                  <span style="font-weight:bold">Carter</span>
+  		                </div>
+  		                <div class="subheading text-xs-center grey--text pt-1 pb-3">Lorem ipsum dolor sit amet</div>
+  		                <v-layout justify-space-between>
+  		                  <a href="javascript:;" class="body-2">Home</a>
+  		                  <a href="javascript:;" class="body-2">About</a>
+  		                  <a href="javascript:;" class="body-2">Github</a>
+  		                  <a href="javascript:;" class="body-2">Other</a>
+  		                </v-layout>
+  		              </div>
+  		            </v-flex>
+  		            <v-flex xs12 md5 offset-md2>
+  		              <div v-for="post in posts" :key="post.title">
+  		                <v-card class="my-3" hover>
+  		                  <v-card-media class="white--text" height="170px" :src="post.imgUrl">
+  		                    <v-container fill-height fluid>
+  		                      <v-layout>
+  		                        <v-flex xs12 align-end d-flex>
+  		                          <span class="headline">{{ post.title }}</span>
+  		                        </v-flex>
+  		                      </v-layout>
+  		                    </v-container>
+  		                  </v-card-media>
+  		                  <v-card-text>
+  		                    {{ post.content }}
+  		                  </v-card-text>
+  		                  <v-card-actions>
+  		                    <v-btn icon class="red--text">
+  		                      <v-icon medium>fa-reddit</v-icon>
+  		                    </v-btn>
+  		                    <v-btn icon class="light-blue--text">
+  		                      <v-icon medium>fa-twitter</v-icon>
+  		                    </v-btn>
+  		                    <v-btn icon class="blue--text text--darken-4">
+  		                      <v-icon medium>fa-facebook</v-icon>
+  		                    </v-btn>
+  		                    <v-spacer></v-spacer>
+  		                    <v-btn flat class="blue--text">Read More</v-btn>
+  		                  </v-card-actions>
+  		                </v-card>
+  		              </div>
+  		            </v-flex>
+  		          </v-layout>
+  		        </v-container>
+  		      </v-content>
+  		      <v-footer class="secondary" app>
+  		        <v-layout row wrap align-center>
+  		          <v-flex xs12>
+  		            <div class="white--text ml-3">
+  		              Made with
+  		              <v-icon class="red--text">favorite</v-icon>
+  		              by
+  		              <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
+  		              and
+  		              <a class="white--text" href="https://github.com/vwxyzjn" target="_blank">Costa Huang</a>
+  		            </div>
+  		          </v-flex>
+  		        </v-layout>
+  		      </v-footer>
+  		    </v-app>
+  		  </div>
+  		</template>
+  		<script>
+      new Vue({
+    	  el: "#app",
+    		data() {
+    		  return {
+    		    title: "Your Logo",
+    		    posts: [
+    		      {
+    		        title: "Fusce ullamcorper tellus",
+    		        content: "Fusce ullamcorper tellus sed maximus rutrum. Donec imperdiet ultrices maximus. Donec non tellus non neque pellentesque fermentum. Aenean in pellentesque urna.",
+    		        imgUrl: "https://raw.githubusercontent.com/vuetifyjs/docs/dev/static/doc-images/cards/drop.jpg"
+    		      },
+    		      {
+    		        title: "Donec vitae suscipit lectus, a luctus diam.",
+    		        content: "Donec vitae suscipit lectus, a luctus diam. Proin vitae felis gravida, lobortis massa sit amet, efficitur erat. Morbi vel ultrices nisi.",
+    		        imgUrl: "https://raw.githubusercontent.com/vuetifyjs/docs/dev/static/doc-images/cards/docks.jpg"
+    		      },
+    		      {
+    		        title: "Vestibulum condimentum quam",
+    		        content: "At sagittis sapien vulputate. Vivamus laoreet lacus id magna rutrum dapibus. Donec vel pellentesque arcu. Maecenas mollis odio tempus felis elementum commodo.",
+    		        imgUrl: "https://raw.githubusercontent.com/vuetifyjs/docs/dev/static/doc-images/cards/plane.jpg"
+    		      }
+    		    ]
+    		  };
+    		}
+      });
+		  </script>
+    """
+  'Parallax Pre-defined themes - Vuetify':
+	  'prefix': 'vPreDefinedThemeParallax'
+	  'body': """
+      <template>
+        <div id="app">
+          <v-app light>
+            <v-toolbar class="white">
+              <v-toolbar-title v-text="title"></v-toolbar-title>
+            </v-toolbar>
+            <v-content>
+              <section>
+                <v-parallax src="${1:src}" height="600">
+                  <v-layout column align-center justify-center class="white--text">
+                    <img src="${2:src}" alt="${3:alt}" height="200">
+                    <h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
+                    <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
+                    <v-btn class="blue lighten-2 mt-5" dark large href="/pre-made-themes">
+                      Get Started
+                    </v-btn>
+                  </v-layout>
+                </v-parallax>
+              </section>
+              <section>
+                <v-layout column wrap class="my-5" align-center>
+                  <v-flex xs12 sm4 class="my-3">
+                    <div class="text-xs-center">
+                      <h2 class="headline">The best way to start developing</h2>
+                      <span class="subheading">
+                        Cras facilisis mi vitae nunc
+                      </span>
+                    </div>
+                  </v-flex>
+                  <v-flex xs12>
+                    <v-container grid-list-xl>
+                      <v-layout row wrap align-center>
+                        <v-flex xs12 md4>
+                          <v-card class="elevation-0 transparent">
+                            <v-card-text class="text-xs-center">
+                              <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
+                            </v-card-text>
+                            <v-card-title primary-title class="layout justify-center">
+                              <div class="headline text-xs-center">Material Design</div>
+                            </v-card-title>
+                            <v-card-text>
+                              Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                            </v-card-text>
+                          </v-card>
+                        </v-flex>
+                        <v-flex xs12 md4>
+                          <v-card class="elevation-0 transparent">
+                            <v-card-text class="text-xs-center">
+                              <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
+                            </v-card-text>
+                            <v-card-title primary-title class="layout justify-center">
+                              <div class="headline">Fast development</div>
+                            </v-card-title>
+                            <v-card-text>
+                              Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                            </v-card-text>
+                          </v-card>
+                        </v-flex>
+                        <v-flex xs12 md4>
+                          <v-card class="elevation-0 transparent">
+                            <v-card-text class="text-xs-center">
+                              <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
+                            </v-card-text>
+                            <v-card-title primary-title class="layout justify-center">
+                              <div class="headline text-xs-center">Completely Open Sourced</div>
+                            </v-card-title>
+                            <v-card-text>
+                              Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                            </v-card-text>
+                          </v-card>
+                        </v-flex>
+                      </v-layout>
+                    </v-container>
+                  </v-flex>
+                </v-layout>
+              </section>
+              <section>
+                <v-parallax src="${4:src}" height="380">
+                  <v-layout column align-center justify-center>
+                    <div class="headline white--text mb-3 text-xs-center">Web development has never been easier</div>
+                    <em>Kick-start your application today</em>
+                    <v-btn class="blue lighten-2 mt-5" dark large href="/pre-made-themes">
+                      Get Started
+                    </v-btn>
+                  </v-layout>
+                </v-parallax>
+              </section>
+              <section>
+                <v-container grid-list-xl>
+                  <v-layout row wrap justify-center class="my-5">
+                    <v-flex xs12 sm4>
+                      <v-card class="elevation-0 transparent">
+                        <v-card-title primary-title class="layout justify-center">
+                          <div class="headline">Company info</div>
+                        </v-card-title>
+                        <v-card-text>
+                          Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                        </v-card-text>
+                      </v-card>
+                    </v-flex>
+                    <v-flex xs12 sm4 offset-sm1>
+                      <v-card class="elevation-0 transparent">
+                        <v-card-title primary-title class="layout justify-center">
+                          <div class="headline">Contact us</div>
+                        </v-card-title>
+                        <v-card-text>
+                          Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                        </v-card-text>
+                        <v-list class="transparent">
+                          <v-list-tile>
+                            <v-list-tile-action>
+                              <v-icon class="blue--text text--lighten-2">phone</v-icon>
+                            </v-list-tile-action>
+                            <v-list-tile-content>
+                              <v-list-tile-title>777-867-5309</v-list-tile-title>
+                            </v-list-tile-content>
+                          </v-list-tile>
+                          <v-list-tile>
+                            <v-list-tile-action>
+                              <v-icon class="blue--text text--lighten-2">place</v-icon>
+                            </v-list-tile-action>
+                            <v-list-tile-content>
+                              <v-list-tile-title>Chicago, US</v-list-tile-title>
+                            </v-list-tile-content>
+                          </v-list-tile>
+                          <v-list-tile>
+                            <v-list-tile-action>
+                              <v-icon class="blue--text text--lighten-2">email</v-icon>
+                            </v-list-tile-action>
+                            <v-list-tile-content>
+                              <v-list-tile-title>john@vuetifyjs.com</v-list-tile-title>
+                            </v-list-tile-content>
+                          </v-list-tile>
+                        </v-list>
+                      </v-card>
+                    </v-flex>
+                  </v-layout>
+                </v-container>
+              </section>
+              <v-footer class="blue darken-2">
+                <v-layout row wrap align-center>
+                  <v-flex xs12>
+                    <div class="white--text ml-3">
+                      Made with
+                      <v-icon class="red--text">favorite</v-icon>
+                      by
+                      <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
+                      and
+                      <a class="white--text" href="https://github.com/vwxyzjn">Costa Huang</a>
+                    </div>
+                  </v-flex>
+                </v-layout>
+              </v-footer>
+            </v-content>
+          </v-app>
+        </div>
+      </template>
+      <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            title: "Your Logo"
+          };
+        }
+      });
+      </script>
+	  """
   'elevation-1 - Vuetify':
     'prefix': 'elevation1'
     'body': 'elevation-1$0'
@@ -2576,3 +3504,574 @@
   		  down: () => swipe('Down'),
   		}"$0
   	"""
+
+  'debounce - Vuetify':
+  	'prefix': 'debounce'
+  	'body': 'debounce="${1:0}"$0'
+
+  'close-delay - Vuetify':
+  	'prefix': 'closeDelay'
+  	'body': 'close-delay="${1:200}"$0'
+
+  'scroll-threshold - Vuetify':
+  	'prefix': 'scrollThreshold'
+  	'body': 'scroll-threshold="${1:300}"$0'
+
+  'mobile-break-point - Vuetify':
+  	'prefix': 'mobileBreakPoint'
+  	'body': 'mobile-break-point="${1:1264}"$0'
+
+  'buffer-value - Vuetify':
+  	'prefix': 'bufferValue'
+  	'body': 'buffer-value="${1:100}"$0'
+
+  'tabindex - Vuetify':
+  	'prefix': 'tabindex'
+  	'body': 'tabindex="${1:0}"$0'
+
+  'mini-variant-width - Vuetify':
+  	'prefix': 'miniVariantWidth'
+  	'body': 'mini-variant-width="${1:80}"$0'
+
+  'rotate - Vuetify':
+  	'prefix': 'rotate'
+  	'body': 'rotate="${1:0}"$0'
+
+  'step - Vuetify':
+  	'prefix': 'step'
+  	'body': 'step="${1:1}"$0'
+
+  'timeout - Vuetify':
+  	'prefix': 'timeout'
+  	'body': 'timeout="${1:6000}"$0'
+
+  'first-day-of-week - Vuetify':
+  	'prefix': 'firstDayOfWeek'
+  	'body': 'first-day-of-week="${1:0}"$0'
+
+  'v-scroll:#target - Vuetify':
+  	'prefix': 'vScrollTarget'
+  	'body': 'v-scroll:#target="${1:callback}"'
+
+  'v-scroll - Vuetify':
+  	'prefix': 'vScroll'
+  	'body': 'v-scroll="${1:callback}"$0'
+
+  'prepend-icon-cb - Vuetify':
+  	'prefix': 'prependIconCb'
+  	'body': 'prepend-icon-cb="${1:Function}"$0'
+
+  'value-comparator - Vuetify':
+  	'prefix': 'valueComparator'
+  	'body': 'value-comparator="${1:Function}"$0'
+
+  'header-date-format - Vuetify':
+  	'prefix': 'headerDateFormat'
+  	'body': 'header-date-format="${1:Function}"$0'
+
+  'allowed-dates - Vuetify':
+  	'prefix': 'allowedDates'
+  	'body': 'allowed-dates="${1:Function}"$0'
+
+  'dayFormat - Vuetify':
+  	'prefix': 'dayFormat'
+  	'body': 'day-format="${1:Function}"$0'
+
+  'month-format - Vuetify':
+  	'prefix': 'monthFormat'
+  	'body': 'month-format="${1:Function}"$0'
+
+  'title-date-format - Vuetify':
+  	'prefix': 'titleDateFormat'
+  	'body': 'title-date-format="${1:Function}"$0'
+
+  'year-format - Vuetify':
+  	'prefix': 'yearFormat'
+  	'body': 'year-format="${1:Function}"$0'
+
+  'allowed-hours - Vuetify':
+  	'prefix': 'allowedHours'
+  	'body': 'allowed-hours="${1:Function}"$0'
+
+  'allowed-minutes - Vuetify':
+  	'prefix': 'allowedMinutes'
+  	'body': 'allowed-minutes="${1:Function}"$0'
+
+  'v-resize - Vuetify':
+  	'prefix': 'vResize'
+  	'body': 'v-resize="${1:callback}"$0'
+
+  'v-resize.quiet - Vuetify':
+  	'prefix': 'vResizeQuiet'
+  	'body': 'v-resize.quiet="${1:callback}"$0'
+
+  ':ripple - Vuetify':
+  	'prefix': ':ripple'
+  	'body': 'ripple="${1:false}"$0'
+
+  'attach - Vuetify':
+  	'prefix': 'attach='
+  	'body': 'attach="${1:false}"$0'
+
+  'show-current - Vuetify':
+  	'prefix': 'showCurrent'
+  	'body': 'show-current="true"$0'
+
+  'max-height auto - Vuetify':
+  	'prefix': 'maxHeight'
+  	'body': 'max-height="auto"$0'
+
+  'custom-filter - Vuetify':
+  	'prefix': 'customFilter'
+  	'body': 'custom-filter="$1"$0'
+
+  'custom-sort - Vuetify':
+  	'prefix': 'customSort'
+  	'body': 'custom-sort="$1"$0'
+
+  'input - Vuetify':
+  	'prefix': 'input'
+  	'body': 'input="$1"$0'
+
+  'change - Vuetify':
+  	'prefix': 'change'
+  	'body': 'change="$1"$0'
+
+  'pagination.sync - Vuetify':
+  	'prefix': 'paginationSync'
+  	'body': 'pagination.sync="$1"$0'
+
+  'append-icon-cb - Vuetify':
+  	'prefix': 'appendIconCb'
+  	'body': 'append-icon-cb="$1"$0'
+
+  'active.sync - Vuetify':
+  	'prefix': 'activeSync'
+  	'body': 'active.sync="$1"$0'
+
+  'update:pagination - Vuetify':
+  	'prefix': 'updatePagination'
+  	'body': 'update:pagination="$1"$0'
+
+  'update:search-input - Vuetify':
+  	'prefix': 'updateSearchInput'
+  	'body': 'update:search-input="$1"$0'
+
+  'update:mini-variant - Vuetify':
+  	'prefix': 'updateMiniVariant'
+  	'body': 'update:mini-variant="$1"$0'
+
+  'update:active - Vuetify':
+  	'prefix': 'updateActive'
+  	'body': 'update:active="$1"$0'
+
+  'right with value - Vuetify':
+  	'prefix': 'right'
+  	'body': 'right="$1"$0'
+
+  'next - Vuetify':
+  	'prefix': 'next'
+  	'body': 'next="$1"$0'
+
+  'update:error - Vuetify':
+  	'prefix': 'updateError'
+  	'body': 'update:error="$1"$0'
+
+  'min-width - Vuetify':
+	  'prefix': 'minWidth'
+	  'body': 'min-width="$1"$0'
+
+  'slot - Vuetify':
+  	'prefix': 'slot'
+  	'body': 'slot="$1"$0'
+
+  'extension-height - Vuetify':
+  	'prefix': 'extensionHeight'
+  	'body': 'extension-height="$1"$0'
+
+  'content-tag - Vuetify':
+  	'prefix': 'contentTag'
+  	'body': 'content-tag="$1"$0'
+
+  'tag - Vuetify':
+  	'prefix': 'tag'
+  	'body': 'tag="$1"$0'
+
+  'icon - Vuetify':
+  	'prefix': 'icon'
+  	'body': 'icon="$1"$0'
+
+  'delimiter-icon - Vuetify':
+  	'prefix': 'delimiterIcon'
+  	'body': 'delimiter-icon="$1"$0'
+
+  'prepend-icon - Vuetify':
+  	'prefix': 'prependIcon'
+  	'body': 'prepend-icon="$1"$0'
+
+  'year-icon - Vuetify':
+  	'prefix': 'yearIcon'
+  	'body': 'year-icon="$1"$0'
+
+  'active-class - Vuetify':
+  	'prefix': 'activeClass'
+  	'body': 'active-class="$1"$0'
+
+  'exact-active-class - Vuetify':
+  	'prefix': 'exactActiveClass'
+  	'body': 'exact-active-class="$1"$0'
+
+  'content-class - Vuetify':
+  	'prefix': 'contentClass'
+  	'body': 'content-class="$1"$0'
+
+  'value - Vuetify':
+  	'prefix': 'value'
+  	'body': 'value="$1"$0'
+
+  'return-value - Vuetify':
+  	'prefix': 'returnValue'
+  	'body': 'return-value="$1"$0'
+
+  'item-value - Vuetify':
+  	'prefix': 'itemValue'
+  	'body': 'item-value="$1"$0'
+
+  'false-value - Vuetify':
+  	'prefix': 'falseValue'
+  	'body': 'false-value="$1"$0'
+
+  'true-value - Vuetify':
+  	'prefix': 'trueValue'
+  	'body': 'true-value="$1"$0'
+
+  'input-value - Vuetify':
+  	'prefix': 'inputValue'
+  	'body': 'input-value="$1"$0'
+
+  'size - Vuetify':
+  	'prefix': 'size'
+  	'body': 'size="$1"$0'
+
+  'mode - Vuetify':
+  	'prefix': 'mode'
+  	'body': 'mode="$1"$0'
+
+  'origin - Vuetify':
+  	'prefix': 'origin'
+  	'body': 'origin="$1"$0'
+
+  'type - Vuetify':
+  	'prefix': 'type'
+  	'body': 'type="$1"$0'
+
+  'max-width - Vuetify':
+  	'prefix': 'maxWidth'
+  	'body': 'max-width="$1"$0'
+
+  'divider - Vuetify':
+  	'prefix': 'divider'
+  	'body': 'divider="$1"$0'
+
+  'target - Vuetify':
+  	'prefix': 'target'
+  	'body': 'target="$1"$0'
+
+  'scroll-target - Vuetify':
+  	'prefix': 'scrollTarget'
+  	'body': 'scroll-target="$1"$0'
+
+  'to - Vuetify':
+  	'prefix': 'to'
+  	'body': 'to="$1"$0'
+
+  'direction - Vuetify':
+  	'prefix': 'direction'
+  	'body': 'direction="$1"$0'
+
+  'interval - Vuetify':
+  	'prefix': 'interval'
+  	'body': 'interval="$1"$0'
+
+  'label - Vuetify':
+  	'prefix': 'label'
+  	'body': 'label="$1"$0'
+
+  'no-data-text - Vuetify':
+  	'prefix': 'noDataText'
+  	'body': 'no-data-text="$1"$0'
+
+  'no-results-text - Vuetify':
+  	'prefix': 'noResultsText'
+  	'body': 'no-results-text="$1"$0'
+
+  'items - Vuetify':
+  	'prefix': 'items'
+  	'body': 'items="$1"$0'
+
+  'rows-per-page-items - Vuetify':
+  	'prefix': 'rowsPerPageItems'
+  	'body': 'rows-per-page-items="$1"$0'
+
+  'total-items - Vuetify':
+  	'prefix': 'totalItems'
+  	'body': 'total-items="$1"$0'
+
+  'rows-per-page-text - Vuetify':
+  	'prefix': 'rowsPerPageText'
+  	'body': 'rows-per-page-text="$1"$0'
+
+  'content-props - Vuetify':
+  	'prefix': 'contentProps'
+  	'body': 'content-props="$1"$0'
+
+  'filter - Vuetify':
+  	'prefix': 'filter'
+  	'body': 'filter="$1"$0'
+
+  'item-key - Vuetify':
+  	'prefix': 'itemKey'
+  	'body': 'item-key="$1"$0'
+
+  'search - Vuetify':
+  	'prefix': 'search'
+  	'body': 'search="$1"$0'
+
+  'select-all - Vuetify':
+  	'prefix': 'selectAll'
+  	'body': 'select-all="$1"$0'
+
+  'headers - Vuetify':
+  	'prefix': 'headers'
+  	'body': 'headers="$1"$0'
+
+  'cancel-text - Vuetify':
+  	'prefix': 'cancelText'
+  	'body': 'cancel-text="$1"$0'
+
+  'save-text - Vuetify':
+  	'prefix': 'saveText'
+  	'body': 'save-text="$1"$0'
+
+  'search-input - Vuetify':
+  	'prefix': 'searchInput'
+  	'body': 'search-input="$1"$0'
+
+  'browser-autocomplete - Vuetify':
+  	'prefix': 'browserAutocomplete'
+  	'body': 'browser-autocomplete="$1"$0'
+
+  'error-messages - Vuetify':
+  	'prefix': 'errorMessages'
+  	'body': 'error-messages="$1"$0'
+
+  'hint - Vuetify':
+  	'prefix': 'hint'
+  	'body': 'hint="$1"$0'
+
+  'item-avatar - Vuetify':
+  	'prefix': 'itemAvatar'
+  	'body': 'item-avatar="$1"$0'
+
+  'item-text - Vuetify':
+  	'prefix': 'itemText'
+  	'body': 'item-text="$1"$0'
+
+  'mask - Vuetify':
+  	'prefix': 'mask'
+  	'body': 'mask="$1"$0'
+
+  'max-height - Vuetify':
+  	'prefix': 'maxHeight'
+  	'body': 'max-height="$1"$0'
+
+  'placeholder - Vuetify':
+  	'prefix': 'placeholder'
+  	'body': 'placeholder="$1"$0'
+
+  'rules - Vuetify':
+  	'prefix': 'rules'
+  	'body': 'rules="$1"$0'
+
+  'toggle-keys - Vuetify':
+  	'prefix': 'toggleKeys'
+  	'body': 'toggle-keys="$1"$0'
+
+  'blur - Vuetify':
+  	'prefix': 'blur'
+  	'body': 'blur="$1"$0'
+
+  'name - Vuetify':
+  	'prefix': 'name'
+  	'body': 'name="$1"$0'
+
+  'counter - Vuetify':
+  	'prefix': 'counter'
+  	'body': 'counter="$1"$0'
+
+  'prefix - Vuetify':
+  	'prefix': 'prefix'
+  	'body': 'prefix="$1"$0'
+
+  'rows - Vuetify':
+  	'prefix': 'rows'
+  	'body': 'rows="$1"$0'
+
+  'suffix - Vuetify':
+  	'prefix': 'suffix'
+  	'body': 'suffix="$1"$0'
+
+  'gradient - Vuetify':
+  	'prefix': 'gradient'
+  	'body': 'gradient="$1"$0'
+
+  'z-index - Vuetify':
+  	'prefix': 'zIndex'
+  	'body': 'z-index="$1"$0'
+
+  'total-visible - Vuetify':
+  	'prefix': 'totalVisible'
+  	'body': 'total-visible="$1"$0'
+
+  'events - Vuetify':
+  	'prefix': 'events'
+  	'body': 'events="$1"$0'
+
+  'max - Vuetify':
+  	'prefix': 'max'
+  	'body': 'max="$1"$0'
+
+  'min - Vuetify':
+  	'prefix': 'min'
+  	'body': 'min="$1"$0'
+
+  'picker-date - Vuetify':
+  	'prefix': 'picker-date'
+  	'body': 'picker-date="$1"$0'
+
+  'width - Vuetify':
+  	'prefix': 'width'
+  	'body': 'width="$1"$0'
+
+  'background-opacity - Vuetify':
+  	'prefix': 'backgroundOpacity'
+  	'body': 'background-opacity="$1"$0'
+
+  'height - Vuetify':
+  	'prefix': 'height'
+  	'body': 'height="$1"$0'
+
+  'nudge-bottom - Vuetify':
+  	'prefix': 'nudgeBottom'
+  	'body': 'nudge-bottom="${1:0}"$0'
+
+  'nudge-left - Vuetify':
+  	'prefix': 'nudgeLeft'
+  	'body': 'nudge-left="${1:0}"$0'
+
+  'nudge-top - Vuetify':
+  	'prefix': 'nudgeTop'
+  	'body': 'nudge-top="${1:0}"$0'
+
+  'nudge-width - Vuetify':
+  	'prefix': 'nudgeWidth'
+  	'body': 'nudge-width="${1:0}"$0'
+
+  'nudge-right - Vuetify':
+  	'prefix': 'nudgeRight'
+  	'body': 'nudge-right="${1:0}"$0'
+
+  'nextIcon - Vuetify':
+  	'prefix': 'nextIcon'
+  	'body': 'next-icon="${1:chevron_right}"$0'
+
+  'prev-icon - Vuetify':
+  	'prefix': 'prevIcon'
+  	'body': 'prev-icon="${1:chevron_left}"$0'
+
+  'complete-icon - Vuetify':
+  	'prefix': 'completeIcon'
+  	'body': 'complete-icon="${1:check}"$0'
+
+  'edit-icon - Vuetify':
+  	'prefix': 'editIcon'
+  	'body': 'edit-icon="${1:edit}"$0'
+
+  'error-icon - Vuetify':
+  	'prefix': 'errorIcon'
+  	'body': 'error-icon="${1:warning}"$0'
+
+  'append-icon - Vuetify':
+  	'prefix': 'appendIcon'
+  	'body': 'append-icon="${1:arrow_drop_down}"$0'
+
+  'expand-icon - Vuetify':
+  	'prefix': 'expandIcon'
+  	'body': 'expand-icon="${1:keyboard_arrow_down}"$0'
+
+  'max-width="auto" - Vuetify':
+  	'prefix': 'maxWidthAuto'
+  	'body': 'max-width="auto"$0'
+
+  'v-ripple center - Vuetify':
+  	'prefix': 'vRippleCenter'
+  	'body': 'v-ripple="{ center: true }"$0'
+
+  'v-ripple my-class - Vuetify':
+  	'prefix': 'vRippleClass'
+  	'body': 'v-ripple="{ class: \'${1:my-class}\' }"$0'
+
+  'open-delay - Vuetify':
+  	'prefix': 'openDelay'
+  	'body': 'open-delay="${1:0}"$0'
+
+  'v-resize directive  - Vuetify':
+	  'prefix': 'vResize'
+	  'body': 'v-resize="${1:onResizeFunction}"$0'
+
+  'v-resize function - Vuetify':
+  	'prefix': 'vResizeFunction'
+  	'body': """
+  		onResize () {
+  		  this.windowSize = { x: window.innerWidth, y: window.innerHeight }
+  		}
+  	"""
+
+  'Ripple directive - Vuetify':
+  	'prefix': 'vRipple'
+  	'body': 'ripple$0'
+
+  'Ripple directive center - Vuetify':
+  	'prefix': 'vRippleCenter'
+  	'body': ':ripple="{ center: true }"$0'
+
+  'Ripple directive custom class - Vuetify':
+  	'prefix': 'vRippleClass'
+  	'body': ':ripple="{ class: '${1:my-class}' }"$0'
+
+  'Ripple directive disabled - Vuetify':
+  	'prefix': 'vRippleDisabled'
+  	'body': ':ripple="false"$0'
+
+  'Ripple directive for standard HTML element - Vuetify':
+  	'prefix': 'vRippleHTML',
+  	'body': """
+  		<${1:div} v-ripple>
+  		  $2HTML element with v-ripple
+  		</$1>$0
+  	"""
+  'v-scroll directive - Vuetify':
+  	'prefix': 'vScroll'
+  	'body': 'v-scroll="${1:onScrollFunction}"$0'
+
+  'v-scroll directive function - Vuetify':
+  	'prefix': 'vScrollFunction'
+  	'body': """
+  		onScroll (e) {
+  		  this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
+  		}
+  	"""
+
+  'v-scroll directive for target - Vuetify':
+  	'prefix': 'vScrollTarget'
+  	'body': 'v-scroll:#target="${1:callback}$0"'
