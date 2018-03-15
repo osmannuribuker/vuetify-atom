@@ -1,42 +1,31 @@
 '.text.html.vue':
-  'Vuetify script link':
-	    'prefix': 'vLink'
-	    'body': """
-	      <script src='https://unpkg.com/vuetify/dist/vuetify.js'></script>
-	    """
-	  'Material design icons link':
-	    'prefix': 'mIconLink'
-	    'body': """
-	      <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
-	    """
-	  'vuetify quick start':
-	    'prefix': 'vQuickStart'
-	    'body': """
-	      <!DOCTYPE html>
-	      <html>
-	        <head>
-	          <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
-	          <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
-	          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-	        </head>
-	        <body>
-	          <div id="app">
-	            <v-app>
-	              <v-content>
-	                <v-container>Hello world</v-container>
-	              </v-content>
-	            </v-app>
-	          </div>
+  'vuetify quick start':
+    'prefix': 'vQuickStart'
+    'body': """
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+          <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+        </head>
+        <body>
+          <div id="app">
+            <v-app>
+              <v-content>
+                <v-container>Hello world</v-container>
+              </v-content>
+            </v-app>
+          </div>
 
-	          <script src="https://unpkg.com/vue/dist/vue.js"></script>
-	          <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
-	          <script>
-	            new Vue({ el: '#app' })
-	          </script>
-	        </body>
-	      </html>
+          <script src="https://unpkg.com/vue/dist/vue.js"></script>
+          <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+          <script>
+            new Vue({ el: '#app' })
+          </script>
+        </body>
+      </html>
 	  """
-
   'Vuetify default layout':
   	'prefix': 'vPreDefinedLayoutDefault'
   	'body': """
@@ -1284,6 +1273,977 @@
       });
       </script>
 	  """
+  'v-container component - Vuetify':
+    'prefix': 'vContainer'
+    'body': """
+      <v-container grid-list-${1:xs,sm,md,lg,xl}>
+      \t$2
+      </v-container>$0
+    """
+  'v-container with all props - Vuetify':
+    'prefix': 'vContainerWithProps'
+    'body': """
+      <v-container
+        ${1:align-baseline}
+        ${2:align-center}
+        ${3:align-content-center}
+        ${4:align-content-end}
+        ${5:align-content-space-around}
+        ${6:align-content-space-between}
+        ${7:align-content-start}
+        ${8:align-end}
+        ${9:align-start}
+        ${10:d-${11:flex}}
+        ${12:fill-height}
+        ${13:fluid}
+        ${14:grid-list-${15:xs}}
+        ${16:id="${17:id}"}
+        ${18:justify-center}
+        ${19:justify-end}
+        ${20:justify-space-around}
+        ${21:justify-space-between}
+        ${22:justify-start}
+        ${23:reverse}
+        ${24:tag="${25:div}"}
+        ${26:wrap}
+      >
+      \t$27
+      </v-container>$0
+    """
+  'v-layout with props - Vuetify':
+    'prefix': 'vLayoutWithProps'
+    'body': """
+      <v-layout
+        ${1:align-baseline}
+        ${2:align-center}
+        ${3:align-content-center}
+        ${4:align-content-end}
+        ${5:align-content-space-around}
+        ${6:align-content-space-between}
+        ${7:align-content-start}
+        ${8:align-end}
+        ${9:align-start}
+        ${10:column}
+        ${11:d-${12:flex}}
+        ${13:fill-height}
+        ${14:id="${15:id}"}
+        ${16:justify-center}
+        ${17:justify-end}
+        ${18:justify-space-around}
+        ${19:justify-space-between}
+        ${20:justify-start}
+        ${21:reverse}
+        ${22:row}
+        ${23:tag="${24:div}"}
+        ${25:wrap}
+      >
+      \t$26
+      </v-layout>$0
+    """
+  'v-layout component - Vuetify':
+    'prefix': 'vLayout'
+    'body': """
+      <v-layout row wrap>
+      \t$1
+      </v-layout>$0
+    """
+  'v-layout with column prop - Vuetify':
+    'prefix': 'vLayoutColumn'
+    'body': """
+      <v-layout column>
+      \t$1
+      </v-layout>$0
+    """
+  'v-flex component - Vuetify':
+    'prefix': 'vFlex'
+    'body': """
+      <v-flex ${1:${2:xs}${3:1}}>
+      \t$4
+      </v-flex>$0
+    """
+  'v-flex with all props - Vuetify':
+    'prefix': 'vFlexWithProps'
+    'body': """
+      <v-flex
+        ${1:xs}${2:1}
+        ${3:align-baseline}
+        ${4:align-center}
+        ${5:align-content-center}
+        ${6:align-content-end}
+        ${7:align-content-space-around}
+        ${8:align-content-space-between}
+        ${9:align-content-start}
+        ${10:align-end}
+        ${11:align-start}
+        ${12:d-${13:flex}}
+        ${14:fill-height}
+        ${15:id="${16:id}"}
+        ${17:justify-center}
+        ${18:justify-end}
+        ${19:justify-space-around}
+        ${20:justify-space-between}
+        ${21:justify-start}
+        ${22:offset-${23:xs}${24:1}}
+        ${25:order-${26:xs}${27:1}}
+        ${28:reverse}
+        ${29:tag="${30:div}"}
+        ${31:wrap}
+      >
+      \t$32
+      </v-flex>$0
+    """
+  'v-spacer component - Vuetify':
+    'prefix': 'vSpacer'
+    'body': """
+      <v-spacer></v-spacer>$0
+    """
+  'Breakpoing object of Grid system - Vuetify':
+    'prefix': 'vGridBreakpointObject'
+    'body': """
+      breakpointObject() {
+        // Use in computed property
+        switch (this.$vuetify.breakpoint.name) {
+          $1case 'xs': return '220px'
+          case 'sm': return '400px'
+          case 'md': return '500px'
+          case 'lg': return '600px'
+          case 'xl': return '800px'
+        }
+      }$0
+    """
+  'v-alert component - Vueitfy':
+    'prefix': 'vAlert'
+    'body': """
+      <v-alert type="${1:primary}" :value="${2:true}">
+      \t$3
+      </v-alert>$0
+    """
+  'v-alert with all props - Vuetify':
+    'prefix': 'vAlertWithProps'
+    'body': """
+      <v-alert
+        ${1:color="${2:primary}"}
+        ${3:dismissible}
+        ${4:icon="${5:icon}"}
+        ${6:mode="$7"}
+        ${8:origin="$9"}
+        ${10:outline}
+        ${11:transition="${12:fade-transition}"}
+        ${13:type="$14"}
+        ${15:value="$16"}
+      >
+        ${17:text}
+      </v-alert>$0
+    """
+  'v-alert cloaseble without icon - Vueitfy':
+    'prefix': 'vAlertClosable'
+    'body': """
+      <v-alert type="${1:primary}" dismissible v-model="${2:value}">
+      \t$3
+      </v-alert>$0
+    """
+  'v-alert closable with icon - Vueitfy':
+    'prefix': 'vAlertClosableIcon'
+    'body': """
+      <v-alert color="${1:primary}" icon="$2" dismissible v-model="${2:true}">
+      \t${3:Alert text}
+      </v-alert>$0
+    """
+  'v-alert with icon - Vueitfy':
+    'prefix': 'vAlertIcon'
+    'body': """
+      <v-alert color="${1:primary}" icon="$2" :value="${3:true}">
+      \t$4
+      </v-alert>$0
+    """
+  'v-alert with no icon - Vueitfy':
+    'prefix': 'vAlertNoIcon'
+    'body': """
+      <v-alert color="${1:primary}" :value="${2:true}">
+      \t$3
+      </v-alert>$0
+    """
+  'v-alert with transition - Vueitfy':
+    'prefix': 'vAlertTransition'
+    'body': """
+      <v-alert color="${1:primary}" :value="${2:true}" transition="${3:fade-transition}">
+      \t$4
+      </v-alert>$0
+    """
+  'v-alert outlined - Vueitfy':
+    'prefix': 'vAlertOutline'
+    'body': """
+      <v-alert outline color="${1:primary}" icon="$2" :value="${3:true}">
+      \t$4
+      </v-alert>$0
+    """
+  'v-avatar component - Vueitfy':
+    'prefix': 'vAvatar'
+    'body': """
+      <v-avatar
+        size="${1:avatarSize}"
+        class="${2:red}"
+      >
+        <img src="${3:src}" alt="${4:alt}">
+      </v-avatar>$0
+    """
+  'v-avatar with all props - Vuetify':
+    'prefix': 'vAvatarWithProps'
+    'body': """
+      <v-avatar
+        ${1:color="${2:red}"}
+        ${3:size="${4:48}"}
+        ${5:tile}
+      >
+         <img src="${6:src}" alt="${7:alt}">
+      </v-avatar>$0
+    """
+  'v-avatar with an icon - Vuetify':
+    'prefix': 'vAvatarIcon'
+    'body': """
+      <v-avatar class="${1:color="${2:red}">
+        <v-icon dark>${3:icon}</v-icon>
+      </v-avatar>$0
+    """
+  'v-avatar with text - Vuetify':
+    'prefix': 'vAvatarText'
+    'body': """
+      <v-avatar class="${1:color="${2:red}">
+        <span class="${3:red}--text headline">${4:text}</span>
+      </v-avatar>$0
+    """
+  'v-avatar with a badge - Vuetify':
+    'prefix': 'vAvatarBadge'
+    'body': """
+      <v-badge overlap>
+        <span slot="badge">${1:badgeText}</span>
+        <v-avatar class="${2:red} ${3:red}--after">
+          <v-icon dark>${4:icon}</v-icon>
+        </v-avatar>
+      </v-badge>$0
+    """
+  'v-badge component - Vuetify':
+    'prefix': 'vBadge'
+    'body': """
+      <v-badge ${1:left} ${2:color="${3:primary}"}>
+        <span slot="badge">${4:badgeText}</span> <!--slot can be any component-->
+        <v-icon ${5:large} color="${6:primary}">${7:icon}</v-icon>
+      </v-badge>$0
+    """
+  'v-badge with all props - Vuetify':
+    'prefix': 'vBadgeWithProps'
+    'body': """
+      <v-badge
+        ${1:bottom}
+        ${2:color="${3:primary}"}
+        ${4:left}
+        ${5:mode="$6"}
+        ${7:origin="$8"}
+        ${9:overlap}
+        ${10:transition="${12:fab-transition}"}
+        ${13:value="$14"}
+      >
+         <span slot="badge">${15:badgeText}</span> <!--slot can be any component-->
+         <v-icon ${16:large} color="${17:primary}">${18:icon}</v-icon>
+      </v-badge>$0
+    """
+  'v-badge with overlap prop - Vuetify':
+    'prefix': 'vBadgeOverlap'
+    'body': """
+      <v-badge ${1:left} color="${2:primary}" ${3:overlap}>
+        <v-icon slot="badge" dark small>
+          ${4:badge_icon}
+        </v-icon>
+        <v-icon large color="${5:primary}">${6:icon}</v-icon>
+      </v-badge>$0"
+    """
+  'v-badge with inline text - Vuetify':
+    'prefix': 'vBadgeInline'
+    'body': """
+      <v-badge ${1:left} color="${2:primary}">
+        <v-icon slot="badge" ${3:dark} ${4:small}>${5:icon}</v-icon> <!--slot can be any component-->
+        <span>${6:text}</span>
+      </v-badge>$0
+    """
+  'v-badge visiblity example - Vuetify':
+    'prefix': 'vBadgeVisibility'
+    'body': """
+      <v-badge ${1:left} ${2:color="${3:primary}"} v-model="${4:value}">
+        <span slot="badge">${5:badgeText}</span> <!--slot can be any component-->
+        <v-icon ${6:large} color="${7:primary}">${8:icon}</v-icon>
+      </v-badge>$0
+    """
+  'v-bottom-nav component - Vuetify':
+    'prefix': 'vBottomNav'
+    'body': """
+      <v-bottom-nav
+        ${1:absolute}
+        ${2:value="${3:value}"}
+        ${4:active.sync="${5:value}"}
+        ${6:shift}
+        ${7:color="${8:red}"}
+      >
+      <v-btn ${9:flat} ${10:color="${11:red}"} ${12:dark}>
+        <span>${13:text}</span>
+        <v-icon>${14:icon}</v-icon>
+      </v-btn>$15
+      </v-bottom-nav>$0
+    """
+  'v-bottom-nav with props - Vuetify':
+    'prefix': 'vBottomNavWithProps'
+    'body': """
+      <v-bottom-nav
+        ${1:absolute}
+        ${2:active.sync="${3:value}"}
+        ${4:app}
+        ${5:color="${6:red}"}
+        ${7:fixed}
+        ${8:height="${9:56}"}
+        ${10:shift}
+        ${11:value="${12:value}"}
+      >
+        $13
+      </v-bottom-nav>$0
+    """
+  'v-bottom-nav template - Vuetify':
+    'prefix': 'vBottomNavTemplate'
+    'body': """
+      <v-bottom-nav
+        ${1:absolute}
+        ${2:shift}
+        ${3:value="${4:value}"}
+        ${5:active.sync="${6:value}"}
+        ${7:color="${8:primary}"}
+      >
+        <v-btn dark>
+          <span>${9:text}</span>
+          <v-icon>${10:icon}</v-icon>
+        </v-btn>
+        <v-btn dark>
+          <span>${11:text}</span>
+          <v-icon>${12:icon}</v-icon>
+        </v-btn>
+        <v-btn dark>
+          <span>${13:text}</span>
+          <v-icon>${14:icon}</v-icon>
+        </v-btn>
+        <v-btn dark>
+          <span>${15:text}</span>
+          <v-icon>${16:icon}</v-icon>
+        </v-btn>
+      </v-bottom-nav>$0
+    """
+  'v-bottom-sheet component - Vuetify':
+    'prefix': 'vBottomSheet'
+    'body': """
+      <v-bottom-sheet ${1:inset} ${2:v-model="${3:value}"}>
+        $4
+      </v-bottom-sheet>$0
+    """
+  'v-bottom-sheet with all props - Vuetify':
+    'prefix': 'vBottomSheetWithProps'
+    'body': """
+      <v-bottom-sheet ${1:inset}>
+        ${1:disabled}
+        ${2:full-width}
+        ${3:hide-overlay}
+        ${4:inset}
+        ${5:lazy}
+        ${6:max-width="${7:auto}"}
+        ${8:persistent}
+        ${9:value="${10:value}"}
+      >
+        $11
+      </v-bottom-sheet>
+    """
+  'v-bottom-sheet template with inset example - Vuetify':
+    'prefix': 'vBottomSheetTemplateInset'
+    'body': """
+      <v-bottom-sheet inset>
+        <v-btn slot="activator" color="red" dark>Show player</v-btn>
+        <v-card tile>
+          <v-progress-linear $1height="3" :value="50" class="my-0"></v-progress-linear>
+          <v-list>
+            <v-list-tile>
+              <v-list-tile-content>
+                <v-list-tile-title>${2:title}</v-list-tile-title>
+                <v-list-tile-sub-title>${3:subTitle}</v-list-tile-sub-title>
+              </v-list-tile-content>
+              <v-spacer></v-spacer>
+              <v-list-tile-action>
+                <v-btn icon>
+                    <v-icon>$4fast_rewind</v-icon>
+                </v-btn>
+              </v-list-tile-action>
+              <v-list-tile-action$5 class="{ 'mx-5': $vuetify.breakpoint.mdAndUp }">
+                <v-btn icon>
+                    <v-icon>$6pause</v-icon>
+                </v-btn>
+              </v-list-tile-action>
+              <v-list-tile-action$7 :class="{ 'mr-3': $vuetify.breakpoint.mdAndUp }">
+                <v-btn icon>
+                  <v-icon>$8fast_forward</v-icon>
+                </v-btn>
+              </v-list-tile-action>
+            </v-list-tile>
+          </v-list>
+        </v-card>
+      </v-bottom-sheet>$0
+    """
+  'v-breadcumbs - Vuetify':
+    'prefix': 'vBreadcrumbs'
+    'body': """
+      <v-breadcrumbs divider="${1:/}">
+      \t$2
+      </v-breadcrumbs>
+    """
+  'v-breadcrumbs with all props - Vuetify':
+    'prefix': 'vBreadcrumbsWithProps'
+    'body': """
+      <v-breadcrumbs
+        divider="${1:/}"
+        ${2:justify-center}
+        ${3:justify-end}
+        ${4:large}
+      >
+      \t$5
+      </v-breadcrumbs>
+    """
+  'v-breadcrumbs simple template - Vuetify':
+    'prefix': 'vBreadcrumbsTemplate'
+    'body': """
+      <v-breadcrumbs divider="${1:/}">
+        <v-breadcrumbs-item
+          v-for="${2:item in items}"
+          :key="${3:item.key}"
+          :disabled="${4:item.disabled}"
+        >
+          {{ ${5:item.key} }}
+        </v-breadcrumbs-item>
+      </v-breadcrumbs>$0
+    """
+  'v-breadcrumbs template with icon divider - Vuetify':
+    'prefix': 'vBreadcrumbsTemplateIconDivider'
+    'body': """
+      <v-breadcrumbs>
+      <v-icon slot="divider">${1:icon}</v-icon>
+        <v-breadcrumbs-item
+          v-for="${2:item in items}"
+          :key="${3:item.key}"
+          :disabled="${4:item.disabled}"
+        >
+          {{ ${5:item.key} }}
+        </v-breadcrumbs-item>
+      </v-breadcrumbs>$0
+    """
+  'v-breadcrumbs-item component - Vuetify':
+    'prefix': 'vBreadcrumbsItem'
+    'body': """
+      <v-breadcrumbs-item>
+        ${1:text}
+      </v-breadcrumbs-item>$0
+    """
+  'v-breadcrumbs-item with all props - Vuetify':
+    'prefix': 'vBreadcrumbsItemWithProps'
+    'body': """
+      <v-breadcrumbs-item
+        ${1:active-class="${2:class}"}
+        ${3:append}
+        ${4:disabled}
+        ${5:exact}
+        ${6:exact-active-class="${7:class}"}
+        ${8:href="${9:value}"}
+        ${10:nuxt}
+        ${11:replace}
+        ${12:ripple}
+        ${13:tag="${14:tag}"}
+        ${15:target="${16:target}"}
+        ${17:to="${18:to}"}
+      >
+        ${19:text}
+      </v-breadcrumbs-item>$0
+    """
+  'v-btn component - Vuetify':
+    'prefix': 'vBtn'
+    'body': """
+      "<v-btn color="${1:success}">${2:text}</v-btn>
+    """
+  'v-btn with all props list - Vuetify':
+    'prefix': 'vBtnWithProps'
+    'body': """
+      <v-btn
+        ${1:absolute}
+        ${2:active-class="${3:btn--active}"}
+        ${4:append}
+        ${5:block}
+        ${6:bottom} ${7:top}
+        ${8:color="${9:primary}"}
+        ${10:dark} ${11:light}
+        ${12:depressed}
+        ${13:disabled}
+        ${14:exact}
+        ${15:exact-active-class="${16:class}"}
+        ${17:fab}
+        ${18:fixed}
+        ${19:flat}
+        ${20:href="${21:href}"}
+        ${22:icon}
+        ${23:input-value="${24:value}"}
+        ${25:loading}
+        ${26:nuxt}
+        ${27:outline}
+        ${28:replace}
+        ${29:right} ${30:left}
+        ${31:ripple}
+        ${32:round}
+        ${33:small} ${34:large}
+        ${35:tag="${36:button}"}
+        ${37:target="${38:target}"}
+        ${39:to="${40:to}"}
+        ${41:type="${42:button}"}
+        ${43:value="${44:value}"}
+      >
+        ${45:text}
+      </v-btn>$0
+    """
+  'v-btn with flat prop example - Vuetify':
+    'prefix': 'vBtnFlat'
+    'body': """
+      <v-btn flat ${1:small} ${2:color="${3:primary}"}>${4:text}</v-btn>$0
+    """
+  'v-btn disabled with flat prop example - Vuetify':
+    'prefix': 'vBtnFlatDisabled'
+    'body': """
+      <v-btn flat ${1:small} ${2:color="${3:primary}"} ${4:disabled}>${5:text}</v-btn>$0
+    """
+  'v-btn with raised prop - Vuetify':
+    'prefix': 'vBtnRaised'
+    'body': """
+      <v-btn ${1:small} ${2:color="${3:primary}"}>${4:text}</v-btn>$0
+    """
+  'v-btn with raised prop - Vuetify':
+    'prefix': 'vBtnRaisedDisabled'
+    'body': """
+      <v-btn ${1:small} ${2:color="${3:primary}"} ${4:disabled}>${5:text}</v-btn>$0
+    """
+  'v-btn with depressed prop - Vuetify':
+    'prefix': 'vBtnDepressed'
+    'body': """
+      <v-btn depressed ${1:small} ${2:color="${3:primary}"}>${4:text}</v-btn>$0
+    """
+  'v-btn disabled with depressed prop - Vuetify':
+    'prefix': 'vBtnDepressedDisabled'
+    'body': """
+      <v-btn depressed ${1:small} ${2:color="${3:primary}"} ${4:disabled}>${5:text}</v-btn>$0
+    """
+  'v-select as button dropdown varient - Vuetify':
+    'prefix': 'vBtnDropdown'
+    'body': """
+      <v-select
+        items="${1:items}"
+        label="${2:label}"
+        ${3:segmented} ${4:overflow} ${5:editable}
+        target="#${6:target}"
+      ></v-select>$0
+    """
+  'v-btn-toggle as button - Vuetify':
+    'prefix': 'vBtnToggle'
+    'body': """
+      <v-btn-toggle ${1:mandatory} ${2:multiple} v-model="${3:value}">
+      \t$4
+      </v-btn-toggle>$0
+    """
+  'v-btn-toggle simple template - Vuetify':
+    'prefix': 'vBtnToggleTemplate'
+    'body': """
+      <v-btn-toggle ${1:mandatory} ${2:multiple} v-model="${3:value}">
+        <v-btn flat>
+          <v-icon>${4:icon}</v-icon>
+        </v-btn>
+        <v-btn flat>
+          <v-icon>${5:icon}</v-icon>
+        </v-btn>
+        <v-btn flat>
+          <v-icon>${6:icon}</v-icon>
+        </v-btn>
+        <v-btn flat>
+          <v-icon>${7:icon}</v-icon>
+        </v-btn>
+      </v-btn-toggle>$0
+    """
+  'v-btn-toggle template with text - Vuetify':
+    'prefix': 'vBtnToggleTemplateText'
+    'body': """
+      <v-btn-toggle ${1:multiple} ${2:mandatory} v-model="${3:value}">
+        <v-btn flat value="${4:value}">
+          ${5:text}
+        </v-btn>
+        <v-btn flat value="${6:value}">
+          ${7:text}
+        </v-btn>
+        <v-btn flat value="${8:value}">
+          ${9:text}
+        </v-btn>
+        <v-btn flat value="${10:value}">
+          ${11:text}
+        </v-btn>
+      </v-btn-toggle>$0
+    """
+  'v-btn-toggle template with text and icon - Vuetify':
+    'prefix': 'vBtnToggleTemplateTextIcon'
+    'body': """
+      <v-btn-toggle ${1:multiple} ${2:mandatory} v-model="${3:value}">
+        <v-btn flat value="${4:value}">
+          <span>${5:text}</span>
+          <v-icon>${6:icon}</v-icon>
+        </v-btn>
+        <v-btn flat value="${7:value}">
+          <span>${8:text}</span>
+          <v-icon>${9:icon}</v-icon>
+        </v-btn>
+        <v-btn flat value="${10:value}">
+          <span>${11:text}</span>
+          <v-icon>${12:icon}</v-icon>
+        </v-btn>
+        <v-btn flat value="${13:value}">
+          <span>${14:text}</span>
+          <v-icon>${15:icon}</v-icon>
+        </v-btn>
+      </v-btn-toggle>$0
+    """
+  'v-btn as icon - Vuetify':
+    'prefix': 'vBtnIcon'
+    'body': """
+      <v-btn ${1:flat} ${2:icon} ${3:color="${4:primary}"} ${5:disabled}>
+        <v-icon>${6:icon}</v-icon>
+      </v-btn>$0
+    """
+  'v-btn as floating - Vuetify':
+    'prefix': 'vBtnFloating'
+    'body': """
+      <v-btn fab ${1:dark} ${2:small} ${3:color="${4:primary}"}>
+        <v-icon dark>${5:icon}</v-icon>
+      </v-btn>$0
+    """
+  'v-btn with a loader when clicked - Vuetify':
+    'prefix': 'vBtnLoader'
+    'body': """
+      <v-btn
+        color="${1:primary}"
+        :loading="${2:value}"
+        @click.native="${3:click}"
+        :disabled="${4:value}"
+        class="${5:red}--text"
+      >
+        ${6:text}
+        <v-icon ${7:right} dark>${8:icon}</v-icon> <!-- Remove if don't want to use icon. -->
+      </v-btn>$0
+    """
+  'v-btn with custom loader example - Vuetify':
+    'prefix': 'vBtnLoaderCustom'
+    'body': """
+      <v-btn
+        color="${1:primary}"
+        :loading="${2:value}"
+        @click.native="${3:click}"
+        :disabled="${4:value}"
+      >
+        ${5:text}
+        <span slot="loader" class="${6:custom-loader-class}">
+          <v-icon light>${7:icon}</v-icon>
+        </span>
+      </v-btn>$0
+    """
+  'v-btn with outline prop - Vuetify':
+    'prefix': 'vBtnOutline'
+    'body': """
+      <v-btn outline ${1:color="${2:primary}"} dark>${3:text}</v-btn>$0
+    """
+  'v-btn with round prop - Vuetify':
+    'prefix': 'vBtnRound'
+    'body': """
+      <v-btn round ${1:color="${2:primary}"} dark>${3:text}</v-btn>$0
+    """
+  'v-btn with block prop - Vuetify':
+    'prefix': 'vBtnBlock'
+    'body': """
+      <v-btn block ${1:color="${2:primary}"} dark>${3:text}</v-btn>$0
+    """
+  'v-speed-dial component - Vuetify':
+    'prefix': 'vSpeedDial'
+    'body': """
+      <v-speed-dial
+        ${1:bottom} ${2:top}
+        ${3:left} ${4:right}
+        ${5:direction="${6:top}"}
+        ${7:open-on-hover}
+        ${8:transition="${9:fade-transition}"}
+      >
+      \t$10
+      </v-speed-dial>$0
+    """
+  'v-speed-dial with all props list - Vuetify':
+    'prefix': 'vSpeedDialWithProps'
+    'body': """
+      <v-speed-dial
+        ${1:absolute}
+        ${2:bottom} ${3:top}
+        ${4:direction="${5:top}"}
+        ${6:fixed}
+        ${7:left} ${8:right}
+        ${9:mode="${10:mode}"}
+        ${11:open-on-hover}
+        ${12:origin="${13:origin}"}
+        ${14:transition="${15:fade-transition}"}
+        ${16:value="${17:value}"}
+      >
+        $18
+      </v-speed-dial>$0
+    """
+  'v-speed-dial template example - Vuetify':
+    'prefix': 'vSpeedDialTemplate'
+    'body': """
+      <v-speed-dial
+        v-model="fab"
+        ${2:bottom} ${3:top}
+        ${4:left} ${5:right}
+        ${6:direction="${7:top}"
+        ${8:open-on-hover}
+        ${9:transition="${10:fade-transition}"}
+      >
+        <v-btn
+          slot="activator"
+          color="${11:primary}"
+          dark
+          fab
+          ${12:hover}
+          v-model="${12:value}"
+        >
+          <v-icon>${12:primayIcon}</v-icon>
+          <v-icon>${12:secondaryIcon}</v-icon>
+        </v-btn>
+        <v-btn
+          fab
+          dark
+          small
+          color="${13:primary}"
+        >
+          <v-icon>${14:icon}</v-icon>
+        </v-btn>
+      </v-speed-dial>$0
+    """
+  'v-btn as floating action button - Vuetify':
+    'prefix': 'vFab'
+    'body': """
+      <v-btn
+        fab
+        ${1:small}
+        color="${2:primary}"
+        ${3:top}
+        ${4:left}
+        ${5:absolute}
+        @click.native.stop="${6:click}"
+      >
+        <v-icon>${7:icon}</v-icon>
+      </v-btn>$0
+    """
+  'v-btn as floating action button with display animation - Vuetify':
+    'prefix': 'vFabDisplayAnimation'
+    'body': """
+      <v-fab-transition>
+        <v-btn
+          fab
+          ${1:small}
+          color="${2:primary}"
+          ${3:top}
+          ${4:left}
+          ${5:absolute}
+          v-show="${6:show}"
+        >
+          <v-icon>${7:icon}</v-icon>
+        </v-btn>
+      </v-fab-transition>
+    """
+  'v-card component - Vuetify':
+    'prefix': 'vCard'
+    'body': """
+      <v-card>
+      \t$1
+      </v-card>$0
+    """
+  'v-card with all props - Vuetify':
+    'prefix': 'vCardWithProps'
+    'body': """
+      <v-card
+        ${1:active-class="${2:class}"}
+        ${3:append}
+        ${4:color="${5:primary}"}
+        ${6:dark} ${7:light}
+        ${8:disabled}
+        ${9:exact}
+        ${10:exact-active-class="${11:class}"}
+        ${12:flat} ${13:raised}
+        ${14:height="${15:auto}"}
+        ${16:hover}
+        ${17:href="${18:href}"}
+        ${19:img="${20:src}"}
+        ${21:nuxt}
+        ${22:replace}
+        ${23:ripple="${24:true}"}
+        ${25:tag="${26:div}"}
+        ${27:target="${28:target}"}
+        ${29:tile}
+        ${30:to="${31:to}"}
+        ${32:width="${33:width}"}
+      >
+      \t$34
+      </v-card>$0
+    """
+  'v-card simple usage template example - Vuetify':
+    'prefix': 'vCardTemplate'
+    'body': """
+      <v-card>
+        <v-card-media src="${1:src}" height="${2:200px}">
+        </v-card-media>
+        <v-card-title ${3:primary-title}>
+          <div>
+            <h3 class="headline mb-0">${4:headline}</h3>
+            <div>${5:description}</div>
+          </div>
+        </v-card-title>
+        <v-card-actions>
+          <v-btn flat color="${6:primary}">${7:text}</v-btn>
+          <v-btn flat color="${8:primary}">${9:text}</v-btn>
+        </v-card-actions>
+      </v-card>$0
+    """
+  'v-card template media with text example - Vuetify':
+    'prefix': 'vCardTemplateMediaWithText'
+    'body': """
+      <v-card>
+        <v-card-media
+          class="${1:red}--text"
+          src="${2:src}"
+          height="${3:200px}">
+          <v-container fill-height fluid>
+            <v-layout fill-height>
+              <v-flex xs12 align-end flexbox>
+                <span class="headline">${4:headline}</span>
+              </v-flex>
+            </v-layout>
+          </v-container>
+        </v-card-media>
+        <v-card-title>
+          <div>
+            <span class="${5:red}--text">${6:text}</span><br>
+            <span>${7:text}</span><br>
+            <span>${8:description}</span>
+          </div>
+        </v-card-title>
+        <v-card-actions>
+          <v-btn flat color="${9:primary}">${10:text}</v-btn>
+          <v-btn flat color="${11:primary}">${12:text}</v-btn>
+        </v-card-actions>
+      </v-card>$0
+    """
+  'v-card horizontal template example - Vuetify':
+    'prefix': 'vCardTemplateHorizontal'
+    'body': """
+      <v-layout row wrap>
+        <v-flex xs12>
+          <v-card color="${1:primary}" class="${2:red}--text">
+            <v-container fluid grid-list-lg>
+              <v-layout row>
+                <v-flex xs7>
+                  <div>
+                    <div class="headline">${3:headline}</div>
+                    <div>${4:description}</div>
+                  </div>
+                </v-flex>
+                <v-flex xs5>
+                  <v-card-media
+                    src="${4:src}"
+                    height="${5:125px}"
+                    contain
+                  ></v-card-media>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-card>
+        </v-flex>
+      </v-layout>$0
+    """
+  'v-card custom actions template example - Vuetify':
+    'prefix': 'vCardTemplateCustomActions'
+    'body': """
+      <v-card>
+        <v-card-media
+          src="${1:src}"
+          height="${2:200px}"
+        >
+        </v-card-media>
+        <v-card-title ${3:primary-title}>
+          <div>
+            <div class="headline">${4:headline}</div>
+            <span class="${5:red}--text">${6:desription}</span>
+          </div>
+        </v-card-title>
+        <v-card-actions>
+          <v-btn flat>${7:text}</v-btn>
+          <v-btn flat color="${8:primary}">${9:text}</v-btn>
+          <v-spacer></v-spacer>
+          <v-btn icon @click.native="show = !show">
+            <v-icon>{{ show ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
+          </v-btn>
+        </v-card-actions>
+        <v-slide-y-transition>
+          <v-card-text v-show="show">
+            ${10:hidden text}
+          </v-card-text>
+        </v-slide-y-transition>
+      </v-card>$0
+    """
+  'v-card-media component - Vuetify':
+    'prefix': 'vCardMedia'
+    'body': """
+      <v-card-media
+        ${1:contain}
+        ${2:height="${3:auto}"}
+        ${4:src="${5:src}"}
+      >
+      \t$6
+      </v-card-media>$0
+    """
+  'v-card-media with all props list - Vuetify':
+    'prefix': 'vCardMediaWithProps'
+    'body': """
+      <v-card-media
+        ${1:contain}
+        ${2:height=\"${3:auto}\"}
+        ${4:src=\"${5:src}\"}
+      >
+      \t$6
+      </v-card-media>$0
+    """
+  'v-card-title component - Vuetify':
+    'prefix': 'vCardTitle'
+    'body': """
+      <v-card-title ${1:primary-title}>
+        ${2:title}
+      </v-card-title>$0
+    """
+  'v-card-title props - Vuetify':
+    'prefix': 'vCardTitleProps'
+    'body': """
+      ${1:primary-title}$0
+    """
+  'v-card-actions component - Vuetify':
+    'prefix': 'vCardActions'
+    'body': """
+      <v-card-actions>
+      \t$1
+      </v-card-actions>$0
+    """
   'elevation-1 - Vuetify':
     'prefix': 'elevation1'
     'body': """
@@ -1988,6 +2948,32 @@
   	'prefix': 'pa-5'
   	'body': """
       pa-5$0
+    """
+
+  'extra small size - Vuetify':
+    'prefix': 'xs'
+    'body': """
+      ""xs$0"
+    """
+  'small size - Vuetify':
+    'prefix': 'sm'
+    'body': """
+      ""sm$0"
+    """
+  'medium size - Vuetify':
+    'prefix': 'md'
+    'body': """
+      ""md$0"
+    """
+  'large size - Vuetify':
+    'prefix': 'lg'
+    'body': """
+      ""lg$0"
+    """
+  'extra large size - Vuetify':
+    'prefix': 'xl'
+    'body': """
+      ""xl$0"
     """
   'align-baseline - Vuetify':
 	  'prefix': 'alignBaseline'
@@ -4585,6 +5571,46 @@
   	'body': """
       z-index="$1"$0
     """
+  'color - Vuetify':
+    'prefix': 'color'
+    'body': """
+      color="${1:primary}"$0
+    """
+  'text-color - Vuetify':
+    'prefix': 'textColor'
+    'body': """
+      text-color="${1:primary}"$0
+    """
+  'event-color - Vuetify':
+    'prefix': 'eventColor'
+    'body': """
+      event-color="warning${1:primary}"$0
+    """
+  'background-color - Vuetify':
+    'prefix': 'backgroundColor'
+    'body': """
+      background-color="${1:primary}"$0
+    """
+  'thumb-color - Vuetify':
+    'prefix': 'thumbColor'
+    'body': """
+      thumb-color="${1:primary}"$0
+    """
+  'track-color - Vuetify':
+    'prefix': 'trackColor'
+    'body': """
+      track-color="${1:primary}"$0
+    """
+  'slider-color - Vuetify':
+    'prefix': 'sliderColor'
+    'body': """
+      slider-color="${1:primary}"$0
+    """
+  'header-color - Vuetify':
+    'prefix': 'headerColor'
+    'body': """
+      header-color="${1:primary}"$0
+    """
   'total-visible - Vuetify':
   	'prefix': 'totalVisible'
   	'body': """
@@ -4717,7 +5743,6 @@
   		  this.windowSize = { x: window.innerWidth, y: window.innerHeight }
   		}
   	"""
-
   'Ripple directive - Vuetify':
   	'prefix': 'vRipple'
   	'body': """
@@ -4750,7 +5775,6 @@
   	'body': """
       v-scroll="${1:onScrollFunction}"$0
     """
-
   'v-scroll directive function - Vuetify':
   	'prefix': 'vScrollFunction'
   	'body': """
@@ -4758,9 +5782,23 @@
   		  this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
   		}
   	"""
-
   'v-scroll directive for target - Vuetify':
   	'prefix': 'vScrollTarget'
   	'body': """
       v-scroll:#target="${1:callback}$0"
+    """
+  'locale - Vueitfy':
+    'prefix': 'locale'
+    'body': """
+      locale="${1:en}"$0
+    """
+  'transition - Vuetify':
+    'prefix': 'transition'
+    'body': """
+      "transition="${1:fade-transition}"$0"
+    """
+  'time format - Vuetify':
+    'prefix': 'format'
+    'body': """
+      format="${1:ampm}"$0
     """

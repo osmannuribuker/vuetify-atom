@@ -9,7 +9,7 @@
 
 `vuetify-atom` is the official extension for Vuetifyjs when working in Atom. It provides snippets and autocomplete functionality for Vuetifyjs.
 
-## Changelog for Atom
+## Changelog
 Comin soon...
 
 ## Documentation

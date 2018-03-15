@@ -17,10 +17,6 @@
             {
               "label": "Toggle",
               "command": "vuetify-atom:toggle"
-            },
-            {
-              "label": "Abhay",
-              "command": "vuetify-atom:abhay"
             }
           ]
         }
