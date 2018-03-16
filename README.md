@@ -9,7 +9,6 @@
 `vuetify-atom` is the official extension for Vuetifyjs when working in Atom. It provides snippets and autocomplete functionality for Vuetifyjs.
 
 ## Documentation
-## Documentation
 For all snippets available for Atom editor [click here](https://github.com/vuetifyjs/vuetify-atom/blob/master/documentation.md)
 
 ## Installation

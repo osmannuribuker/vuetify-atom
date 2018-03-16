@@ -5,7 +5,7 @@
 ### Pre-defined themes
 ### Grid & Breakpoints
 #### Grid system 
-### SPACING
+### Spacing
 ### Text alignment
 ### Display
 ### Elevation
@@ -13,6 +13,7 @@
 ## STYLES & THEMES
 ### Colors
 ### Typography
+
 ## MOTION & TRANSITIONS
 ### Scrolling
 ### Transitions

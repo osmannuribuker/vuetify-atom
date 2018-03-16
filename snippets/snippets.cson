@@ -10025,3 +10025,86 @@
     'body': """
       format="${1:ampm}"$0
     """
+  'Vuetify import':
+    'prefix': 'vImport'
+    'body': """
+      import Vuetify from 'vuetify'
+    """ 
+  'Vuetify css import':
+    'prefix': 'vImportCss'
+    'body': """
+      import 'vuetify/dist/vuetify.min.css'
+    """
+  'Import babel-polyfill':  
+    'prefix': 'bablePolyfillImport'
+    'body': """
+      import 'babel-polyfill'
+    """   
+  'Define new theme - Vuetify':
+    'prefix': 'vThemeCreate'
+    'body': """
+      // Helpers
+      import colors from 'vuetify/es5/util/colors'
+      
+      Vue.use(Vuetify, {
+        theme: {
+          primary: colors.${1:primaryColor},
+          secondary: colors.${3:secondaryColor},
+          accent: colors.${5:accentColor},
+          error: colors.${7:errorColor}
+        }
+      })$0
+    """      
+  'Theme minification - Vuetify':
+    'prefix': 'vThemeMinification'
+    'body': """
+      Vue.use(Vuetify, {
+        options: {
+          minifyTheme: function () {
+            return process.env.NODE_ENV === 'production'
+              ? val.replace(/[\\s|\r\n|\r|\n]/g, '')
+              : null
+          }
+        }
+      })$0
+    """
+  'Theme caching - Vuetify':
+    'prefix': 'vThemeCaching'
+    'body': """
+      const themeCache = LRU({
+        max: 10,
+        maxAge: 1000 * 60 * 60 // 1 hour
+      })
+      
+      Vue.use(Vuetify, {
+        options: {
+          themeCache
+        }
+      })$0
+    """ 
+  'v-form email rule - Vuetify':
+    'prefix': 'vFormEmailRules'
+    'body': """
+      emailRules: [
+        v => !!v || 'E-mail is required',
+        v => /^\\w+([.-]?\\w+)*@\\w+([.-]?\\w+)*(\\.\\w{2,3})+$/.test(v) || 'E-mail must be valid'
+      ]$0
+    """
+  'v-form name rule - Vuetify':
+    'prefix': 'vFormNameRule'
+    'body': """
+      nameRules: [
+        v => !!v || 'Name is required',
+        v => v.length <= 10 || 'Name must be less than 10 characters'
+      ]$0
+    """
+  'Vuetify script link':
+    'prefix': 'vLink'
+    'body': """
+      <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+    """
+  'Material Design icons link':
+    'prefix': 'mIconLink'
+    'body': """
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" rel="stylesheet">
+    """
