@@ -9,7 +9,8 @@
 `vuetify-atom` is the official extension for Vuetifyjs when working in Atom. It provides snippets and autocomplete functionality for Vuetifyjs.
 
 ## Documentation
-Coming soon...
+## Documentation
+For all snippets available for Atom editor [click here](https://github.com/vuetifyjs/vuetify-atom/blob/master/documentation.md)
 
 ## Installation
 ### Command Line
@@ -27,7 +28,64 @@ Coming soon...
 5. Click the "Install" button that appears
 
 ##  Usage
-Coming soon...
+#### Snippet
+You don't need usage example if you are familiar with concept of snippets or you looked up the documentation. But here is an example:
+
+Let's suppose you want to insert Button componenet. For that you have to write full component.
+
+````HTML
+<v-btn>buttonText<v-btn>
+````
+
+But in `vuetify-vscode` only writing `vBtn` will give you all options available for Button component.
+
+Everything is in camel case and with 'v' prefix which is for Vuetifyjs.
+
+If you want to insert a component with all of its props. Just write `v{component-name}WithProps`. This will insert component with all of its props. For example : `vBtnWithProps`, `vAvatarWithProps` etc.
+
+#### Templates
+Every component in the Vuetify have additional code to write inside it. For example the `v-btn-toggle` component have `v-btn` inside it. Thats why `vuetify-vscode` provides templates for them.
+The syntax of template is pretty easy. `v{component}Template` or `v{component}Template{availableTemplate}`
+For example `vBtnToggleTemplate` will give you following code.
+
+```HTML
+<v-btn-toggle mandatory multiple v-model="value">
+  <v-btn flat>
+    <v-icon>icon</v-icon>
+  </v-btn>
+  <v-btn flat>
+    <v-icon>icon</v-icon>
+  </v-btn>
+  <v-btn flat>
+    <v-icon>icon</v-icon>
+  </v-btn>
+  <v-btn flat>
+    <v-icon>icon</v-icon>
+  </v-btn>
+</v-btn-toggle>
+```
+
+and `vBtnToggleTemplateTextIcon` will give you following code.
+````HTML
+<v-btn-toggle multiple mandatory v-model="value">
+  <v-btn flat value="value">
+    <span>text</span>
+    <v-icon>icon</v-icon>
+  </v-btn>
+  <v-btn flat value="value">
+    <span>text</span>
+    <v-icon>icon</v-icon>
+  </v-btn>
+  <v-btn flat value="value">
+    <span>text</span>
+    <v-icon>icon</v-icon>
+  </v-btn>
+  <v-btn flat value="value">
+    <span>text</span>
+    <v-icon>icon</v-icon>
+  </v-btn>
+</v-btn-toggle>
+````
 
 ## Upcoming features
 - on hover documentation for components and props
