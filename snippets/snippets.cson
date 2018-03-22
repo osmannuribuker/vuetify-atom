@@ -1821,7 +1821,7 @@
     'body': """
       <v-btn ${1:small} ${2:color="${3:primary}"}>${4:text}</v-btn>$0
     """
-  'v-btn with raised prop - Vuetify':
+  'v-btn disabled with raised prop - Vuetify':
     'prefix': 'vBtnRaisedDisabled'
     'body': """
       <v-btn ${1:small} ${2:color="${3:primary}"} ${4:disabled}>${5:text}</v-btn>$0
