@@ -1,9 +1,12 @@
 # Changelog
 All notable changes to `vuetify-atom` will be documented in this file.
 
+## 0.1.3 - 2018-03-22
+## Fixed
+- duplicate key `'v-icon with font awesome - Vuetify'`
 ## 0.1.2 - 2018-03-22
 ### Fixed
-- duplicate key `'v-btn with raised prop - Vuetify':`
+- duplicate key `'v-btn with raised prop - Vuetify'`
 
 ## 0.1.1 - 2018-03-16
 ### Added
