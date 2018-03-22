@@ -4678,7 +4678,7 @@
     'body': """
       <v-icon>fa-${1:iconName}</v-icon>$0
     """
-  'v-icon with font awesome - Vuetify':
+  'v-icon with material icons - Vuetify':
     'prefix': 'vIconMaterialDesign'
     'body': """
       <v-icon>mdi-${1:iconName}</v-icon>$0
