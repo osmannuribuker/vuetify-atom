@@ -1,7 +1,7 @@
 {
   "name": "vuetify-atom",
   "main": "./lib/vuetify-atom",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Official Vuetifyjs Atom Extension",
   "keywords": [
     "vuetify",
