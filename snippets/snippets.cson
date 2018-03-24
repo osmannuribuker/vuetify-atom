@@ -24,7 +24,7 @@
             new Vue({ el: '#app' })
           </script>
         </body>
-      </html>
+      </html>$0
 	  """
   'Vuetify default layout':
   	'prefix': 'vPreDefinedLayoutDefault'
@@ -38,7 +38,7 @@
   				</v-container>
   			</v-content>
   			<v-footer app></v-footer>
-  		</v-app>
+  		</v-app>$0
   	"""
   'Centered Pre-defined layout - Vuetify':
 	  'prefix': 'vPreDefinedLayoutCentered'
@@ -93,7 +93,7 @@
   		      source: String
   		    }
   		  }
-  		</script>
+  		</script>$0
 	  """
   'Baseline Flipped Pre-defined layout - Vuetify':
 	  'prefix': 'vPreDefinedLayoutBaselineFlipped'
@@ -166,7 +166,7 @@
   		      source: String
   		    }
   		  }
-  		</script>
+  		</script>$0
     """
   'Baseline Pre-defined layout - Vuetify':
 	  'prefix': 'vPreDefinedLayoutBaseline'
@@ -239,7 +239,7 @@
   		      source: String
   		    }
   		  }
-  		</script>
+  		</script>$0
   	"""
   'Dark Pre-defined layout - Vuetify':
 	  'prefix': 'vPreDefinedLayoutDark'
@@ -310,7 +310,7 @@
   		      source: String
   		    }
   		  }
-  		</script>
+  		</script>$0
 	  """
   'Google Contacts  Pre-defined layout- Vuetify':
   	'prefix': 'vPreDefinedLayoutGoogleContacts'
@@ -553,7 +553,7 @@
   		      source: String
   		    }
   		  }
-  		</script>
+  		</script>$0
   	"""
   'Google Keep Pre-defined layout - Vuetify':
 	  'prefix': 'vPreDefinedLayoutGoogleKeep'
@@ -681,7 +681,7 @@
   		  .text {
   		    font-weight: 400;
   		  }
-  		</style>
+  		</style>$0
 	  """
   'Complex Pre-defined layout - Vuetify':
   	'prefix': 'vPreDefinedLayoutComplex'
@@ -785,7 +785,7 @@
   		      source: String
   		    }
   		  }
-  		</script>
+  		</script>$0
   	"""
   'Google Youtube Pre-defined layout - Vuetify':
 	  'prefix': 'vPreDefinedLayoutGoogleYoutube'
@@ -905,7 +905,7 @@
   		      source: String
   		    }
   		  }
-  		</script>
+  		</script>$0
 	  """
   'Sandbox Pre-defined layout - Vuetify':
     'prefix': 'vPreDefinedLayoutSandbox'
@@ -995,7 +995,7 @@
             }
           })
         }
-      </script>
+      </script>$0
 		"""
   'Blog Pre-defined themes blog - Vuetify':
 	  'prefix': 'vPreDefinedThemeBlog'
@@ -1100,7 +1100,7 @@
     		  };
     		}
       });
-		  </script>
+		  </script>$0
     """
   'Parallax Pre-defined themes - Vuetify':
 	  'prefix': 'vPreDefinedThemeParallax'
@@ -1271,7 +1271,7 @@
           };
         }
       });
-      </script>
+      </script>$0
 	  """
   'v-container component - Vuetify':
     'prefix': 'vContainer'
@@ -1432,7 +1432,7 @@
         ${13:type="$14"}
         ${15:value="$16"}
       >
-        ${17:text}
+      \t${17:text}
       </v-alert>$0
     """
   'v-alert cloaseble without icon - Vueitfy':
@@ -1766,6 +1766,7 @@
   'v-btn component - Vuetify':
     'prefix': 'vBtn'
     'body': """
+      <v-btn ${1:color="${2:primary}"}>${3:text}</v-btn>$0
     """
   'v-btn with all props list - Vuetify':
     'prefix': 'vBtnWithProps'
@@ -3189,7 +3190,7 @@
             }
           }
         }
-      </script>
+      </script>$0
     """
   'v-data-table template with CRUD actions - Vuetify':
     'prefix': 'vDataTableTemplateCRUD'
@@ -3341,7 +3342,7 @@
             }
           }
         }
-      </script>
+      </script>$0
     """
   'v-dialog component - Vuetify':
     'prefix': 'vDialog'
@@ -3642,7 +3643,7 @@
         ${5:ripple="${6:false}"}
         ${7:value="${8:value}"}
       >
-      $9
+      \t$9
       </v-expansion-panel-content>$0
     """
   'v-expansion-panel usage template - Vuetify':
@@ -4193,7 +4194,7 @@
         return text.toString()
           .toLowerCase()
           .indexOf(query.toString().toLowerCase()) > -1
-      }
+      }$0
     """
   'v-select asynchronous items - Vuetify':
     'prefix': 'vSelectAsynchronousItems'
@@ -4664,7 +4665,7 @@
         ${10:left} ${11:right}
         ${12:size="${13:example}"}
       >
-        ${14:iconName}
+      \t${14:iconName}
       </v-icon>$0
     """
   'v-icon with color prop - Vuetify':

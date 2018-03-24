@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to `vuetify-atom` will be documented in this file.
 
+## 0.2.0 - 018-03-24
+### Fixed
+- solved duplicate key problem with closing #1 and #2 issues
+### Added
+- documentation for available snippets
+- added `v-btn` missing snippet body
+### Removed
+- removed some wrong description of props
+- removed unnecessary comma and  and space from many snippets
+
 ## 0.1.3 - 2018-03-22
 ### Fixed
 - duplicate key `'v-icon with font awesome - Vuetify'`
