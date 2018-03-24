@@ -2,7 +2,7 @@
 All notable changes to `vuetify-atom` will be documented in this file.
 
 ## 0.1.3 - 2018-03-22
-## Fixed
+### Fixed
 - duplicate key `'v-icon with font awesome - Vuetify'`
 ## 0.1.2 - 2018-03-22
 ### Fixed

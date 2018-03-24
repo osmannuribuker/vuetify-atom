@@ -1766,7 +1766,6 @@
   'v-btn component - Vuetify':
     'prefix': 'vBtn'
     'body': """
-      "<v-btn color="${1:success}">${2:text}</v-btn>
     """
   'v-btn with all props list - Vuetify':
     'prefix': 'vBtnWithProps'
@@ -2303,7 +2302,7 @@
         ${5:src="${6:src}"}
       ></v-carousel-item>$0
     """
-  'v-chip componentn - Vuetify':
+  'v-chip component - Vuetify':
     'prefix': 'vChip'
     'body': """
       <v-chip ${1:close}>${2:text}</v-chip>$0
@@ -4356,7 +4355,7 @@
   'v-switch with all props - Vuetify':
     'prefix': 'vSwitchWithProps'
     'body': """
-      "<v-switch",
+      <v-switch
         ${1:append-icon="${2:icon}"}
         ${3:append-icon-cb="${4:Function}"}
         ${5:prepend-icon="${6:icon}"}
@@ -5223,22 +5222,22 @@
   'v-pagination round buttons - Vuetify':
     'prefix': 'vPaginationRound'
     'body': """
-      "<v-pagination :length="${1:length}" v-model="${2:page}" circle}"></v-pagination>$0"
+      <v-pagination :length="${1:length}" v-model="${2:page}" circle}"></v-pagination>$0
     """
   'v-pagination with custom icons - Vuetify':
     'prefix': 'vPaginationIcons'
     'body': """
-      "<v-pagination :length="${1:length}" v-model="${2:page}" prev-icon="${3:mdi-menu-left}" next-icon="${4:mdi-menu-right}"></v-pagination>$0"
+      <v-pagination :length="${1:length}" v-model="${2:page}" prev-icon="${3:mdi-menu-left}" next-icon="${4:mdi-menu-right}"></v-pagination>$0
     """
   'v-pagination with disabled prop - Vuetify':
     'prefix': 'vPaginationDisabled'
     'body': """
-      "<v-pagination :length="${1:length}" disabled></v-pagination>$0"
+      <v-pagination :length="${1:length}" disabled></v-pagination>$0
     """
   'v-parallax component - Vuetify':
     'prefix': 'vParallax'
     'body': """
-      "<v-parallax src="$1"></v-parallax>$0"
+      <v-parallax src="$1"></v-parallax>$0
     """
   'v-parallax with all props - Vuetify':
     'prefix': 'vParallaxWithProps'
@@ -6050,7 +6049,7 @@
         <v-stepper-items>
           <v-stepper-content step="1">
         </v-stepper-items>
-      </v-stepper>$0"
+      </v-stepper>$0
     """
   'v-subheader component - Vuetify':
     'prefix': 'vSubheader'
@@ -7326,7 +7325,7 @@
   	'body': """
       hidden-xs-only$0
     """
-  'hidden xs and up - Vuetify':
+  'hidden xs and down - Vuetify':
   	'prefix': 'hiddenXsAndDown'
   	'body': """
       hidden-xs-and-down$0
@@ -8896,17 +8895,17 @@
   	'body': """
       must-sort$0
     """
-  'headers - Vuetify - Vuetify':
+  'headers - Vuetify':
   	'prefix': 'headers'
   	'body': """
       headers$0
     """
-  'attach - Vuetify - Vuetify':
+  'attach - Vuetify':
   	'prefix': 'attach'
   	'body': """
       attach$0
     """
-  'fullscreen - Vuetify - Vuetify':
+  'fullscreen - Vuetify':
   	'prefix': 'fullscreen'
   	'body': """
       fullscreen$0
@@ -9245,7 +9244,6 @@
   		  end: () => swipe('End'),
   		}"$0
   	"""
-
   'v-touch directive for all directions - Vuetify':
   	'prefix': 'vTouchAllDirections'
   	'body': """
@@ -9256,7 +9254,6 @@
   		  down: () => swipe('Down'),
   		}"$0
   	"""
-
   'debounce - Vuetify':
   	'prefix': 'debounce'
   	'body': """
@@ -9387,7 +9384,7 @@
   	'body': """
       ripple="${1:false}"$0
     """
-  'attach - Vuetify':
+  'attach with value - Vuetify':
   	'prefix': 'attach='
   	'body': """
       attach="${1:false}"$0
@@ -9632,7 +9629,7 @@
   	'body': """
       no-results-text="$1"$0
     """
-  'items - Vuetify':
+  'items with value - Vuetify':
   	'prefix': 'items'
   	'body': """
       items="$1"$0
@@ -9677,7 +9674,7 @@
   	'body': """
       select-all="$1"$0
     """
-  'headers - Vuetify':
+  'headers with value - Vuetify':
   	'prefix': 'headers'
   	'body': """
       headers="$1"$0
