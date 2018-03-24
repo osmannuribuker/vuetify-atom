@@ -3,7 +3,7 @@ All notable changes to `vuetify-atom` will be documented in this file.
 
 ## 0.2.0 - 018-03-24
 ### Fixed
-- solved duplicate key problem with closing #1 and #2 issues
+- solved duplicate key problem with closing [#1](https://github.com/vuetifyjs/vuetify-atom/issues/1) and [#2](https://github.com/vuetifyjs/vuetify-atom/issues/2) issues
 ### Added
 - documentation for available snippets
 - added `v-btn` missing snippet body
