@@ -2,72 +2,451 @@
 
 ## APPLICATION LAYOUT
 ### Pre-defined layouts 
+- vPreDefinedLayoutDefault -> Vuetify default layout
+- vPreDefinedLayoutBaseline -> Baseline Pre-defined layout
+- vPreDefinedLayoutBaselineFlipped -> Baseline Flipped Pre-defined layout
+- vPreDefinedLayoutCentered -> Centered Pre-defined layout
+- vPreDefinedLayoutComplex -> Complex Pre-defined layout
+- vPreDefinedLayoutDark -> Dark Pre-defined layout
+- vPreDefinedLayoutGoogleContacts -> Google Contacts Pre-defined layout
+- vPreDefinedLayoutGoogleKeep -> Google Keep Pre-defined layout
+- vPreDefinedLayoutGoogleYoutube -> Google Youtube Pre-defined layout
+- vPreDefinedLayoutSandbox -> Sandbox Pre-defined layout
+
 ### Pre-defined themes
+- vPreDefinedThemeParallax -> Parallax Pre-defined themes
+- vPreDefinedThemeBlog -> Blog Pre-defined themes
+
 ### Grid & Breakpoints
 #### Grid system 
+- vContainer -> v-container component
+- vContainerWithProps -> v-container with all props
+- vLayout -> v-layout component
+- vLayoutWithProps -> v-layout with all props
+- vLayoutColumn -> v-layout with column prop
+- vFlex -> v-flex component
+- vFlexWithProps -> v-flex with all props
+- vSpacer -> v-spacer component
+- vGridBreakpointObject -> Breakpoing object of Grid system
 ### Spacing
+- vSpacing -> Spacing options
 ### Text alignment
+- vTextAlign -> Text align helper classes
 ### Display
+- vVisibility -> List for visibility options
+- vDisplay -> Display property of elements
 ### Elevation
-
+- vElevation -> Elevation for elements
 ## STYLES & THEMES
 ### Colors
+- vColors -> All available colors
+- vTextColors -> Text color
 ### Typography
-
+- vTypography -> Typography helper classes
 ## MOTION & TRANSITIONS
 ### Scrolling
+- vGoTo -> Scrolling in your application
 ### Transitions
-
+- transition -> Transition provided by Vuetify
 ## UI COMPONENTS
 ### ALERT
+- vAlert -> v-alert component
+- vAlertWithProps -> v-alert with all props
+- vAlertClosable -> v-alert closable without icon
+- vAlertClosableIcon -> v-alert closable with icon
+- vAlertIcon -> v-alert with icon
+- vAlertNoIcon -> v-alert with no icon
+- vAlertTransition -> v-alert with transition
+- vAlertOutline -> v-alert outlined
 ### AVATAR
+- vAvatar -> v-avatar component
+- vAvatarWithProps -> v-avatar with all props
+- vAvatarIcon -> v-avatar with an icon
+- vAvatarText -> v-avatar with text
+- vAvatarBadge -> v-avatar with a badge
 ### BADGE
+- vBadge -> v-badge component
+- vBadgeWithProps -> v-badge with all props
+- vBadgeOverlap -> v-badge with overlap prop
+- vBadgeInline -> v-badge with inline text
+- vBadgeVisibility -> v-badge visibility example
 ### BOTTOM NAVIGATION
+- vBottomNav -> v-bottom-nav component
+- vBottomNavWithProps -> v-bottom-nav with all props
+- vBottomNavTemplate -> v-bottom-nav simple template
 ### BOTTOM SHEETS
+- vBottomSheet -> v-bottom-sheet component
+- vBottomSheetWithProps -> v-bottom-sheet with all props
+- vBottomSheetTemplateInset -> v-bottom-sheet template with inset example
 ### BREADCRUMBS COMPONENT
+- vBreadcrumbs -> v-breadcrumbs component
+- vBreadcrumbsWithProps -> v-breadcrumbs with all props
+- vBreadcrumbsTemplate -> v-breadcrumbs simple template
+- vBreadcrumbsTemplateIconDivider -> v-breadcrumbs template with icon divider
+- vBreadcrumbsItem -> v-breadcrumbs-item component
+- vBreadcrumbsItemWithProps -> v-breadcrumbs-item with all props
 ### BUTTON
+- vBtn -> v-btn component
+- vBtnWithProps -> v-btn with all props
+- vBtnFlat -> v-btn with flat prop
+- vBtnRaised -> v-btn with raised prop
+- vBtnDepressed -> v-btn with depressed prop
+- vBtnDropdown -> v-select as button with dropdown varient
+- vBtnToggle -> v-btn-toggle as button
+- vBtnToggleTemplate -> v-btn-toggle simple template
+- vBtnToggleTemplateText -> v-btn-toggle template with text
+- vBtnToggleTemplateTextIcon -> v-btn-toggle with text and icon
+- vBtnIcon -> v-btn as icon
+- vBtnFloating -> v-btn as floating
+- vBtnLoader -> v-btn with a loader when clicked
+- vBtnLoaderCustom -> v-btn with custom loader example
+- vBtnOutline -> v-btn with outline prop
+- vBtnRound -> v-btn with round prop
+- vBtnBlock -> v-btn with block prop
 ### BUTTONS: FLOATING ACTIBUTTONS
+- vSpeedDial -> v-speed-dial component
+- vSpeedDialWithProps -> v-speed-dial with all props
+- vSpeedDialTemplate -> v-speed-dial simple template
+- vFab -> v-btn as floating action button
+- vFabDisplayAnimation -> v-btn as fab with display animation
 ### CARDS
+- vCard -> v-card component
+- vCardWithProps -> v-card with all props
+- vCardTemplate -> v-card simple template
+- vCardTemplateMediaWithText -> v-card template media with text
+- vCardTemplateHorizontal -> v-card horizontal template
+- vCardTemplateCustomActions -> v-card custom actions template
+- vCardMedia -> v-card-media component
+- vCardMediaWithProps -> v-card-media with all props
+- vCardTitle -> v-card-title component
+- vCardActions -> v-card-actions component
+- vCardText -> v-card-text component
 ### CAROUSEL
+- vCarousel -> v-carousel component
+- vCarouselWithProps -> v-carousel with all props
+- vCarouselTemplate -> v-carousel simple template
+- vCarouselItemWithProps -> v-carousel-item with all props
 ### CHIP 
+- vChip -> v-chip component
+- vChipWithProps -> v-chip with all props
+- vChipAvatar -> v-chip with avatar
+- vChipColored -> v-chip as colored example
+- vChipIcon -> v-chip with icon
+- vChipIconRight -> v-chip with icon to right side
+- vChipOutline -> v-chip as outlined
+- vChipLabel -> v-chip as label
+- vChipClosable -> v-chip closable
+- vChipTemplateInSelect -> v-chip used with in selects
 ### DATA ITERA
+- vDataIterator -> v-data-iterator component
+- vDataIteratorWithProps -> v-data-iterator with all props
+- vDataIteratorTemplate -> v-data-iterator simple template
 ### DATA TABLE
+- vDataTable -> v-data-table component
+- vDataTableWithProps -> v-data-table with all props
+- vEditDialog -> v-edit-dialog component
+- vEditDialogWithProps -> v-edit-dialog with all props
+- vDataTableSlotHeaders -> v-data-table headers slot
+- vDataTableSlotItems -> v-data-table items slot
+- vDataTableSlotNoData -> v-data-table no-data slot
+- vDataTableSlotHeaderCell -> v-data-table header cell slot
+- vDataTableSlotProgress -> v-data-table progress slot
+- vDataTableSlotFooter -> v-data-table footer slot
+- vDataTableSlotExpand -> v-data-table expand slot
+- vDataTableSlotNoResult -> v-data-table no-results slot
+- vDataTableSlotPageText -> v-data-table with page-text slot
+- vDataTableTemplate -> v-data-table simple template
+- vDataTableTemplateNoData -> v-data-table simple template with no data slot
+- vDataTableTemplateHeaderCell -> v-data-table template with header cell slot
+- vDataTableTemplateProgress -> v-data-table template with progress slot
+- vDataTableTemplateFooter -> v-data-table template with footer slot
+- vDataTableTemplateExpand -> v-data-table template with expand slot
+- vDataTableTemplatePageText -> v-data-table template with page-text slot
+- vDataTableTemplateSelectableRows -> v-data-table selectable rows template
+- vDataTableTemplateSearchNoResults -> v-data-table template with search with custom no-results slot
+- vDataTableTemplateCustomIcons -> v-data-table template with custom icons
+- vDataTableTemplateExternalPagination -> v-data-table template with external pagination
+- vDataTableTemplateExternalSorting -> v-data-table template with external sorting
+- vDataTableTemplateHeaderless -> v-data-table template without headers
+- vDataTableTemplateInlineEditing -> v-data-table template with inline editing example
+- vDataTableTemplatePaginateSortServerSide -> v-data-table template with paginate and sort server-side
+- vDataTableTemplateCRUD -> v-data-table template with CRUD actions
 ### DIALOG
+- vDialog -> v-dialog component
+- vDialogWithProps -> v-dialog with all props
+- vDialogTemplateWitoutActivator -> v-dialog template without activator
+- vDialogTemplateModal -> v-dialog as modal template
+- vDialogTemplateFullscreen -> v-dialog template fullscreen
+- vDialogTemplateForm -> v-dialog template form
+- vDialogTemplateScrollable -> v-dialog template scrollable
+- vDialogTemplateOverflowed -> v-dialog template overflowed
 ### DIVIDER
+- vDivider -> v-divider component
+- vDividerWithProps -> v-divider with all props
+- vDividerInset -> v-divider with inset prop
 ### EXPANSION PANELS
+- vExpansionPanel -> v-expansion-panel component
+- vExpansionPanelWithProps -> v-expansion-panel with all props
+- vExpansionPanelContent -> v-expansion-panel-content component
+- vExpansionPanelContentWithProps -> v-expansion-panel-content with all props
+- vExpansionPanelTemplateUsage -> v-expansion-panel usage template
+- vExpansionPanelTemplateExpand -> v-expansion-panel expand template
+- vExpansionPanelTemplatePopout -> v-expansion-panel popout template
+- vExpansionPanelTemplateInset -> v-expansion-panel inset template
+- vExpansionPanelTemplateFocusable -> v-expansion-panel focusable template
 ### FOOTER
+- vFooter -> v-footer component
+- vFooterWithProps -> v-footer with all props
+- vFooterTemplateCompany -> v-footer company template
 ### INPUTS & CONTROLS
 #### FORMS
+- vForm -> v-form component
+- vFormWithProps -> v-form with all props
+- vFormTemplateVuelidate -> v-form template with Vuelidate
+- vFormTemplateVeeValidate -> v-from template with Vee-validate
+- vFormTemplateValidation -> v-form template for Validation with submit & clear
 #### SELECT
+- vSelect -> v-select component
+- vSelectWithProps -> v-select with all props
+- vSelectScopedSlotSelection -> v-select selection scoped slot
+- vSelectScopedSlotItem -> v-select item scoped slot
+- vSelectMultiplePersistentHint -> v-select with prop multiple with persistent hint
+- vSelectMultiplePersistentHintChip -> v-select with prop multiple with persistent hint and chip
+- vSelectAutocomplete -> v-select with prop autocomplete
+- vSelectCustomFilterAutocomplete -> v-select custom filter on autocomplete
+- vSelectFunctionCustomFilter -> v-select function custom filter
+- vSelectAsynchronousItems -> v-select asynchronous items
 #### SELECTION CONTROLS
+##### RADIO
+- vRadioGroup -> v-radio-group component
+- vRadioGroupWithProps -> v-radio-group with all props
+- vRadio -> v-radio component
+- vRadioWithProps -> v-radio with all props
+- vRadioDirection -> v-radio direction
+##### CHECKBOX
+- vCheckbox -> v-checkbox component
+- vCheckboxWithProps -> v-checkbox with all props
+- vCheckboxOn -> v-checkbox with state on
+- vCheckboxOff -> v-checkbox with state off
+- vCheckboxIndeterminate -> v-checkbox with state indeterminate
+- vCheckboxDisabled -> v-checkbox with state disabled
+- vCheckboxInlineTextfield -> v-checbox inline with a textfield
+##### SWITCH
+- vSwitch -> v-switch component
+- vSwitchWithProps -> v-switch with all props
+- vSwitchDisabledOn -> v-switch disabled on
+- vSwitchDisabledOff -> v-switch disabled off
 #### TEXT FIELD
+- vTextField -> v-text-field component
+- vTextFieldWithProps -> v-text-field with all props
+- vTextFieldDisabled -> v-text-field with disabled prop
+- vTextFieldNormalWithHintText -> v-text-field normal with hint text
+- vTextFieldPress -> v-text-field press
+- vTextFieldFocus -> v-text-field focus
+- vTextFieldNormalWithInputText -> v-text-field normal with input text
+- vTextFieldError -> v-text-field error
+- vTextFieldWithIcon -> v-text-field with an icon
+- vTextFieldMultiLine -> v-text-field with multi-line
+- vTextFieldCharacteCount -> v-text-field with character count
+- vTextFieldPassword -> v-text-field password
+- vTextFieldEmail -> v-text-field with email rule example
+- vTextFieldRequired -> v-text-field with required prop
+- vTextFieldPrefix -> v-text-field with prefix prop
+- vTextFieldSuffix -> v-text-field with suffix prop
+- vTextFieldTextarea -> v-text-field with textarea prop
+- vTextFieldBox -> v-text-field with box prop
+- vTextFieldSolo -> v-text-field with solo prop
+- vTextFieldSoloInverted -> v-text-field with solo-inverted prop
+- vTextFieldMask -> v-text-field with mask prop
+- vTextFieldCustomProgress -> v-text-field custom progress example
+- vTextFieldFunctionEmailRule -> v-text-field email rules example
 ### ICON
+- vIcon -> v-icon component
+- vIconWithProps -> v-icon with all props
+- vIconColor -> v-icon with color prop
+- vIconFontAwesome -> v-icon with font awesome
+- vIconMaterialDesign -> v-icon with material design icons
 ### LIST
+- vList -> v-list component
+- vListWithProps -> v-list with all props
+- vListTwoLine -> v-list with two-line prop
+- vListThreeLine -> v-list with three-line prop
+- vListTemplate -> v-list simple template
+- vListTemplateAvatarWithTitleAction -> v-list avatar with title and action template
+- vListTemplateAvatarWith3Lines -> v-list avatar with three lines template
+- vListGroup -> v-list-group component
+- vListTile -> v-list-tile component
+- vListTileWithProps -> v-list-tile with all props
+- vListTileTitle -> v-list-tile-title component
+- vListTileSubTitle -> v-list-tile-sub-title component
+- vListTileAvatar -> v-list-tile-avatar component
+- vListTileContent -> v-list-tile-content component
+- vListTileAction -> v-list-tile-action component
 ### JUMBOTRON
+- vJumbotron -> v-jumbotron component
+- vJumbotronWithProps -> v-jumbotron with all props
+- vJumbotronTemplate -> v-jumbotron simple template
+- vJumbotronTemplateCustomColor -> v-jumbotron custom color template
+- vJumbotronTemplateGradient -> v-jumbotron gradient template
 ### MENU
+- vMenu -> v-menu component
+- vMenuWithProps -> v-menu with all props
+- vMenuTemplateAbsolutePosition -> v-menu template with absolute position
+- vMenuTemplateHover -> v-menu template with hover prop
 ### NAVIGATION DRAWER
+- vNavigationDrawer -> v-navigation-drawer component
+- vNavigationDrawerWithProps -> v-navigation-drawer with all props
+- vNavigationDrawerPermanent -> v-navigation-drawer component with permanent prop
+- vNavigationDrawerTemporary -> v-navigation-drawer component with temporary prop
+- vNavigationDrawerTemplate -> v-navigation-drawer simple template
+- vNavigationDrawerTemplateColored -> v-navigation-drawer template with colored example
+- vNavigationDrawerTemplatePermanentFloating -> v-navigation-drawer template example with permanent floating
+- vNavigationDrawerTemplateAvatar -> v-navigation-drawer template with avatar
+- vNavigationDrawerTemplateMini -> v-navigation-drawer template mini drawer
+- vNavigationDrawerTemplateTemporary -> v-navigation-drawer template with temporary drawer
 ### PAGINATION
+- vPagination -> v-pagination component
+- vPaginationWithProps -> v-pagination with all props
+- vPaginationLimit -> v-pagination with limit
+- vPaginationRound -> v-pagination with round buttons
+- vPaginationIcons -> v-pagination with custom icons
+- vPaginationDisabled -> v-pagination with disabled prop
 ### PARALLAX
+- vParallax -> v-parallax component
+- vParallaxWithProps -> v-parallax with all props
+- vParallaxHeight -> v-parallax with height prop
+- vParallaxJumbotron -> v-parallax as standard jumbotron
+- vParallaxTemplateContent -> v-parallax template with content
 ### PICKERS
 #### DATE/MONTH PICKER
+- vDatePicker -> v-date-picker component
+- vDatePickerWithProps -> v-date-picker with all props
+- vDatePickerColor -> v-date-picker with color prop
+- vDatePickerAllowedDates -> v-date-picker with allowed dates prop
+- vDatePickerWidth -> v-date-picker with width prop
+- vDatePickerFullWidth -> v-date-picker with full width prop
+- vDatePickerBirthday -> v-date-picker as a birthday picker
+- vDatePickerEvents -> v-date-picker with events props
+- vDatePickerLocale -> v-date-picker with locale prop
+- vDatePickerIcons -> v-date-picker with icons prop
+- vDatePickerReadOnly -> v-date-picker with read only prop
+- vDatePickerCureentDate -> v-date-picker showing current date
+- vDatePickerInMenu -> v-date-picker in a menu example
+- vDatePickerInDialog -> v-date-picker in a dialog example
+- vMonthPicker -> Month picker component
+- vMonthPickerLocale -> Month picker with locale prop
+- vMonthPickerColors -> Month picker with custom colors
+- vMonthPickerInMenu -> Month picker in menu
+- vMonthPickerInDialog -> Month picker in dialog
+- vMonthPickerAllowedMonths -> Month picker with allowed months prop
+- vMonthPickerIcons -> Month picker with custom icons
+- vMonthPickerReadOnly -> Month picker read only
+- vMonthPickerCurrentMonth -> Month picker showing current month
 #### TIME PICKER
+- vTimePicker -> v-time-picker component
+- vTimePickerWithProps -> v-time-picker with all props
+- vTimePickerColors -> v-time-picker with colors option
+- vTimePickerInMenu -> v-time-picker in menu
+- vTimePickerInDialog -> v-time-picker in dialog
+- vTimePicker24hFormat -> v-time-picker in 24h format
+- vTimePickerAllowedTimes -> v-time-picker with allowed times props
+- vTimePickerLandscape -> v-time-picker in ladscape mode
 ### PROGRESS
 #### CIRCULAR PROGRESS
+- vProgressCircular -> v-progress-circular component
+- vProgressCircularWithProps -> v-progress-circular with all props
+- vProgressCircularColored -> v-progress-circular with colored prop
+- vProgressCircularIndeterminate -> v-progress-circular with indeterminate prop
+- vProgressCircularSizeWidth -> v-progress-circular with size and width prop
+- vProgressCircularRotate -> v-progress-circular with rotate prop
 #### LINEAR PROGRESS
+- vProgressLinear -> v-progress-linear component
+- vProgressLinearWithProps -> v-progress-linear with all props
+- vProgressLinearDeterminate -> v-progress-linear with determinate example
+- vProgressLinearIndeterminate -> v-progress-linear with indeterminate prop
+- vProgressLinearBuffer -> v-progress-linear with buffer prop
+- vProgressLinearQuery -> v-progress-linear with query prop
+- vProgressLinearHeight -> v-progress-linear with custom height and contextual colors
+- vProgressLinearColors -> v-progress-linear with custom colors
 ### SLIDER
+- vSlider -> v-slider component
+- vSliderWithProps -> v-slider with all props
+- vSliderDisabled -> v-slider with disabled prop
+- vSliderDiscrete -> v-slider discrete example
+- vSliderIcons -> v-slider with icons
+- vSliderColors -> v-slider with all color props
+- vSliderTemplateEditableNumericValue -> v-slider template with editable numeric value
 ### SNACKBAR
+- vSnackbar -> v-snackbar component
+- vSnackbarWithProps -> v-snackbar with all props
+- vSnackbarColor -> v-snackbar with color prop
 ### STEPPER
+- vStepper -> v-stepper component
+- vStepperWithProps -> v-stepper with all props
+- vStepperVertical -> v-stepper with vertical prop
+- vStepperStep -> v-stepper-step component
+- vStepperStepWithProps -> v-stepper-step with all props
+- vStepperEditable -> v-stepper-step with editable prop
+- vStepperOptional -> v-stepper-step optional example
+- vStepperContent -> v-stepper-content component
+- vStepperHeader -> v-stepper-header component
+- vStepperItems -> v-stepper-items component
+- vStepperTemplate -> v-stepper template
+- vStepperTemplateOptional -> v-stepper
 ### SUBHEADERS
+- vSubheader -> v-subheader component
+- vSubheaderWithProps -> v-subheader with all props
 ### TAB
+- vTabs -> v-tabs component
+- vTabsWithProps -> v-tabs with all props
+- vTabsFixed -> v-tabs with fixed prop
+- vTabsRightAligned -> v-tabs with right aligned
+- vTabsIcons -> v-tabs with custom icons
+- vTabsTemplate -> v-tabs simple template
+- vTabsTemplateSearch -> v-tabs template with search
+- vTab -> v-tab component
+- vTabWithProps -> v-tab with all props
+- vTabsItems -> v-tabs-items component
+- vTabsItemsWithProps -> v-tabs-items with all props
+- vTabItem -> v-tab-item component
+- vTabItemWithProps -> v-tab-item with all props
+- vTabsSlider -> v-tabs-slider component
 ### TOOLBAR
+- vToolbar -> v-toolbar component
+- vToolbarWithProps -> v-toolbar with all props
+- vToolbarExtended -> v-toolbar with extended prop
+- vToolbarFloating -> v-toolbar with floating prop
+- vToolbarWithItems -> v-toolbar with items
+- vToolbarProminent -> v-toolbar with prominent prop
+- vToolbarDense -> v-toolbar with dense prop
+- vToolbarDenseProminent -> v-toolbar with dense and prominet prop
+- vToolbarTemplateFloatingSearch -> v-toolbar template with floating search
+- vToolbarTemplateScrollingTechnique -> v-toolbar template with scrolling technique example
+- vToolbarItems -> v-toolbar-items component
+- vSystemBar -> v-system-bar component
+- vSystemBarLightStatusBar -> v-system-bar with light status bar
+- vSystemBarLightsOut -> v-system-bar with lights out bar
 ### TOOLTIP
-
+- vTooltip -> v-tooltip component
+- vTooltipWithProps -> v-tooltip with all props
 ## DIRECTIVES
 ### RESIZE
+- vResize -> v-resize directive
+- vResizeFunction -> v-resize directive function
 ### RIPPLE
+- vRipple -> Ripple directive
+- vRippleCenter -> Ripple directive center
+- vRippleClass -> Ripple directive custom class
+- vRippleDisabled -> Ripple directive disabled
+- vRippleHTML -> Ripple directive for standard HTML element
 ### SCROLLING
+- vScroll -> v-scroll directive
+- vScrollFunction -> v-scroll directive function
+- vScrollTarget -> v-scroll directive for target
 ### TOUCH SUPPORT
-
+- vTouch -> v-touch directive
+- vTouchAllDirections -> v-touch directive for all directions
+- vTouchEvents -> v-touch directive with events
 ## KEYWORD (Often used in Vuetify)
 ### Aligment
 - alignBaseline -> align-baseline

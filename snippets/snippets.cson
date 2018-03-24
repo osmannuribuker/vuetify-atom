@@ -2378,7 +2378,7 @@
     'body': """
       <v-chip close v-model="${1:value}" ${2:outline} ${3:label} color="${4:primary}">${5:text}</v-chip>$0
     """
-  'v-chip used with in selects':
+  'v-chip used with in selects - Vuetify':
     'prefix': 'vChipTemplateInSelect'
     'body': """
       <v-select
@@ -4459,7 +4459,7 @@
         disabled
       ></v-text-field>$0
     """
-  'v-text-field normal with hint text':
+  'v-text-field normal with hint text - Vuetify':
     'prefix': 'vTextFieldNormalWithHintText'
     'body': """
       <v-text-field
@@ -5526,7 +5526,6 @@
         </v-date-picker>
       </v-menu>$0
     """
-
   'Month picker in dialog - Vuetify':
     'prefix': 'vMonthPickerInDialog'
     'body': """
@@ -5698,7 +5697,6 @@
         v-model="${1:timeValue}"
       ></v-time-picker>$0
     """
-
   'v-progress-circular component - Vuetify':
     'prefix': 'vProgressCircular'
     'body': """
@@ -5955,7 +5953,6 @@
       \t$2
       </v-stepper>$0
     """
-
   'v-stepper-step component - Vuetify':
     'prefix': 'vStepperStep'
     'body': """
@@ -7164,7 +7161,6 @@
   	'body': """
       pa-5$0
     """
-
   'extra small size - Vuetify':
     'prefix': 'xs'
     'body': """
@@ -7475,17 +7471,17 @@
   	'body': """
       order-xs9$0
     """
-  'order by 10 in extra small size0 - Vuetify':
+  'order by 10 in extra small size - Vuetify':
   	'prefix': 'order-xs-10'
   	'body': """
       order-xs10$0
     """
-  'order by 11 in extra small size1 - Vuetify':
+  'order by 11 in extra small size - Vuetify':
   	'prefix': 'order-xs-11'
   	'body': """
       order-xs11$0
     """
-  'order by 12 in extra small size2 - Vuetify':
+  'order by 12 in extra small size - Vuetify':
   	'prefix': 'order-xs-12'
   	'body': """
       order-xs12$0
@@ -7535,17 +7531,17 @@
   	'body': """
       order-sm9$0
     """
-  'order by 10 in small size0 - Vuetify':
+  'order by 10 in small size - Vuetify':
   	'prefix': 'order-sm-10'
   	'body': """
       order-sm10$0
     """
-  'order by 11 in small size1 - Vuetify':
+  'order by 11 in small size - Vuetify':
   	'prefix': 'order-sm-11'
   	'body': """
       order-sm11$0
     """
-  'order by 12 in small size2 - Vuetify':
+  'order by 12 in small size - Vuetify':
   	'prefix': 'order-sm-12'
   	'body': """
       order-sm12$0
@@ -7595,17 +7591,17 @@
   	'body': """
       order-md9$0
     """
-  'order by 10 in medium size0 - Vuetify':
+  'order by 10 in medium size - Vuetify':
   	'prefix': 'order-md-10'
   	'body': """
       order-md10$0
     """
-  'order by 11 in medium size1 - Vuetify':
+  'order by 11 in medium size - Vuetify':
   	'prefix': 'order-md-11'
   	'body': """
       order-md11$0
     """
-  'order by 12 in medium size2 - Vuetify':
+  'order by 12 in medium size - Vuetify':
   	'prefix': 'order-md-12'
   	'body': """
       order-md12$0
@@ -7655,17 +7651,17 @@
   	'body': """
       order-lg9$0
     """
-  'order by 10 in large size0 - Vuetify':
+  'order by 10 in large size - Vuetify':
   	'prefix': 'order-lg-10'
   	'body': """
       order-lg10$0
     """
-  'order by 11 in large size1 - Vuetify':
+  'order by 11 in large size - Vuetify':
   	'prefix': 'order-lg-11'
   	'body': """
       order-lg11$0
     """
-  'order by 12 in large size2 - Vuetify':
+  'order by 12 in large size - Vuetify':
   	'prefix': 'order-lg-12'
   	'body': """
       order-lg12$0
@@ -7715,17 +7711,17 @@
   	'body': """
       order-xl9$0
     """
-  'order by 10 in extra large size0 - Vuetify':
+  'order by 10 in extra large size - Vuetify':
   	'prefix': 'order-xl-10'
   	'body': """
       order-xl10$0
     """
-  'order by 11 in extra large size1 - Vuetify':
+  'order by 11 in extra large size - Vuetify':
   	'prefix': 'order-xl-11'
   	'body': """
       order-xl11$0
     """
-  'order by 12 in extra large size2 - Vuetify':
+  'order by 12 in extra large size - Vuetify':
   	'prefix': 'order-xl-12'
   	'body': """
       order-xl12$0
@@ -7956,17 +7952,17 @@
       offset-lg9$0
     """
   'offset by 10 in large size - Vuetify':
-  	'prefix': 'offse-lL-g10'
+  	'prefix': 'offse-lg-g10'
   	'body': """
       offset-lg10$0
     """
   'offset by 11 in large size - Vuetify':
-  	'prefix': 'offse-lL-g11'
+  	'prefix': 'offse-lg-g11'
   	'body': """
       offset-lg11$0
     """
   'offset by 12 in large size - Vuetify':
-  	'prefix': 'offse-lL-g12'
+  	'prefix': 'offse-lg-g12'
   	'body': """
       offset-lg12$0
     """
@@ -8016,17 +8012,17 @@
       offset-xl9$0
     """
   'offset by 10 in extra large size - Vuetify':
-  	'prefix': 'offse-xX-l10'
+  	'prefix': 'offse-xl-l10'
   	'body': """
       offset-xl10$0
     """
   'offset by 11 in extra large size - Vuetify':
-  	'prefix': 'offse-xX-l11'
+  	'prefix': 'offse-xl-l11'
   	'body': """
       offset-xl11$0
     """
   'offset by 12 in extra large size - Vuetify':
-  	'prefix': 'offse-xX-l12'
+  	'prefix': 'offse-xl-l12'
   	'body': """
       offset-xl12$0
     """
@@ -8700,7 +8696,7 @@
   	'body': """
       lazy$0
     """
-  'lazyValidation - Vuetify':
+  'lazy-validation - Vuetify':
   	'prefix': 'lazy-validation'
   	'body': """
       lazy-validation$0
@@ -10007,7 +10003,7 @@
       \t${1:left}: () => swipe('$1'),
       }"$0
     """
-  'locale - Vueitfy':
+  'locale - Vuetify':
     'prefix': 'locale'
     'body': """
       locale="${1:en}"$0
@@ -10017,7 +10013,7 @@
     'body': """
       transition="${1:fade-transition}"$0
     """
-  'time format - Vuetify':
+  'time format available - Vuetify':
     'prefix': 'format'
     'body': """
       format="${1:ampm}"$0
