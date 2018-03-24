@@ -36,14 +36,14 @@ Let's suppose you want to insert Button componenet. For that you have to write f
 <v-btn>buttonText<v-btn>
 ````
 
-But in `vuetify-vscode` only writing `vBtn` will give you all options available for Button component.
+But in `vuetify-atom` only writing `vBtn` will give you all options available for Button component.
 
 Everything is in camel case and with 'v' prefix which is for Vuetifyjs.
 
 If you want to insert a component with all of its props. Just write `v{component-name}WithProps`. This will insert component with all of its props. For example : `vBtnWithProps`, `vAvatarWithProps` etc.
 
 #### Templates
-Every component in the Vuetify have additional code to write inside it. For example the `v-btn-toggle` component have `v-btn` inside it. Thats why `vuetify-vscode` provides templates for them.
+Every component in the Vuetify have additional code to write inside it. For example the `v-btn-toggle` component have `v-btn` inside it. Thats why `vuetify-atom` provides templates for them.
 The syntax of template is pretty easy. `v{component}Template` or `v{component}Template{availableTemplate}`
 For example `vBtnToggleTemplate` will give you following code.
 
