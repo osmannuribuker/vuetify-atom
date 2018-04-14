@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to `vuetify-atom` will be documented in this file.
 
-## 0.2.1 - 2018-04-14
+## 0.2.2 - 2018-04-14
 ### Fixed
 - Some missing end tags for v-list
 
