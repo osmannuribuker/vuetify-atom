@@ -4688,21 +4688,21 @@
     'body': """
       <v-list>
       \t$1
-      </v-list>v-list>$0
+      </v-list>$0
     """
   'v-list with two-line prop - Vuetify':
     'prefix': 'vListTwoLine'
     'body': """
       <v-list two-line>
       \t$1
-      </v-list>v-list>$0
+      </v-list>$0
     """
   'v-list with three-line prop - Vuetify':
     'prefix': 'vListThreeLine'
     'body': """
       <v-list three-line>
       \t$1
-      </v-list>v-list>$0
+      </v-list>$0
     """
   'v-list simple template - Vuetify':
     'prefix': 'vListTemplate'
