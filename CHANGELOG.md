@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to `vuetify-atom` will be documented in this file.
 
+## 0.2.1 - 2018-04-14
+### Fixed
+- Some missing end tags for v-list
+
 ## 0.2.0 - 018-03-24
 ### Fixed
 - solved duplicate key problem with closing [#1](https://github.com/vuetifyjs/vuetify-atom/issues/1) and [#2](https://github.com/vuetifyjs/vuetify-atom/issues/2) issues
