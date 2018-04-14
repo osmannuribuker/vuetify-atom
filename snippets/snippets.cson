@@ -4530,7 +4530,7 @@
         label="${2:label}"
         multi-line
       ></v-text-field>$0
-    """ 
+    """
   'v-text-field with character count - Vuetify':
     'prefix': 'vTextFieldCharacteCount'
     'body': """
@@ -4688,21 +4688,21 @@
     'body': """
       <v-list>
       \t$1
-      <v-list>$0
+      </v-list>v-list>$0
     """
   'v-list with two-line prop - Vuetify':
     'prefix': 'vListTwoLine'
     'body': """
       <v-list two-line>
       \t$1
-      <v-list>$0
+      </v-list>v-list>$0
     """
   'v-list with three-line prop - Vuetify':
     'prefix': 'vListThreeLine'
     'body': """
       <v-list three-line>
       \t$1
-      <v-list>$0
+      </v-list>v-list>$0
     """
   'v-list simple template - Vuetify':
     'prefix': 'vListTemplate'
@@ -10023,23 +10023,23 @@
     'prefix': 'vImport'
     'body': """
       import Vuetify from 'vuetify'
-    """ 
+    """
   'Vuetify css import':
     'prefix': 'vImportCss'
     'body': """
       import 'vuetify/dist/vuetify.min.css'
     """
-  'Import babel-polyfill':  
+  'Import babel-polyfill':
     'prefix': 'bablePolyfillImport'
     'body': """
       import 'babel-polyfill'
-    """   
+    """
   'Define new theme - Vuetify':
     'prefix': 'vThemeCreate'
     'body': """
       // Helpers
       import colors from 'vuetify/es5/util/colors'
-      
+
       Vue.use(Vuetify, {
         theme: {
           primary: colors.${1:primaryColor},
@@ -10048,7 +10048,7 @@
           error: colors.${7:errorColor}
         }
       })$0
-    """      
+    """
   'Theme minification - Vuetify':
     'prefix': 'vThemeMinification'
     'body': """
@@ -10069,13 +10069,13 @@
         max: 10,
         maxAge: 1000 * 60 * 60 // 1 hour
       })
-      
+
       Vue.use(Vuetify, {
         options: {
           themeCache
         }
       })$0
-    """ 
+    """
   'v-form email rule - Vuetify':
     'prefix': 'vFormEmailRules'
     'body': """
