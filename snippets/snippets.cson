@@ -6317,6 +6317,13 @@
       \t$1
       </v-toolbar>$0
     """
+  'v-toolbar title - Vuetify':
+    'prefix': 'vToolbarTitle'
+    'body': """
+      <v-toolbar-title>
+      \t$1
+      </v-toolbar-title>$0
+    """
   'v-toolbar with dense prop - Vuetify':
     'prefix': 'vToolbarDense'
     'body': """
