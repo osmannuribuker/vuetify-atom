@@ -6329,7 +6329,7 @@
     'body': """
       <v-toolbar-side-icon>
       \t$1
-      </v-toolbar-side-icon>
+      </v-toolbar-side-icon>$0
     """
   'v-toolbar with dense prop - Vuetify':
     'prefix': 'vToolbarDense'
